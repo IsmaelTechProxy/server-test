@@ -1,0 +1,448 @@
+[20:59:22] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:59:22] [Server thread/INFO]: Loading properties
+[20:59:22] [Server thread/INFO]: Default game type: SURVIVAL
+[20:59:22] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:59:23] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
+[20:59:23] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
+[20:59:23] [Server thread/INFO]: Unable to find file ops.json, creating it.
+[20:59:23] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
+[20:59:23] [Server thread/INFO]: Debug logging is disabled
+[20:59:23] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[20:59:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[20:59:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:59:23] [Server thread/INFO]: Data value allowed items: 
+[20:59:23] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[20:59:23] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[20:59:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[20:59:23] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[20:59:23] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[20:59:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[20:59:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[20:59:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[20:59:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[20:59:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[20:59:23] [Server thread/INFO]: Generating keypair
+[20:59:23] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[20:59:23] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[20:59:23] [Server thread/INFO]: Using default channel type
+[20:59:23] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:59:23] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[20:59:23] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[20:59:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[20:59:23] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[20:59:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:59:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:59:23] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:59:23] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[20:59:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:59:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:59:23] [Server thread/INFO]: Preparing level "world"
+[20:59:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:59:23] [Server thread/INFO]: Anti X-Ray: true
+[20:59:23] [Server thread/INFO]: 	Engine Mode: 1
+[20:59:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:59:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:59:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:59:23] [Server thread/INFO]: Mob Spawn Range: 4
+[20:59:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:59:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:59:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:59:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:59:23] [Server thread/INFO]: Random Lighting Updates: false
+[20:59:23] [Server thread/INFO]: Structure Info Saving: true
+[20:59:23] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:59:23] [Server thread/INFO]: Max Entity Collisions: 8
+[20:59:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:59:23] [Server thread/INFO]: Max TNT Explosions: 100
+[20:59:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:59:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:59:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:59:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:59:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:59:23] [Server thread/INFO]: View Distance: 4
+[20:59:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:59:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:59:23] [Server thread/INFO]: Clear tick list: false
+[20:59:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:59:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:59:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:59:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:59:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:59:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:59:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:59:23] [Server thread/INFO]: Water over lava flow speed: 5
+[20:59:23] [Server thread/INFO]: Fix TNT cannons: false
+[20:59:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:59:23] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:59:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:59:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:59:23] [Server thread/INFO]: World async lighting: false
+[20:59:23] [Server thread/WARN]: Unable to find spawn biome
+[20:59:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:59:25] [Server thread/INFO]: Anti X-Ray: true
+[20:59:25] [Server thread/INFO]: 	Engine Mode: 1
+[20:59:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:59:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:59:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:59:25] [Server thread/INFO]: Mob Spawn Range: 4
+[20:59:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:59:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:59:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:59:25] [Server thread/INFO]: Random Lighting Updates: false
+[20:59:25] [Server thread/INFO]: Structure Info Saving: true
+[20:59:25] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:59:25] [Server thread/INFO]: Max Entity Collisions: 8
+[20:59:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:59:25] [Server thread/INFO]: Max TNT Explosions: 100
+[20:59:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:59:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:59:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:59:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:59:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:59:25] [Server thread/INFO]: View Distance: 4
+[20:59:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:59:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:59:25] [Server thread/INFO]: Clear tick list: false
+[20:59:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:59:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:59:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:59:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:59:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:59:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:59:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:59:25] [Server thread/INFO]: Water over lava flow speed: 5
+[20:59:25] [Server thread/INFO]: Fix TNT cannons: false
+[20:59:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:59:25] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:59:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:59:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:59:25] [Server thread/INFO]: World async lighting: false
+[20:59:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:59:25] [Server thread/INFO]: Anti X-Ray: true
+[20:59:25] [Server thread/INFO]: 	Engine Mode: 1
+[20:59:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:59:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:59:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:59:25] [Server thread/INFO]: Mob Spawn Range: 4
+[20:59:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:59:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:59:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:59:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:59:25] [Server thread/INFO]: Random Lighting Updates: false
+[20:59:25] [Server thread/INFO]: Structure Info Saving: true
+[20:59:25] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:59:25] [Server thread/INFO]: Max Entity Collisions: 8
+[20:59:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:59:25] [Server thread/INFO]: Max TNT Explosions: 100
+[20:59:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:59:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:59:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:59:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:59:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:59:25] [Server thread/INFO]: View Distance: 4
+[20:59:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:59:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:59:25] [Server thread/INFO]: Clear tick list: false
+[20:59:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:59:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:59:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:59:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:59:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:59:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:59:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:59:25] [Server thread/INFO]: Water over lava flow speed: 5
+[20:59:25] [Server thread/INFO]: Fix TNT cannons: false
+[20:59:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:59:25] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:59:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:59:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:59:25] [Server thread/INFO]: World async lighting: false
+[20:59:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
+[20:59:26] [Server thread/INFO]: Preparing spawn area: 16%
+[20:59:27] [Server thread/INFO]: Preparing spawn area: 35%
+[20:59:28] [Server thread/INFO]: Preparing spawn area: 48%
+[20:59:29] [Server thread/INFO]: Preparing spawn area: 70%
+[20:59:30] [Server thread/INFO]: Preparing spawn area: 94%
+[20:59:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
+[20:59:32] [Server thread/INFO]: Preparing spawn area: 20%
+[20:59:33] [Server thread/INFO]: Preparing spawn area: 33%
+[20:59:34] [Server thread/INFO]: Preparing spawn area: 65%
+[20:59:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2382687356522857733)
+[20:59:35] [Server thread/INFO]: Preparing spawn area: 80%
+[20:59:36] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[20:59:36] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[20:59:36] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[20:59:36] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[20:59:36] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[20:59:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[20:59:36] [Server thread/INFO]: WEPIF: Updated config file
+[20:59:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:59:36] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:59:36] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[20:59:36] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[20:59:36] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[20:59:36] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[20:59:36] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[20:59:36] [Server thread/INFO]: Done (13.208s)! For help, type "help" or "?"
+[20:59:36] [Server thread/INFO]: Timings Reset
+[20:59:37] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[20:59:37] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[20:59:37] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[21:02:32] [Thread-7/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[21:02:32] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:33946] logged in with entity id 1279 at ([world]108.5, 61.0, 224.5)
+[21:02:49] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[21:02:49] [Server thread/INFO]: drip_norman left the game.
+[21:02:55] [Thread-8/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[21:02:55] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:35478] logged in with entity id 1391 at ([world]106.82034131881323, 63.0, 224.39536390123232)
+[21:04:44] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[21:04:44] [Server thread/INFO]: drip_norman left the game.
+[21:04:47] [Thread-10/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[21:04:47] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:56568] logged in with entity id 1523 at ([world]102.26866474789907, 64.0, 224.45560451568466)
+[21:06:17] [Server thread/INFO]: drip_norman drowned
+[21:06:38] [Server thread/INFO]: Opped drip_norman
+[21:07:06] [Server thread/INFO]: drip_norman issued server command: /gamemode 1
+[21:07:06] [Server thread/INFO]: [drip_norman: Set own game mode to Creative Mode]
+[21:17:52] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[21:17:52] [Server thread/INFO]: drip_norman left the game.
+[21:23:49] [Thread-11/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[21:23:49] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:55548] logged in with entity id 3708 at ([world]64.62328677678636, 79.42804691766634, 237.96917978415337)
+[21:24:19] [Server thread/INFO]: drip_norman lost connection: Login timed out!
+[21:24:19] [Server thread/INFO]: drip_norman left the game.
+[21:24:19] [Server thread/WARN]: handleDisconnection() called twice
+[21:24:23] [Thread-12/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[21:24:23] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:37608] logged in with entity id 3714 at ([world]64.62328677678636, 79.42804691766634, 237.96917978415337)
+[21:26:51] [Server thread/INFO]: drip_norman has just earned the achievement [Taking Inventory]
+[21:28:51] [Server thread/INFO]: drip_norman issued server command: /tp @e @s
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:51] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: drip_norman issued server command: /tp @e @s
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:28:59] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
+[21:33:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[21:34:16] [Server thread/INFO]: drip_norman issued server command: /tp @e @a
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported drip_norman to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Sheep to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Sheep to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Rabbit to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Sheep to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Sheep to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Squid to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Squid to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Witch to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Spider to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Spider to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Enderman to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Zombie to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Spider to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Creeper to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Skeleton to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Guardian to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Guardian to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Guardian to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Guardian to drip_norman]
+[21:34:16] [Server thread/INFO]: [drip_norman: Teleported Guardian to drip_norman]
