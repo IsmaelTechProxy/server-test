@@ -4,5 +4,17 @@
     "name": "drip_norman",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bc32ab02-aaa0-4e32-bd49-6d829947b8a1",
+    "name": "Aeden",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "586f38f0-6b9f-378a-9512-736efae98ddc",
+    "name": "aedenFLASH",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

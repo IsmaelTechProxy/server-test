@@ -1,0 +1,129 @@
+GriefPrevention:
+  SeaLevelOverrides:
+    world: -1
+    world_nether: -1
+    world_the_end: -1
+  Claims:
+    Mode:
+      world_the_end: Disabled
+      world_nether: Disabled
+      world: Survival
+    PreventTheft: true
+    ProtectCreatures: true
+    PreventButtonsSwitches: true
+    LockWoodenDoors: false
+    LockTrapDoors: false
+    LockFenceGates: true
+    EnderPearlsRequireAccessTrust: true
+    ProtectFires: false
+    ProtectHorses: true
+    InitialBlocks: 100
+    BlocksAccruedPerHour: 100
+    AbandonReturnRatio: 1.0
+    AutomaticNewPlayerClaimsRadius: 4
+    ExtendIntoGroundDistance: 5
+    CreationRequiresPermission: false
+    MinimumSize: 10
+    MaximumDepth: 0
+    InvestigationTool: STICK
+    ModificationTool: GOLD_SPADE
+    Expiration:
+      ChestClaimDays: 7
+      UnusedClaimDays: 14
+      AllClaimDays: 0
+      AutomaticNatureRestoration:
+        SurvivalWorlds: false
+  Spam:
+    Enabled: true
+    LoginCooldownSeconds: 60
+    MonitorSlashCommands: /me;/tell;/global;/local;/w;/msg;/r;/t
+    WarningMessage: Please reduce your noise level.  Spammers will be banned.
+    BanOffenders: true
+    BanMessage: Banned for spam.
+    AllowedIpAddresses: 1.2.3.4; 5.6.7.8
+    DeathMessageCooldownSeconds: 60
+  PvP:
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    ProtectFreshSpawns: true
+    PunishLogout: true
+    CombatTimeoutSeconds: 15
+    AllowCombatItemDrop: false
+    BlockedSlashCommands: /home;/vanish;/spawn;/tpa
+    ProtectPlayersInLandClaims:
+      PlayerOwnedClaims: true
+      AdministrativeClaims: true
+      AdministrativeSubdivisions: true
+  Economy:
+    ClaimBlocksPurchaseCost: 0.0
+    ClaimBlocksSellValue: 0.0
+  BlockSurfaceCreeperExplosions: true
+  BlockSurfaceOtherExplosions: true
+  LimitSkyTrees: true
+  LimitTreeGrowth: false
+  LimitPistonsToLandClaims: true
+  FireSpreads: false
+  FireDestroys: false
+  EavesdropEnabled: true
+  WhisperCommands: /tell;/pm;/r;/w;/t;/msg
+  SmartBan: true
+  Siege:
+    Worlds: []
+    BreakableBlocks:
+    - DIRT
+    - GRASS
+    - LONG_GRASS
+    - COBBLESTONE
+    - GRAVEL
+    - SAND
+    - GLASS
+    - THIN_GLASS
+    - WOOD
+    - WOOL
+    - SNOW
+  EndermenMoveBlocks: false
+  SilverfishBreakBlocks: false
+  CreaturesTrampleCrops: false
+  HardModeZombiesBreakDoors: false
+  Database:
+    URL: ''
+    UserName: ''
+    Password: ''
+  Mods:
+    BlockIdsRequiringAccessTrust: []
+    BlockIdsRequiringContainerTrust:
+    - 227:*:Battery Box
+    - 130:*:Transmutation Tablet
+    - 128:*:Alchemical Chest and Energy Condenser
+    - 181:*:Various Chests
+    - 178:*:Ender Chest
+    - 150:*:Various BuildCraft Gadgets
+    - 155:*:Filler
+    - 157:*:Builder
+    - 158:*:Template Drawing Table
+    - 126:*:Various EE Gadgets
+    - 138:*:Various RedPower Gadgets
+    - 137:*:BuildCraft Project Table and Furnaces
+    - 250:*:Various IC2 Machines
+    - 161:*:BuildCraft Engines
+    - 169:*:Automatic Crafting Table
+    - 177:*:Wireless Components
+    - 183:*:Solar Arrays
+    - 187:*:Charging Benches
+    - 188:*:More IC2 Machines
+    - 190:*:Generators, Fabricators, Strainers
+    - 194:*:More Gadgets
+    - 207:*:Computer
+    - 208:*:Computer Peripherals
+    - 246:*:IC2 Generators
+    - 24303:*:Teleport Pipe
+    - 24304:*:Waterproof Teleport Pipe
+    - 24305:*:Power Teleport Pipe
+    - 4311:*:Diamond Sorting Pipe
+    - 216:*:Turtle
+    BlockIdsExplodable:
+    - 161:*:BuildCraft Engines
+    - 246:5:Nuclear Reactor
+    PlayersIgnoringAllClaims: []

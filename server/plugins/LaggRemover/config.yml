@@ -1,0 +1,98 @@
+# The number at the end of the of each line is how much enabling this is going to improve server performance compared to other features
+# The numbers are on a scale of 1-10
+# All features are enabled by default
+version: 0.1.7
+
+# Automatically removes loaded chunks in worlds that have no players every 10 seconds. (9)
+autoChunk: true
+
+# Removes spawn chunks for all worlds in your server. (10)
+noSpawnChunks: true
+
+# This determines if the Smart Lag Detection AI is working to keep your server lag free. (10)
+smartlagai: true
+
+# This prevents the LaggRemover AI from repeatedly attempting to reduce lag if the server grows beyond repair. This
+# should rarely happen, but if it does, this will prevent LaggRemover from adding to the problem. Time in minutes.
+smartaicooldown: 3
+
+# Smart lag detection. If a player types "lag" or "lagg" in the chat and your server TPS is less than this number, the servers lag removal AI will become active. (10)
+TPS: 16.00
+
+# Smart lag detection. If a player types "lag" or "lagg" in the chat and your server has less than this amount of ram left, the servers lag removal AI will become active. UNIT IN MEGABYTES (10)
+RAM: 100
+
+# These are the protocols are run by the LaggRemover AI when your server is detected as lagging for one or both of the following reasons. You can list all protocols by typing /lr protocol list
+lag_protocols:
+  low_ram:
+    cc_items: '{"Delay":"true", "Count": "false"}'
+  low_tps:
+    cc_entities: '{"Delay":"true", "Count": "false", "ToClear":"null", "World":"%all%"}'
+  periodically:
+    cc_items: '{"Delay":"true", "Count": "false"}'
+
+# This is a list of worlds that will not be automatically saved by the server. This reduces disk usage but can only be used for worlds in which the terrain is not being edited. Add DISABLED to the list to allow all worlds to automatically save. (6)
+nosaveworlds:
+- DISABLED
+
+# This automatically removes lag after a certain period of time. The time is in minutes.
+auto-lag-removal:
+  run: false
+  every: 10
+
+# This prevents mobs from spawning in a chunk that contains more than the amount of entities specified in the "thinAt" value. (10 because it can prevent players from creating lag machines)
+thinMobs: true
+
+# The max number of entities that can spawn in a single chunk.
+thinAt: 300
+
+# Allows the LaggRemover AI (Artificial Inteligence) to perform action to lower the amount of packets being sent to just the player that typed lag. (10)
+doRelativeAction: true
+
+# When enabled, only allows the removal of items for relative lag removal for players.
+doOnlyItemsForRelative: false
+
+# This prevents non-hostile mobs from being removed by the relative lag removal system. THIS HAS TO BE DISABLED TO USE doOnlyItemsForRelative
+dontDoFriendlyMobsForRelative: true
+
+# When the LaggRemover AI detects a player is lagging. It will attempt to remove lag relative to player before looking at the whole server.
+# This defines the max radius in blocks the LaggRemover AI can remove entities specified above. Radius in blocks.
+localLagRadius: 10
+
+# Defines what percent of the entities in the "localLagRadius" are removed.
+localThinPercent: 80
+
+# How often the LaggRemover AI can remove lag for a person (in seconds). This is to prevent players from tricking the AI into repeatedly clearing mobs or purging memory.
+localLagRemovalCooldown: 60
+
+# Makes local lag removal only be triggered if the amount of entities in the 'localLagRadius' is greater than this
+localLagTriggered: 100
+
+# Time between messages a player can type in chat. If a player spams chat this can create lag. (in ticks 20 ticks = 1 second) If a player has the permission lr.nochatdelay, they will not have their chat limited.
+chatDelay: 0
+
+# Change this to modify the LaggRemover prefix. NOTE: The showing of the prefix shows professionalism for the technology being used by your server, if you modify it from its default value, it does not.
+prefix: '&6&lLaggRemover &7&l>>&r '
+
+# This is whether you would like this plugin to automatically check and install new updates. This is highly recommended.
+auto-update: true
+
+# The warning messages and how long you would like a warning to be for a certain protocol.
+protocol_warnings:
+  cc_items:
+    time: 60
+    stages:
+    - '60:%PREFIX%&eClearing ground items in &b60 &eseconds'
+    - '30:%PREFIX%&eClearing ground items in &b30 &eseconds'
+    - '5:%PREFIX%&eClearing ground items in &b5 &eseconds'
+    - 'f:%PREFIX%&eAll items on the ground have been cleared.'
+  cc_entities:
+    time: 60
+    stages:
+    - '60:%PREFIX%&eClearing hostile entities in &b60 &eseconds'
+    - '30:%PREFIX%&eClearing hostile entities in &b30 &eseconds'
+    - '5:%PREFIX%&eClearing hostile entities in &b5 &eseconds'
+    - 'f:%PREFIX%&eAll hostile entities have been cleared.'
+
+# Enables/Disables the "LaggRemover V2" splash screen when the plugin starts
+splashScreen: true

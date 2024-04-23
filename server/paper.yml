@@ -35,6 +35,17 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
+    disable-teleportation-suffocation-check: false
+    remove-invalid-mob-spawner-tile-entities: true
+    player-blocking-damage-multiplier: 0.5
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -45,23 +56,6 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    disable-teleportation-suffocation-check: false
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    player-blocking-damage-multiplier: 0.5
-    remove-invalid-mob-spawner-tile-entities: true
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
@@ -72,6 +66,12 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     fast-drain:
       lava: false
       water: false
@@ -87,11 +87,11 @@ world-settings:
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1
     keep-spawn-loaded: true
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: false

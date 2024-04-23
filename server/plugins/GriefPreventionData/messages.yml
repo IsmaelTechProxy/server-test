@@ -1,0 +1,381 @@
+Messages:
+  RespectingClaims:
+    Text: Now respecting claims.
+  IgnoringClaims:
+    Text: Now ignoring claims.
+  SuccessfulAbandon:
+    Text: Claims abandoned.  You now have {0} available claim blocks.
+    Notes: '0: remaining blocks'
+  RestoreNatureActivate:
+    Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims to stop.
+  RestoreNatureAggressiveActivate:
+    Text: Aggressive mode activated.  Do NOT use this underneath anything you want to keep!  Right click to aggressively restore nature, and use /BasicClaims to stop.
+  FillModeActive:
+    Text: Fill mode activated with radius {0}.  Right click an area to fill.
+    Notes: '0: fill radius'
+  TransferClaimPermission:
+    Text: That command requires the administrative claims permission.
+  TransferClaimMissing:
+    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+  TransferClaimAdminOnly:
+    Text: Only administrative claims may be transferred to a player.
+  PlayerNotFound:
+    Text: Player not found.
+  TransferTopLevel:
+    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside of the subdivision and try again.
+  TransferSuccess:
+    Text: Claim transferred.
+  TrustListNoClaim:
+    Text: Stand inside the claim you're curious about.
+  ClearPermsOwnerOnly:
+    Text: Only the claim owner can clear all permissions.
+  UntrustIndividualAllClaims:
+    Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single claim, stand inside it.
+    Notes: '0: untrusted player'
+  UntrustEveryoneAllClaims:
+    Text: Cleared permissions in ALL your claims.  To set permissions for a single claim, stand inside it.
+  NoPermissionTrust:
+    Text: You don't have {0}'s permission to manage permissions here.
+    Notes: '0: claim owner''s name'
+  ClearPermissionsOneClaim:
+    Text: Cleared permissions in this claim.  To set permission for ALL your claims, stand outside them.
+  UntrustIndividualSingleClaim:
+    Text: Revoked {0}'s access to this claim.  To set permissions for a ALL your claims, stand outside them.
+    Notes: '0: untrusted player'
+  OnlySellBlocks:
+    Text: Claim blocks may only be sold, not purchased.
+  BlockPurchaseCost:
+    Text: Each claim block costs {0}.  Your balance is {1}.
+    Notes: '0: cost of one block; 1: player''s account balance'
+  ClaimBlockLimit:
+    Text: You've reached your claim block limit.  You can't purchase more.
+  InsufficientFunds:
+    Text: You don't have enough money.  You need {0}, but you only have {1}.
+    Notes: '0: total cost; 1: player''s account balance'
+  PurchaseConfirmation:
+    Text: Withdrew {0} from your account.  You now have {1} available claim blocks.
+    Notes: '0: total cost; 1: remaining blocks'
+  OnlyPurchaseBlocks:
+    Text: Claim blocks may only be purchased, not sold.
+  BlockSaleValue:
+    Text: Each claim block is worth {0}.  You have {1} available for sale.
+    Notes: '0: block value; 1: available blocks'
+  NotEnoughBlocksForSale:
+    Text: You don't have that many claim blocks available for sale.
+  BlockSaleConfirmation:
+    Text: Deposited {0} in your account.  You now have {1} available claim blocks.
+    Notes: '0: amount deposited; 1: remaining blocks'
+  AdminClaimsMode:
+    Text: Administrative claims mode active.  Any claims created will be free and editable by other administrators.
+  BasicClaimsMode:
+    Text: Returned to basic claim creation mode.
+  SubdivisionMode:
+    Text: Subdivision mode.  Use your shovel to create subdivisions in your existing claims.  Use /basicclaims to exit.
+  SubdivisionVideo:
+    Text: 'Subdivision Help: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: There's no claim here.
+  DeletionSubdivisionWarning:
+    Text: This claim includes subdivisions.  If you're sure you want to delete it, use /DeleteClaim again.
+  DeleteSuccess:
+    Text: Claim deleted.
+  CantDeleteAdminClaim:
+    Text: You don't have permission to delete administrative claims.
+  DeleteAllSuccess:
+    Text: Deleted all of {0}'s claims.
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: You don't have permission to delete claims.
+  AllAdminDeleted:
+    Text: Deleted all administrative claims.
+  AdjustBlocksSuccess:
+    Text: 'Adjusted {0}''s bonus claim blocks by {1}.  New total bonus blocks: {2}.'
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: You can build here.  Save yourself.
+  RescuePending:
+    Text: If you stay put for 10 seconds, you'll be teleported out.  Please wait.
+  NonSiegeWorld:
+    Text: Siege is disabled here.
+  AlreadySieging:
+    Text: You're already involved in a siege.
+  NotSiegableThere:
+    Text: '{0} isn''t protected there.'
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: You're too far away to siege.
+  NoSiegeDefenseless:
+    Text: That player is defenseless.  Go pick on somebody else.
+  AlreadyUnderSiegePlayer:
+    Text: '{0} is already under siege.  Join the party!'
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: That area is already under siege.  Join the party!
+  NoSiegeAdminClaim:
+    Text: Siege is disabled in this area.
+  SiegeOnCooldown:
+    Text: You're still on siege cooldown for this defender or claim.  Find another victim.
+  SiegeAlert:
+    Text: You're under siege!  If you log out now, you will die.  You must defeat {0}, wait for him to give up, or escape.
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: The siege has begun!  If you log out now, you will die.  You must defeat {0}, chase him away, or admit defeat and walk away.
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: Stand in the claim you want to delete, or consider /AbandonAllClaims.
+  NotYourClaim:
+    Text: This isn't your claim.
+  DeleteTopLevelClaim:
+    Text: To delete a subdivision, stand inside it.  Otherwise, use /AbandonTopLevelClaim to delete this claim and all subdivisions.
+  AbandonSuccess:
+    Text: Claim abandoned.  You now have {0} available claim blocks.
+    Notes: '0: remaining claim blocks'
+  CantGrantThatPermission:
+    Text: You can't grant a permission you don't have yourself.
+  GrantPermissionNoClaim:
+    Text: Stand inside the claim where you want to grant permission.
+  GrantPermissionConfirmation:
+    Text: Granted {0} permission to {1} {2}.
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: To manage permissions for ALL your claims, stand outside them.
+  ManageOneClaimPermissionsInstruction:
+    Text: To manage permissions for a specific claim, stand inside it.
+  CollectivePublic:
+    Text: the public
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: build
+  ContainersPermission:
+    Text: access containers and animals
+  AccessPermission:
+    Text: use buttons and levers
+  PermissionsPermission:
+    Text: manage permissions
+  LocationCurrentClaim:
+    Text: in this claim
+  LocationAllClaims:
+    Text: in all your claims
+  PvPImmunityStart:
+    Text: You're protected from attack by other players as long as your inventory is empty.
+  SiegeNoDrop:
+    Text: You can't give away items while involved in a siege.
+  DonateItemsInstruction:
+    Text: To give away the item(s) in your hand, left-click the chest again.
+  ChestFull:
+    Text: This chest is full.
+  DonationSuccess:
+    Text: Item(s) transferred to chest!
+  PlayerTooCloseForFire:
+    Text: You can't start a fire this close to {0}.
+    Notes: '0: other player''s name'
+  TooDeepToClaim:
+    Text: This chest can't be protected because it's too deep underground.  Consider moving it.
+  ChestClaimConfirmation:
+    Text: This chest is protected.
+  AutomaticClaimNotification:
+    Text: This chest and nearby blocks are protected from breakage and theft.
+  UnprotectedChestWarning:
+    Text: This chest is NOT protected.  Consider using a golden shovel to expand an existing claim or to create a new one.
+  ThatPlayerPvPImmune:
+    Text: You can't injure defenseless players.
+  CantFightWhileImmune:
+    Text: You can't fight someone while you're protected from PvP.
+  NoDamageClaimedEntity:
+    Text: That belongs to {0}.
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: Shovel returned to basic claims mode.
+  RemainingBlocks:
+    Text: You may claim up to {0} more blocks.
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo:
+    Text: 'Land Claim Help: {0}'
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo:
+    Text: 'Land Claim Help: {0}'
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: trapped
+    Notes: When mentioned in chat, players get information about the /trapped command.
+  TrappedInstructions:
+    Text: Are you trapped in someone's land claim?  Try the /trapped command.
+  PvPNoDrop:
+    Text: You can't drop items while in PvP combat.
+  SiegeNoTeleport:
+    Text: You can't teleport out of a besieged area.
+  BesiegedNoTeleport:
+    Text: You can't teleport into a besieged area.
+  SiegeNoContainers:
+    Text: You can't access containers while involved in a siege.
+  PvPNoContainers:
+    Text: You can't access containers during PvP combat.
+  PvPImmunityEnd:
+    Text: Now you can fight with other players.
+  NoBedPermission:
+    Text: '{0} hasn''t given you permission to sleep here.'
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: You may only dump buckets inside your claim(s) or underground.
+  NoLavaNearOtherPlayer:
+    Text: You can't place lava this close to {0}.
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: That's too far away.
+  BlockNotClaimed:
+    Text: No one has claimed this block.
+  BlockClaimed:
+    Text: That block has been claimed by {0}.
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: You can't use your shovel tool while involved in a siege.
+  RestoreNaturePlayerInChunk:
+    Text: Unable to restore.  {0} is in that chunk.
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: You don't have permission to claim land.
+  ResizeClaimTooSmall:
+    Text: This new size would be too small.  Claims must be at least {0} x {0}.
+    Notes: '0: minimum claim size'
+  ResizeNeedMoreBlocks:
+    Text: You don't have enough blocks for this size.  You need {0} more.
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: You can't unclaim this land.  You can only make this claim larger or create additional claims.
+  ClaimResizeSuccess:
+    Text: Claim resized.  You now have {0} available claim blocks.
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: Can't resize here because it would overlap another nearby claim.
+  ResizeStart:
+    Text: Resizing claim.  Use your shovel again at the new location for this corner.
+  ResizeFailOverlapSubdivision:
+    Text: You can't create a subdivision here because it would overlap another subdivision.  Consider /abandonclaim to delete it, or use your shovel at a corner to resize it.
+  SubdivisionStart:
+    Text: Subdivision corner set!  Use your shovel at the location for the opposite corner of this new subdivision.
+  CreateSubdivisionOverlap:
+    Text: Your selected area overlaps another subdivision.
+  SubdivisionSuccess:
+    Text: Subdivision created!  Use /trust to share it with friends.
+  CreateClaimFailOverlap:
+    Text: You can't create a claim here because it would overlap your other claim.  Use /abandonclaim to delete it, or use your shovel at a corner to resize it.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: You can't create a claim here because it would overlap {0}'s claim.
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: Land claims are disabled in this world.
+  ClaimStart:
+    Text: Claim corner set!  Use the shovel again at the opposite corner to claim a rectangle of land.  To cancel, put your shovel away.
+  NewClaimTooSmall:
+    Text: This claim would be too small.  Any claim must be at least {0} x {0}.
+    Notes: '0: minimum claim size'
+  CreateClaimInsufficientBlocks:
+    Text: You don't have enough blocks to claim that entire area.  You need {0} more blocks.
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: To delete another claim and free up some blocks, use /AbandonClaim.
+  CreateClaimFailOverlapShort:
+    Text: Your selected area overlaps an existing claim.
+  CreateClaimSuccess:
+    Text: Claim created!  Use /trust to share it with friends.
+  SiegeWinDoorsOpen:
+    Text: Congratulations!  Buttons and levers are temporarily unlocked (five minutes).
+  RescueAbortedMoved:
+    Text: You moved!  Rescue cancelled.
+  SiegeDoorsLockedEjection:
+    Text: Looting time is up!  Ejected from the claim.
+  NoModifyDuringSiege:
+    Text: Claims can't be modified while under siege.
+  OnlyOwnersModifyClaims:
+    Text: Only {0} can modify this claim.
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: This claim is under siege by {0}.  No one can build here.
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: You can't build in claims during PvP combat.
+  NoBuildPermission:
+    Text: You don't have {0}'s permission to build here.
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: That material is too tough to break.
+  NoOwnerBuildUnderSiege:
+    Text: You can't make changes while under siege.
+  NoAccessPermission:
+    Text: You don't have {0}'s permission to use that.
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: This claim is under siege by {0}.  No one can access containers here right now.
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: You don't have {0}'s permission to use that.
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: an administrator
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: This claim isn't big enough for that.  Try enlarging it.
+  TooManyEntitiesInClaim:
+    Text: This claim has too many entities already.  Try enlarging the claim or removing some animals, monsters, paintings, or minecarts.
+  YouHaveNoClaims:
+    Text: You don't have any land claims.
+  ConfirmFluidRemoval:
+    Text: Abandoning this claim will remove lava inside the claim.  If you're sure, use /AbandonClaim again.
+  AutoBanNotify:
+    Text: Auto-banned {0}({1}).  See logs for details.
+  AdjustGroupBlocksSuccess:
+    Text: 'Adjusted bonus claim blocks for players with the {0} permission by {1}.  New
+      total: {2}.'
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: Please specify a player name, or a permission in [brackets].
+  UntrustOwnerOnly:
+    Text: Only {0} can revoke permissions here.
+    Notes: '0: claim owner''s name'
+  HowToClaimRegex:
+    Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: You can't build here unless you claim some land first.
+  PlayerOfflineTime:
+    Text: '  Last login: {0} days ago.'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: Other players can build here, too.  Consider creating a land claim to protect your work!
+  TrappedWontWorkHere:
+    Text: Sorry, unable to find a safe location to teleport you to.  Contact an admin, or consider /kill if you don't want to wait.
+  CommandBannedInPvP:
+    Text: You can't use that command while in PvP combat.
+  UnclaimCleanupWarning:
+    Text: The land you've unclaimed may be changed by other players or cleaned up by administrators.  If you've built something there you want to keep, you should reclaim it.
+  BuySellNotConfigured:
+    Text: Sorry, buying anhd selling claim blocks is disabled.
+  NoTeleportPvPCombat:
+    Text: You can't teleport while fighting another player.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'Warning: TNT will not destroy blocks above sea level.'
+  NoTNTDamageClaims:
+    Text: 'Warning: TNT will not destroy claimed blocks.'
+  IgnoreClaimsAdvertisement:
+    Text: To override, use /IgnoreClaims.
+  NoPermissionForCommand:
+    Text: You don't have permission to do that.
+  ClaimsListNoPermission:
+    Text: You don't have permission to get information about another player's land claims.
+  ExplosivesDisabled:
+    Text: This claim is now protected from explosions.  Use /ClaimExplosions again to disable.
+  ExplosivesEnabled:
+    Text: This claim is now vulnerable to explosions.  Use /ClaimExplosions again to re-enable protections.
+  ClaimExplosivesAdvertisement:
+    Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
+  PlayerInPvPSafeZone:
+    Text: That player is in a PvP safe zone.
+  NoPistonsOutsideClaims:
+    Text: 'Warning: Pistons won''t move blocks outside land claims.'
+  SoftMuted:
+    Text: Soft-muted {0}.
+    Notes: The changed player's name.
+  UnSoftMuted:
+    Text: Un-soft-muted {0}.
+    Notes: The changed player's name.

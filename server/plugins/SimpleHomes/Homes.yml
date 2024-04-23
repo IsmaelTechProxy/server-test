@@ -1,1 +1,22 @@
-
+drip_norman:
+  islandhome:
+    world: world
+    X: 55.684511968543106
+    Y: 64.5625
+    Z: 253.3071661081375
+  cave:
+    world: world
+    X: 90.44396490430246
+    Y: 64.0
+    Z: 222.51249998807907
+aedenFLASH:
+  aedenFlash:
+    world: world
+    X: 51.80342307060977
+    Y: 64.0
+    Z: 203.83263781389897
+  aedenFLASH:
+    world: world
+    X: 51.78609912874701
+    Y: 64.0
+    Z: 202.27967036924576

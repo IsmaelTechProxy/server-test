@@ -1,0 +1,49 @@
+#Do you want a sound/particle effect to be played when a player morphs
+morph-sound: true
+morph-particle: true
+
+#Do you want a sound/particle effect to be played when a player unmorphs
+unmorph-sound: true
+unmorph-particle: true
+
+#Allow morphing into players? This option is VERY buggy
+enable-players: false
+
+#What worlds do you want this plugin enabled in?
+#use <all> to enable in all worlds
+enabled-worlds:
+- world
+- world_nether
+- world_the_end
+
+#Enable player morphs? Warning: This feature is buggy
+enable-players: false
+
+#Reset all of the players morphs when they die
+death-reset-all: false
+#Reset only the morph die died as
+death-reset-current: true
+
+#disable endermen? If enabled they can cause players to crash
+disable-endermen: false
+
+#When a player kills a morphed player, should he get the morph?
+steal-morphs: true
+
+#Abilities
+creeper-explosion: true
+flying: true
+jump-boost: true
+skeleton-shoot: true
+enderman-teleport: true
+squid-waterbreathing: true
+ghast-fireball: true
+horse-speed: true
+ocelot-speed: true
+snowman-snow: true
+irongolem-strength: true
+blaze-fire: true
+zombie-eat: true
+
+
+metrics-opt-out: false
