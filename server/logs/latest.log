@@ -1,41 +1,40 @@
-[17:04:26] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:04:26] [Server thread/INFO]: Loading properties
-[17:04:26] [Server thread/INFO]: Default game type: SURVIVAL
-[17:04:26] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:04:26] [Server thread/INFO]: Debug logging is disabled
-[17:04:26] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:04:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:08:00] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[01:08:00] [Server thread/INFO]: Loading properties
+[01:08:00] [Server thread/INFO]: Default game type: SURVIVAL
+[01:08:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[01:08:01] [Server thread/INFO]: Debug logging is disabled
+[01:08:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[01:08:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[17:04:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:04:26] [Server thread/INFO]: Data value allowed items: 
-[17:04:26] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[01:08:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:08:01] [Server thread/INFO]: Data value allowed items: 
+[01:08:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[17:04:26] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[01:08:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[17:04:26] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[01:08:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[17:04:26] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[01:08:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[17:04:26] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[01:08:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[17:04:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[01:08:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[17:04:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[01:08:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[17:04:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[01:08:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[17:04:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[01:08:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[17:04:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:08:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[17:04:27] [Server thread/INFO]: Generating keypair
-[17:04:27] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:04:27] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[17:04:27] [Server thread/INFO]: Using default channel type
-[17:04:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[17:04:27] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[17:04:27] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v10.0.42
-[17:04:27] [Server thread/ERROR]: org/bukkit/boss/BarStyle initializing LibsDisguises v10.0.42 (Is it up to date?)
+[01:08:01] [Server thread/INFO]: Generating keypair
+[01:08:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[01:08:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[01:08:02] [Server thread/INFO]: Using default channel type
+[01:08:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:08:03] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v10.0.42
+[01:08:03] [Server thread/ERROR]: org/bukkit/boss/BarStyle initializing LibsDisguises v10.0.42 (Is it up to date?)
 java.lang.NoClassDefFoundError: org/bukkit/boss/BarStyle
 	at me.libraryaddict.disguise.DisguiseConfig.<clinit>(DisguiseConfig.java:210) ~[?:?]
 	at me.libraryaddict.disguise.LibsDisguises.onLoad(LibsDisguises.java:89) ~[?:?]
@@ -49,175 +48,178 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.boss.BarStyle
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 6 more
-[17:04:27] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[17:04:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[17:04:27] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
-[17:04:27] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[17:04:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:04:28] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
-[17:04:28] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[17:04:28] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
-[17:04:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:04:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:04:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:04:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:04:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:04:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:04:28] [Server thread/INFO]: Preparing level "world"
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:04:28] [Server thread/INFO]: Mob Spawn Range: 4
-[17:04:28] [Server thread/INFO]: Anti X-Ray: true
-[17:04:28] [Server thread/INFO]: 	Engine Mode: 1
-[17:04:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:04:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:04:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:04:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:04:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:04:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:04:28] [Server thread/INFO]: Random Lighting Updates: false
-[17:04:28] [Server thread/INFO]: Structure Info Saving: true
-[17:04:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:04:28] [Server thread/INFO]: Max Entity Collisions: 8
-[17:04:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:04:28] [Server thread/INFO]: Max TNT Explosions: 100
-[17:04:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:04:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:04:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:04:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:04:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:04:28] [Server thread/INFO]: View Distance: 4
-[17:04:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:04:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:04:28] [Server thread/INFO]: Clear tick list: false
-[17:04:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:04:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:04:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:04:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:04:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:04:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:04:28] [Server thread/INFO]: Water over lava flow speed: 5
-[17:04:28] [Server thread/INFO]: Fix TNT cannons: false
-[17:04:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:04:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:04:28] [Server thread/INFO]: World async lighting: false
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:04:28] [Server thread/INFO]: Mob Spawn Range: 4
-[17:04:28] [Server thread/INFO]: Anti X-Ray: true
-[17:04:28] [Server thread/INFO]: 	Engine Mode: 1
-[17:04:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:04:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:04:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:04:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:04:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:04:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:04:28] [Server thread/INFO]: Random Lighting Updates: false
-[17:04:28] [Server thread/INFO]: Structure Info Saving: true
-[17:04:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:04:28] [Server thread/INFO]: Max Entity Collisions: 8
-[17:04:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:04:28] [Server thread/INFO]: Max TNT Explosions: 100
-[17:04:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:04:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:04:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:04:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:04:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:04:28] [Server thread/INFO]: View Distance: 4
-[17:04:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:04:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:04:28] [Server thread/INFO]: Clear tick list: false
-[17:04:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:04:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:04:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:04:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:04:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:04:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:04:28] [Server thread/INFO]: Water over lava flow speed: 5
-[17:04:28] [Server thread/INFO]: Fix TNT cannons: false
-[17:04:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:04:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:04:28] [Server thread/INFO]: World async lighting: false
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:04:28] [Server thread/INFO]: Mob Spawn Range: 4
-[17:04:28] [Server thread/INFO]: Anti X-Ray: true
-[17:04:28] [Server thread/INFO]: 	Engine Mode: 1
-[17:04:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:04:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:04:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:04:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:04:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:04:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:04:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:04:28] [Server thread/INFO]: Random Lighting Updates: false
-[17:04:28] [Server thread/INFO]: Structure Info Saving: true
-[17:04:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:04:28] [Server thread/INFO]: Max Entity Collisions: 8
-[17:04:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:04:28] [Server thread/INFO]: Max TNT Explosions: 100
-[17:04:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:04:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:04:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:04:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:04:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:04:28] [Server thread/INFO]: View Distance: 4
-[17:04:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:04:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:04:28] [Server thread/INFO]: Clear tick list: false
-[17:04:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:04:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:04:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:04:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:04:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:04:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:04:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:04:28] [Server thread/INFO]: Water over lava flow speed: 5
-[17:04:28] [Server thread/INFO]: Fix TNT cannons: false
-[17:04:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:04:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:04:28] [Server thread/INFO]: World async lighting: false
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:04:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:04:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
-[17:04:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
-[17:04:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2382687356522857733)
-[17:04:30] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[17:04:30] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[17:04:30] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[17:04:30] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[17:04:30] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.42
-[17:04:30] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.42-Free.jar
-[17:04:30] [Server thread/ERROR]: [LibsDisguises] Failed to even do a forced update
-[17:04:30] [Server thread/ERROR]: Error occurred while enabling LibsDisguises v10.0.42 (Is it up to date?)
+[01:08:03] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[01:08:03] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[01:08:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[01:08:03] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[01:08:03] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[01:08:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:08:05] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[01:08:05] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
+[01:08:05] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[01:08:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:08:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:08:05] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[01:08:05] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[01:08:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:08:05] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:08:05] [Server thread/INFO]: Preparing level "world"
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:08:05] [Server thread/INFO]: Mob Spawn Range: 4
+[01:08:05] [Server thread/INFO]: Anti X-Ray: true
+[01:08:05] [Server thread/INFO]: 	Engine Mode: 1
+[01:08:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:08:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:08:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:08:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:08:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:08:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:08:05] [Server thread/INFO]: Random Lighting Updates: false
+[01:08:05] [Server thread/INFO]: Structure Info Saving: true
+[01:08:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:08:05] [Server thread/INFO]: Max Entity Collisions: 8
+[01:08:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:08:05] [Server thread/INFO]: Max TNT Explosions: 100
+[01:08:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:08:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:08:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:08:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:08:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:08:05] [Server thread/INFO]: View Distance: 4
+[01:08:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:08:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:08:05] [Server thread/INFO]: Clear tick list: false
+[01:08:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:08:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:08:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:08:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:08:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:08:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:08:05] [Server thread/INFO]: Water over lava flow speed: 5
+[01:08:05] [Server thread/INFO]: Fix TNT cannons: false
+[01:08:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:08:05] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:08:05] [Server thread/INFO]: World async lighting: false
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:08:05] [Server thread/INFO]: Mob Spawn Range: 4
+[01:08:05] [Server thread/INFO]: Anti X-Ray: true
+[01:08:05] [Server thread/INFO]: 	Engine Mode: 1
+[01:08:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:08:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:08:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:08:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:08:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:08:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:08:05] [Server thread/INFO]: Random Lighting Updates: false
+[01:08:05] [Server thread/INFO]: Structure Info Saving: true
+[01:08:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:08:05] [Server thread/INFO]: Max Entity Collisions: 8
+[01:08:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:08:05] [Server thread/INFO]: Max TNT Explosions: 100
+[01:08:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:08:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:08:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:08:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:08:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:08:05] [Server thread/INFO]: View Distance: 4
+[01:08:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:08:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:08:05] [Server thread/INFO]: Clear tick list: false
+[01:08:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:08:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:08:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:08:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:08:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:08:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:08:05] [Server thread/INFO]: Water over lava flow speed: 5
+[01:08:05] [Server thread/INFO]: Fix TNT cannons: false
+[01:08:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:08:05] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:08:05] [Server thread/INFO]: World async lighting: false
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:08:05] [Server thread/INFO]: Mob Spawn Range: 4
+[01:08:05] [Server thread/INFO]: Anti X-Ray: true
+[01:08:05] [Server thread/INFO]: 	Engine Mode: 1
+[01:08:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:08:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:08:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:08:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:08:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:08:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:08:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:08:05] [Server thread/INFO]: Random Lighting Updates: false
+[01:08:05] [Server thread/INFO]: Structure Info Saving: true
+[01:08:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:08:05] [Server thread/INFO]: Max Entity Collisions: 8
+[01:08:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:08:05] [Server thread/INFO]: Max TNT Explosions: 100
+[01:08:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:08:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:08:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:08:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:08:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:08:05] [Server thread/INFO]: View Distance: 4
+[01:08:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:08:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:08:05] [Server thread/INFO]: Clear tick list: false
+[01:08:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:08:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:08:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:08:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:08:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:08:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:08:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:08:05] [Server thread/INFO]: Water over lava flow speed: 5
+[01:08:05] [Server thread/INFO]: Fix TNT cannons: false
+[01:08:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:08:05] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:08:05] [Server thread/INFO]: World async lighting: false
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:08:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:08:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
+[01:08:06] [Server thread/INFO]: Preparing spawn area: 11%
+[01:08:07] [Server thread/INFO]: Preparing spawn area: 37%
+[01:08:08] [Server thread/INFO]: Preparing spawn area: 64%
+[01:08:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
+[01:08:10] [Server thread/INFO]: Preparing spawn area: 8%
+[01:08:11] [Server thread/INFO]: Preparing spawn area: 16%
+[01:08:12] [Server thread/INFO]: Preparing spawn area: 46%
+[01:08:13] [Server thread/INFO]: Preparing spawn area: 80%
+[01:08:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2382687356522857733)
+[01:08:15] [Server thread/INFO]: Preparing spawn area: 88%
+[01:08:15] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.42
+[01:08:15] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.42-Free.jar
+[01:08:15] [Server thread/ERROR]: [LibsDisguises] Failed to even do a forced update
+[01:08:15] [Server thread/ERROR]: Error occurred while enabling LibsDisguises v10.0.42 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "String.split(String)" because "cbPackage" is null
 	at me.libraryaddict.disguise.utilities.reflection.ReflectionManager.getNmsPackage(ReflectionManager.java:881) ~[?:?]
 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:208) ~[?:?]
@@ -232,8 +234,8 @@ java.lang.NullPointerException: Cannot invoke "String.split(String)" because "cb
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:04:30] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.42
-[17:04:30] [Server thread/ERROR]: Error occurred while disabling LibsDisguises v10.0.42 (Is it up to date?)
+[01:08:15] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.42
+[01:08:15] [Server thread/ERROR]: Error occurred while disabling LibsDisguises v10.0.42 (Is it up to date?)
 java.lang.NoClassDefFoundError: Could not initialize class me.libraryaddict.disguise.DisguiseConfig
 	at me.libraryaddict.disguise.utilities.DisguiseUtilities.saveViewPreferances(DisguiseUtilities.java:442) ~[?:?]
 	at me.libraryaddict.disguise.utilities.DisguiseUtilities.saveDisguises(DisguiseUtilities.java:779) ~[?:?]
@@ -256,25 +258,31 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDef
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 2 more
-[17:04:30] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[17:04:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[17:04:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:04:30] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[17:04:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[17:04:30] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
-[17:04:30] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
-[17:04:30] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
-[17:04:30] [Server thread/INFO]: GriefPrevention: 2 total claims loaded.
-[17:04:30] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
-[17:04:30] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
-[17:04:30] [Server thread/INFO]: GriefPrevention: Boot finished.
-[17:04:30] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[17:04:30] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[17:04:30] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[17:04:30] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[17:04:30] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[17:04:30] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[17:04:30] [Server thread/INFO]: 
+[01:08:15] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[01:08:15] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[01:08:15] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[01:08:15] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:08:16] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[01:08:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[01:08:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:08:17] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[01:08:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[01:08:17] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[01:08:17] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:08:17] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:08:18] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:08:18] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:08:18] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
+[01:08:18] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
+[01:08:18] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
+[01:08:18] [Server thread/INFO]: GriefPrevention: 2 total claims loaded.
+[01:08:19] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
+[01:08:19] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
+[01:08:19] [Server thread/INFO]: GriefPrevention: Boot finished.
+[01:08:19] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[01:08:19] [Server thread/INFO]: 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -283,536 +291,33 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDef
             /____//____/
 
 
-[17:04:30] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[17:04:30] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[17:04:30] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[17:04:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:04:31] [Server thread/INFO]: Done (2.664s)! For help, type "help" or "?"
-[17:04:31] [Server thread/INFO]: Timings Reset
-[17:04:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[17:04:31] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[17:04:31] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[17:04:31] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[01:08:19] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[01:08:19] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[01:08:19] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[01:08:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:08:19] [Server thread/INFO]: Done (14.553s)! For help, type "help" or "?"
+[01:08:19] [Server thread/INFO]: Timings Reset
+[01:08:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[01:08:19] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[01:08:20] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[01:08:22] [Thread-7/WARN]: [LaggRemover] The updater could not find any files for the project id 91200
+[01:08:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[17:04:31] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[01:08:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[17:04:31] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[01:08:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[17:06:49] [Thread-8/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
-[17:06:49] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:58470] logged in with entity id 218 at ([world]85.29900164970256, 247.4893776471974, 217.6631320118199)
-[17:07:03] [Thread-9/INFO]: UUID of player aedenFLASH is 586f38f0-6b9f-378a-9512-736efae98ddc
-[17:07:03] [Server thread/INFO]: aedenFLASH[/[0:0:0:0:0:0:0:1]:50930] logged in with entity id 596 at ([world]79.69999998807907, 248.55481806222912, 215.40139663681657)
-[17:07:13] [Async Chat Thread - #0/INFO]: <aedenFLASH> i knew it was gabe[m
-
-[17:07:15] [Async Chat Thread - #0/INFO]: <drip_norman> ik[m
-
-[17:07:22] [Async Chat Thread - #0/INFO]: <aedenFLASH> how[m
-
-[17:08:01] [Server thread/INFO]: [@: Teleported aedenFLASH to 72.5, 65.0, 216.5]
-[17:08:05] [Server thread/INFO]: aedenFLASH issued server command: /time set 0
-[17:08:05] [Server thread/INFO]: [aedenFLASH: Set the time to 0]
-[17:08:37] [Server thread/INFO]: [@: Teleported drip_norman to 72.5, 65.0, 216.5]
-[17:08:46] [Server thread/INFO]: aedenFLASH issued server command: /kill @e
-[17:08:46] [Server thread/INFO]: aedenFLASH fell out of the world
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed aedenFLASH]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Pig]
-[17:08:46] [Server thread/INFO]: drip_norman fell out of the world
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed drip_norman]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed item.tile.woodSlab.oak]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Cow]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Cow]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Pig]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Rabbit]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Pig]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Cow]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Donkey]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Sheep]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Chicken]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Chicken]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed item.item.egg]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Enderman]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Enderman]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Spider]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Guardian]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Zombie]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Skeleton]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:08:46] [Server thread/INFO]: [aedenFLASH: Killed Creeper]
-[17:09:08] [Server thread/INFO]: aedenFLASH issued server command: /difficulty peaceful
-[17:09:08] [Server thread/INFO]: [aedenFLASH: Set game difficulty to Peaceful]
-[17:10:34] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:10:50] [Async Chat Thread - #1/INFO]: <drip_norman> finish the house[m
-
-[17:10:53] [Async Chat Thread - #1/INFO]: <aedenFLASH> ok[m
-
-[17:11:04] [Async Chat Thread - #1/INFO]: <aedenFLASH> tell me what he said[m
-
-[17:11:07] [Async Chat Thread - #1/INFO]: <drip_norman> okay[m
-
-[17:11:16] [Async Chat Thread - #1/INFO]: <drip_norman> he said to tp you[m
-
-[17:11:31] [Server thread/INFO]: [@: Teleported drip_norman to 72.5, 65.0, 216.5]
-[17:11:38] [Server thread/INFO]: [@: Teleported aedenFLASH to 76.5, 241.0, 207.5]
-[17:11:42] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:11:45] [Server thread/INFO]: drip_norman lost connection: Disconnected
-[17:11:45] [Server thread/INFO]: drip_norman left the game.
-[17:13:04] [Thread-12/INFO]: UUID of player Fern is aea17254-290a-3ab4-b288-4dedb1264ede
-[17:13:04] [Server thread/INFO]: Fern[/[0:0:0:0:0:0:0:1]:42382] logged in with entity id 11102 at ([world]181.0016619920665, 72.0, 547.6999999880791)
-[17:13:17] [Server thread/INFO]: aedenFLASH issued server command: /gamemode s fern
-[17:13:17] [Server thread/INFO]: [aedenFLASH: Set Fern's game mode to Survival Mode]
-[17:13:26] [Server thread/INFO]: Fern lost connection: Disconnected
-[17:13:26] [Server thread/INFO]: Fern left the game.
-[17:13:27] [Server thread/INFO]: aedenFLASH issued server command: /gamemode s all
-[17:13:27] [Server thread/INFO]: [aedenFLASH: That player cannot be found]
-[17:13:55] [Server thread/INFO]: aedenFLASH lost connection: Disconnected
-[17:13:55] [Server thread/INFO]: aedenFLASH left the game.
-[17:14:47] [Thread-15/INFO]: UUID of player aedenFLASH is 586f38f0-6b9f-378a-9512-736efae98ddc
-[17:14:47] [Server thread/INFO]: aedenFLASH[/[0:0:0:0:0:0:0:1]:50152] logged in with entity id 16577 at ([world]48.09148264688168, 70.0, 202.661194805695)
-[17:16:03] [Server thread/INFO]: [@: You must specify which player you wish to perform this action on.]
-[17:16:05] [Server thread/INFO]: [@: You must specify which player you wish to perform this action on.]
-[17:16:15] [Server thread/INFO]: [@: The entity UUID provided is in an invalid format]
-[17:16:35] [Server thread/INFO]: aedenFLASH issued server command: /kill fern
-[17:16:35] [Server thread/INFO]: [aedenFLASH: The entity UUID provided is in an invalid format]
-[17:19:56] [Server thread/INFO]: aedenFLASH lost connection: Disconnected
-[17:19:56] [Server thread/INFO]: aedenFLASH left the game.
-[17:26:47] [Thread-17/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
-[17:26:47] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:40508] logged in with entity id 25116 at ([world]76.50187899410402, 241.0, 207.74918211811527)
-[17:27:08] [Server thread/INFO]: [@: Teleported drip_norman to 72.5, 65.0, 216.5]
-[17:27:27] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:30:11] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:30:12] [Server thread/INFO]: [@: Teleported drip_norman to 74.5, 65.0, 221.5]
-[17:30:13] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:34:01] [Thread-18/INFO]: UUID of player F3rn is 66dda90f-b9ab-3c3c-b84e-bfa951e408fd
-[17:34:01] [Server thread/INFO]: F3rn[/[0:0:0:0:0:0:0:1]:56450] logged in with entity id 53245 at ([world]93.5, 64.0, 222.5)
-[17:34:32] [Server thread/INFO]: F3rn lost connection: Login timed out!
-[17:34:32] [Server thread/INFO]: F3rn left the game.
-[17:34:32] [Server thread/WARN]: handleDisconnection() called twice
-[17:34:37] [Thread-20/INFO]: UUID of player F3rn is 66dda90f-b9ab-3c3c-b84e-bfa951e408fd
-[17:34:37] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4581abd6[id=66dda90f-b9ab-3c3c-b84e-bfa951e408fd,name=F3rn,properties={textures=[com.mojang.authlib.properties.Property@1dee1c8a], isEaglerPlayer=[com.mojang.authlib.properties.Property@764ab5c1]},legacy=false] (/[0:0:0:0:0:0:0:1]:48438): You must wait 25 seconds before logging-in again.
-[17:34:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@4581abd6[id=66dda90f-b9ab-3c3c-b84e-bfa951e408fd,name=F3rn,properties={textures=[com.mojang.authlib.properties.Property@1dee1c8a], isEaglerPlayer=[com.mojang.authlib.properties.Property@764ab5c1]},legacy=false] (/[0:0:0:0:0:0:0:1]:48438) lost connection: You must wait 25 seconds before logging-in again.
-[17:35:07] [Thread-21/INFO]: UUID of player F3rn is 66dda90f-b9ab-3c3c-b84e-bfa951e408fd
-[17:35:07] [Server thread/INFO]: F3rn[/[0:0:0:0:0:0:0:1]:55950] logged in with entity id 59346 at ([world]93.5, 64.0, 222.5)
-[17:35:10] [Server thread/INFO]: F3rn has just earned the achievement [Taking Inventory]
-[17:35:38] [Server thread/INFO]: F3rn lost connection: Login timed out!
-[17:35:38] [Server thread/INFO]: F3rn left the game.
-[17:35:38] [Server thread/WARN]: handleDisconnection() called twice
-[17:36:16] [Thread-23/INFO]: UUID of player F3rn is 66dda90f-b9ab-3c3c-b84e-bfa951e408fd
-[17:36:16] [Server thread/INFO]: F3rn[/[0:0:0:0:0:0:0:1]:33316] logged in with entity id 64628 at ([world]93.6836598379358, 64.0, 222.5)
-[17:36:56] [Server thread/INFO]: F3rn issued server command: /creative
-[17:37:01] [Server thread/INFO]: F3rn issued server command: /help
-[17:37:21] [Server thread/INFO]: [@: The entity UUID provided is in an invalid format]
-[17:37:23] [Server thread/INFO]: [@: The entity UUID provided is in an invalid format]
-[17:37:41] [Thread-24/INFO]: UUID of player aedenFLASH is 586f38f0-6b9f-378a-9512-736efae98ddc
-[17:37:41] [Server thread/INFO]: aedenFLASH[/[0:0:0:0:0:0:0:1]:52362] logged in with entity id 67456 at ([world]65.03971551394392, 65.0, 220.54579757748104)
-[17:37:52] [Server thread/INFO]: aedenFLASH issued server command: /kill fern
-[17:37:52] [Server thread/INFO]: [aedenFLASH: The entity UUID provided is in an invalid format]
-[17:37:53] [Server thread/INFO]: [@: Teleported drip_norman to 74.5, 65.0, 221.5]
-[17:38:03] [Server thread/INFO]: drip_norman issued server command: /msg
-[17:38:06] [Server thread/INFO]: drip_norman issued server command: /help
-[17:38:09] [Server thread/INFO]: aedenFLASH has just earned the achievement [Diamonds to you!]
-[17:38:11] [Async Chat Thread - #2/INFO]: <aedenFLASH> `[m
-
-[17:38:19] [Server thread/INFO]: drip_norman issued server command: /kill aeden
-[17:38:19] [Server thread/INFO]: [drip_norman: The entity UUID provided is in an invalid format]
-[17:38:29] [Server thread/INFO]: drip_norman issued server command: /kill aedenFLASH
-[17:38:29] [Server thread/INFO]: aedenFLASH fell out of the world
-[17:38:29] [Server thread/INFO]: [drip_norman: Killed aedenFLASH]
-[17:38:39] [Server thread/INFO]: drip_norman has just earned the achievement [Getting Wood]
-[17:38:41] [Server thread/INFO]: aedenFLASH issued server command: /kill f3rn
-[17:38:41] [Server thread/INFO]: F3rn fell out of the world
-[17:38:41] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:39:14] [Async Chat Thread - #3/INFO]: <aedenFLASH> my crops[m
-
-[17:39:25] [Server thread/INFO]: aedenFLASH issued server command: /kill f3rn
-[17:39:25] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:39:39] [Server thread/INFO]: aedenFLASH issued server command: /give f3rn 10000 diamond
-[17:39:39] [Server thread/INFO]: [aedenFLASH: There is no such item with name minecraft:10000]
-[17:39:41] [Server thread/INFO]: aedenFLASH issued server command: /give f3rn 10000 diamonds
-[17:39:41] [Server thread/INFO]: [aedenFLASH: There is no such item with name minecraft:10000]
-[17:39:47] [Server thread/INFO]: aedenFLASH issued server command: /give f3rn 100 diamonds
-[17:39:47] [Server thread/INFO]: [aedenFLASH: There is no such item with name minecraft:100]
-[17:39:56] [Server thread/INFO]: drip_norman lost connection: Disconnected
-[17:39:56] [Server thread/INFO]: drip_norman left the game.
-[17:40:07] [Server thread/INFO]: F3rn issued server command: /give F3rn Lava bucket
-[17:40:59] [Server thread/INFO]: F3rn has just earned the achievement [Getting Wood]
-[17:41:05] [Async Chat Thread - #4/INFO]: <F3rn> tittes[m
-
-[17:41:17] [Async Chat Thread - #4/INFO]: <aedenFLASH> wdym[m
-
-[17:41:24] [Async Chat Thread - #4/INFO]: <F3rn> Boobs[m
-
-[17:41:30] [Async Chat Thread - #4/INFO]: <aedenFLASH> yo come over here[m
-
-[17:41:33] [Server thread/INFO]: F3rn fell out of the world
-[17:41:33] [Server thread/INFO]: [@: Killed F3rn]
-[17:41:44] [Async Chat Thread - #4/INFO]: <F3rn> alright man fuck you[m
-
-[17:41:52] [Async Chat Thread - #4/INFO]: <aedenFLASH> i pressed non i swear[m
-
-[17:42:00] [Server thread/INFO]: aedenFLASH issued server command: /
-[17:42:08] [Async Chat Thread - #4/INFO]: <F3rn> I aint gonna beleive that one bit you cunt[m
-
-[17:42:32] [Async Chat Thread - #4/INFO]: <F3rn> gimme some iron and ill call it even[m
-
-[17:42:59] [Async Chat Thread - #4/INFO]: <aedenFLASH> is that good[m
-
-[17:43:52] [Server thread/INFO]: GriefPrevention: [Sign Placement] <aedenFLASH> Dont Stand ;here or a friend;Dies;; @ world(64,65,222)
-[17:43:53] [Server thread/INFO]: F3rn has just earned the achievement [Benchmarking]
-[17:44:17] [Server thread/INFO]: aedenFLASH issued server command: /time set 0
-[17:44:17] [Server thread/INFO]: [aedenFLASH: Set the time to 0]
-[17:44:48] [Thread-27/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
-[17:44:48] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:43108] logged in with entity id 92217 at ([world]48.00078169608182, 64.0625, 204.02157902356825)
-[17:44:55] [Server thread/INFO]: aedenFLASH issued server command: /gamerule keepInventory true
-[17:44:55] [Server thread/INFO]: [aedenFLASH: Game rule has been updated]
-[17:44:59] [Server thread/INFO]: drip_norman issued server command: /ignoreclaims
-[17:45:40] [Server thread/INFO]: drip_norman issued server command: /kill @e
-[17:45:40] [Server thread/INFO]: drip_norman fell out of the world
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed drip_norman]
-[17:45:40] [Server thread/INFO]: aedenFLASH fell out of the world
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed aedenFLASH]
-[17:45:40] [Server thread/INFO]: F3rn fell out of the world
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed F3rn]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed item.tile.sapling.oak]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Pig]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Horse]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Cow]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Squid]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Bat]
-[17:45:40] [Server thread/INFO]: [drip_norman: Killed Guardian]
-[17:45:46] [Server thread/INFO]: drip_norman issued server command: /nvm
-[17:45:49] [Async Chat Thread - #5/INFO]: <drip_norman> missclick[m
-
-[17:45:58] [Server thread/INFO]: drip_norman issued server command: /gamemode 1
-[17:45:58] [Server thread/INFO]: [drip_norman: Set own game mode to Creative Mode]
-[17:46:02] [Server thread/INFO]: drip_norman issued server command: /gamemode 0
-[17:46:02] [Server thread/INFO]: [drip_norman: Set own game mode to Survival Mode]
-[17:46:21] [Server thread/INFO]: drip_norman issued server command: /kill @a
-[17:46:21] [Server thread/INFO]: [drip_norman: Killed drip_norman]
-[17:46:21] [Server thread/INFO]: [drip_norman: Killed F3rn]
-[17:46:21] [Server thread/INFO]: [drip_norman: Killed aedenFLASH]
-[17:46:26] [Async Chat Thread - #5/INFO]: <drip_norman> wrong command[m
-
-[17:46:38] [Async Chat Thread - #5/INFO]: <aedenFLASH> ur lying[m
-
-[17:46:38] [Async Chat Thread - #5/INFO]: <drip_norman> why cant i drop my stuff[m
-
-[17:46:52] [Async Chat Thread - #5/INFO]: <aedenFLASH> i put keep invintory[m
-
-[17:46:58] [Async Chat Thread - #5/INFO]: <aedenFLASH> im god now[m
-
-[17:47:05] [Server thread/INFO]: F3rn has just earned the achievement [Time to Strike!]
-[17:47:21] [Async Chat Thread - #5/INFO]: <aedenFLASH> its a drink[m
-
-[17:47:33] [Server thread/INFO]: F3rn fell out of the world
-[17:47:33] [Server thread/INFO]: [@: Killed F3rn]
-[17:47:44] [Server thread/INFO]: [@: Killed F3rn]
-[17:48:21] [Async Chat Thread - #5/INFO]: <aedenFLASH> lol[m
-
-[17:48:33] [Async Chat Thread - #5/INFO]: <aedenFLASH> its good ur stuff will save[m
-
-[17:48:47] [Server thread/INFO]: aedenFLASH issued server command: /tp f3rn aedenFLASH
-[17:48:47] [Server thread/INFO]: [aedenFLASH: Teleported F3rn to aedenFLASH]
-[17:48:51] [Async Chat Thread - #5/INFO]: <drip_norman> finihs the hosue aeden[m
-
-[17:49:11] [Server thread/INFO]: [@: Teleported aedenFLASH to 76.5, 241.0, 207.5]
-[17:49:12] [Server thread/INFO]: drip_norman issued server command: /tp f3rn drip_norman
-[17:49:12] [Server thread/INFO]: [drip_norman: Teleported F3rn to drip_norman]
-[17:49:14] [Server thread/INFO]: [@: Teleported F3rn to 76.5, 241.0, 207.5]
-[17:49:18] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
-[17:49:27] [Async Chat Thread - #5/INFO]: <drip_norman> you can ahave this[m
-
-[17:49:29] [Server thread/INFO]: [@: Teleported F3rn to 74.5, 65.0, 221.5]
-[17:49:30] [Server thread/INFO]: [@: Teleported drip_norman to 74.5, 65.0, 221.5]
-[17:50:01] [Server thread/INFO]: drip_norman issued server command: /tp @e 60 72 207
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported drip_norman to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported F3rn to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.beefRaw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.leather to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.porkchopRaw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Bat to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Bat to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Bat to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Bat to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineCrystals to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineCrystals to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.prismarineShard to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.fish.cod.raw to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported Bat to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 72.0, 207.5]
-[17:50:01] [Server thread/INFO]: [drip_norman: Teleported aedenFLASH to 60.5, 72.0, 207.5]
-[17:50:11] [Server thread/INFO]: aedenFLASH issued server command: /kill @e
-[17:50:11] [Server thread/INFO]: aedenFLASH fell out of the world
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed aedenFLASH]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Bat]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Squid]
-[17:50:11] [Server thread/INFO]: drip_norman fell out of the world
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed drip_norman]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Bat]
-[17:50:11] [Server thread/INFO]: F3rn fell out of the world
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Bat]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Bat]
-[17:50:11] [Server thread/INFO]: [aedenFLASH: Killed Bat]
-[17:50:24] [Server thread/INFO]: drip_norman issued server command: /tp @e 60 88 206
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported drip_norman to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported aedenFLASH to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported F3rn to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported item.item.dyePowder.black to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 88.0, 206.5]
-[17:50:24] [Server thread/INFO]: [drip_norman: Teleported Squid to 60.5, 88.0, 206.5]
-[17:50:35] [Async Chat Thread - #6/INFO]: <drip_norman> i tried to tp up there[m
-
-[17:50:39] [Async Chat Thread - #6/INFO]: <aedenFLASH> why[m
-
-[17:50:41] [Async Chat Thread - #6/INFO]: <drip_norman> bc[m
-
-[17:50:45] [Server thread/INFO]: drip_norman issued server command: /gamemode 1
-[17:50:45] [Server thread/INFO]: [drip_norman: Set own game mode to Creative Mode]
-[17:51:13] [Async Chat Thread - #6/INFO]: <F3rn> tiddies[m
-
-[17:51:18] [Async Chat Thread - #6/INFO]: <aedenFLASH> yooooo[m
-
-[17:51:21] [Async Chat Thread - #6/INFO]: <aedenFLASH> bro[m
-
-[17:52:09] [Async Chat Thread - #6/INFO]: <F3rn> bussy[m
-
-[17:52:17] [Async Chat Thread - #6/INFO]: <drip_norman> umm what the sigma[m
-
-[17:52:32] [Server thread/INFO]: aedenFLASH issued server command: /effect f3rn regeration 1000
-[17:52:32] [Server thread/INFO]: [aedenFLASH: 'regeration' is not a valid number]
-[17:53:03] [Server thread/INFO]: F3rn fell from a high place
-[17:53:12] [Async Chat Thread - #6/INFO]: <aedenFLASH> did u diie[m
-
-[17:53:14] [Async Chat Thread - #6/INFO]: <aedenFLASH> how[m
-
-[17:54:22] [Async Chat Thread - #7/INFO]: <F3rn> man i nutted in these cookies[m
-
-[17:54:28] [Async Chat Thread - #7/INFO]: <aedenFLASH> yo[m
-
-[17:54:46] [Server thread/INFO]: aedenFLASH issued server command: /summon wolf
-[17:54:46] [Server thread/WARN]: Skipping Entity with id wolf
-[17:54:46] [Server thread/INFO]: [aedenFLASH: Unable to summon object]
-[17:55:46] [Server thread/INFO]: aedenFLASH issued server command: /kill f3rn
-[17:55:46] [Server thread/INFO]: F3rn fell out of the world
-[17:55:46] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:56:04] [Server thread/INFO]: aedenFLASH issued server command: /kill f3rn
-[17:56:04] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:56:06] [Server thread/INFO]: [@: Teleported aedenFLASH to 76.5, 241.0, 207.5]
-[17:56:12] [Server thread/INFO]: [@: Set the time to 0]
-[17:56:59] [Server thread/INFO]: aedenFLASH issued server command: /kill f3rn
-[17:56:59] [Server thread/INFO]: [aedenFLASH: Killed F3rn]
-[17:57:07] [Async Chat Thread - #8/INFO]: <drip_norman> it didnt work[m
-
-[17:57:08] [Async Chat Thread - #8/INFO]: <aedenFLASH> fix it[m
-
-[17:57:20] [Async Chat Thread - #8/INFO]: <drip_norman> its disspaering sowy[m
-
-[17:57:31] [Server thread/INFO]: drip_norman issued server command: /fly f3rn
-[17:57:50] [Server thread/INFO]: aedenFLASH issued server command: /tp f3rn aedenFLASH
-[17:57:50] [Server thread/INFO]: [aedenFLASH: Teleported F3rn to aedenFLASH]
-[17:57:53] [Server thread/INFO]: drip_norman issued server command: /clear @e
-[17:57:53] [Server thread/INFO]: [drip_norman: Cleared the inventory of drip_norman, removing 61 items]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:57:53] [Server thread/INFO]: [drip_norman: Cleared the inventory of F3rn, removing 978 items]
-[17:57:53] [Server thread/INFO]: [drip_norman: Cleared the inventory of aedenFLASH, removing 13 items]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:57:53] [Server thread/INFO]: [drip_norman: That player cannot be found]
-[17:58:22] [Async Chat Thread - #9/INFO]: <drip_norman> tnt cannon tmm[m
-
-[17:58:24] [Async Chat Thread - #9/INFO]: <drip_norman> tmmr[m
-
-[17:58:44] [Server thread/INFO]: F3rn fell out of the world
-[17:58:44] [Server thread/INFO]: [@: Killed F3rn]
-[17:58:55] [Server thread/INFO]: aedenFLASH issued server command: /save-all
-[17:58:55] [Server thread/INFO]: [aedenFLASH: Saved the world]
-[17:58:56] [Server thread/INFO]: drip_norman lost connection: Disconnected
-[17:58:56] [Server thread/INFO]: drip_norman left the game.
-[17:58:57] [Server thread/INFO]: aedenFLASH lost connection: Disconnected
-[17:58:57] [Server thread/INFO]: aedenFLASH left the game.
-[17:59:02] [Server thread/INFO]: F3rn lost connection: Disconnected
-[17:59:02] [Server thread/INFO]: F3rn left the game.
+[01:09:31] [Thread-8/INFO]: UUID of player YeeVigg235 is 130af57a-d427-3fd7-9626-0fa3faa83447
+[01:09:31] [Server thread/INFO]: YeeVigg235[/[0:0:0:0:0:0:0:1]:45558] logged in with entity id 148 at ([world]89.5, -1.0, 221.5)
+[01:09:42] [Server thread/INFO]: YeeVigg235 fell out of the world
+[01:09:46] [Server thread/INFO]: YeeVigg235 has just earned the achievement [Taking Inventory]
+[01:10:13] [Server thread/INFO]: YeeVigg235 lost connection: Disconnected
+[01:10:13] [Server thread/INFO]: YeeVigg235 left the game.
+[01:10:30] [Thread-10/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[01:10:30] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:59526] logged in with entity id 592 at ([world]64.8778053143028, 84.27882159499384, 180.9246986281378)
+[01:10:38] [pool-7-thread-1/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[01:11:34] [Server thread/INFO]: drip_norman issued server command: /ignoreclaims
+[01:13:24] [Server thread/INFO]: [@: Teleported drip_norman to 76.5, 241.0, 207.5]
+[01:13:31] [Server thread/INFO]: [@: Set the time to 0]
+[01:13:38] [Server thread/INFO]: drip_norman issued server command: /save-all
+[01:13:38] [Server thread/INFO]: [drip_norman: Saved the world]
