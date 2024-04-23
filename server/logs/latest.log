@@ -454,3 +454,7 @@ Caused by: java.lang.ClassNotFoundException: me.libraryaddict.disguise.disguiset
 [01:39:49] [Server thread/INFO]: drip_norman issued server command: /morph BAt
 [01:39:56] [Server thread/INFO]: drip_norman issued server command: /morph Bat
 [01:39:59] [Server thread/INFO]: drip_norman issued server command: /morph Bats
+[01:42:24] [Server thread/INFO]: drip_norman issued server command: /save-all
+[01:42:25] [Server thread/INFO]: [drip_norman: Saved the world]
+[01:42:30] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[01:42:30] [Server thread/INFO]: drip_norman left the game.

@@ -60,3 +60,6 @@
 [01:35:28] [EaglerXBungee: Network Tick Tasks/ERROR]: 	at java.base/java.util.TimerThread.run(Timer.java:516)
 [01:35:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38728|drip_norman] -> UpstreamBridge has connected
 [01:35:28] [Netty Worker IO Thread #3/INFO]: [drip_norman|/[0:0:0:0:0:0:0:1%0]:38728] <-> ServerConnector [lobby] has connected
+[01:42:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38728|drip_norman] -> UpstreamBridge has disconnected
+[01:42:30] [Netty Worker IO Thread #3/INFO]: [drip_norman] disconnected with: Proxy lost connection to server.
+[01:42:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38728|drip_norman] <-> DownstreamBridge <-> [lobby] has disconnected
