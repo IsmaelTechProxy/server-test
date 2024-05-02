@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: ceoofidiocy.aternos.me:19147
+    address: localhost:25565
     restricted: false

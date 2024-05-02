@@ -85,8 +85,8 @@ world-settings:
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
-    container-update-tick-rate: 1
     keep-spawn-loaded: true
+    container-update-tick-rate: 1
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
