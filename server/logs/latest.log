@@ -1,38 +1,38 @@
-[13:42:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[13:42:29] [Server thread/INFO]: Loading properties
-[13:42:29] [Server thread/INFO]: Default game type: SURVIVAL
-[13:42:29] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[13:42:29] [Server thread/INFO]: Debug logging is disabled
-[13:42:29] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[13:42:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:21:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[23:21:29] [Server thread/INFO]: Loading properties
+[23:21:29] [Server thread/INFO]: Default game type: SURVIVAL
+[23:21:29] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[23:21:29] [Server thread/INFO]: Debug logging is disabled
+[23:21:29] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[23:21:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[13:42:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:42:29] [Server thread/INFO]: Data value allowed items: 
-[13:42:29] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[23:21:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:21:29] [Server thread/INFO]: Data value allowed items: 
+[23:21:29] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[13:42:29] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[23:21:29] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[13:42:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[23:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[13:42:29] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[23:21:29] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[13:42:29] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[23:21:29] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[13:42:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[23:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[13:42:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[23:21:29] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[13:42:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[23:21:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[13:42:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[23:21:29] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[13:42:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:21:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[13:42:29] [Server thread/INFO]: Generating keypair
-[13:42:29] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[13:42:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[13:42:29] [Server thread/INFO]: Using default channel type
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/ido-1.12.2-2.0.0-B.jar' in folder 'plugins'
+[23:21:29] [Server thread/INFO]: Generating keypair
+[23:21:29] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[23:21:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[23:21:29] [Server thread/INFO]: Using default channel type
+[23:21:29] [Server thread/ERROR]: Could not load 'plugins/ViaProxy-3.2.1+java8.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,7 +42,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/Geyser-BungeeCord.jar' in folder 'plugins'
+[23:21:29] [Server thread/ERROR]: Could not load 'plugins/ido-1.12.2-2.0.0-B.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -52,51 +52,19 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[13:42:30] [Server thread/ERROR]: Ambiguous plugin name `LibsDisguises' for files `plugins/LibsDisguises.jar' and `plugins/LibsDisguises-10.0.42-Free.jar' in `plugins'
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-3.1.1.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: ViaVersion
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+[23:21:29] [Server thread/ERROR]: Could not load 'plugins/Geyser-BungeeCord.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:42:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/LibsDisguises.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/comphenix/protocol/reflect/FieldAccessException
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.NoClassDefFoundError: com/comphenix/protocol/reflect/FieldAccessException
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:534) ~[?:?]
-	at java.lang.Class.forName(Class.java:513) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.reflect.FieldAccessException
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:534) ~[?:?]
-	at java.lang.Class.forName(Class.java:513) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	... 6 more
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/Morph-2.18.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: LibsDisguises
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/EaglerXBungee-1.1.0.jar' in folder 'plugins'
+[23:21:29] [Server thread/ERROR]: Ambiguous plugin name `LibsDisguises' for files `plugins/LibsDisguises.jar' and `plugins/LibsDisguises-10.0.42-Free.jar' in `plugins'
+[23:21:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[23:21:29] [Server thread/ERROR]: Could not load 'plugins/EaglerXBungee-1.1.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -148,7 +116,7 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/floodgate-bungee.jar' in folder 'plugins'
+[23:21:30] [Server thread/ERROR]: Could not load 'plugins/floodgate-bungee.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -200,226 +168,197 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[13:42:30] [Server thread/ERROR]: Could not load 'plugins/ViaBackwards-4.10.1.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: ViaVersion
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:42:30] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[13:42:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[13:42:30] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[13:42:30] [Server thread/INFO]: [MendingEnchantment] Loading MendingEnchantment v0.1
-[13:42:30] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.23.dev
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Allocator: PooledByteBufAllocator(directByDefault: false), direct: true
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping dealy: 200
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Login threads max count: 8, keep alive time: 60
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Using injected ServerConnection
-[13:42:30] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[23:21:30] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[23:21:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[23:21:30] [Server thread/INFO]: [MendingEnchantment] Loading MendingEnchantment v0.1
+[23:21:30] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[23:21:30] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[23:21:30] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[23:21:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:21:31] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
+[23:21:31] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[23:21:31] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[23:21:32] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v9.0
+[23:21:32] [Server thread/INFO]: [Morphy] Loading Morphy v2.18
+[23:21:32] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[23:21:32] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[23:21:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:21:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:21:32] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[23:21:32] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[23:21:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:21:32] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:21:32] [Server thread/INFO]: Preparing level "world"
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:21:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:21:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:21:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:21:32] [Server thread/INFO]: Random Lighting Updates: false
+[23:21:32] [Server thread/INFO]: Structure Info Saving: true
+[23:21:32] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:21:32] [Server thread/INFO]: Max Entity Collisions: 8
+[23:21:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:21:32] [Server thread/INFO]: Max TNT Explosions: 100
+[23:21:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:21:32] [Server thread/INFO]: Mob Spawn Range: 4
+[23:21:32] [Server thread/INFO]: Anti X-Ray: true
+[23:21:32] [Server thread/INFO]: 	Engine Mode: 1
+[23:21:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:21:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:21:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:21:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:21:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:21:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:21:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:21:32] [Server thread/INFO]: View Distance: 4
+[23:21:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:21:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:21:32] [Server thread/INFO]: Clear tick list: false
+[23:21:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:21:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:21:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:21:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:21:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:21:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:21:32] [Server thread/INFO]: Water over lava flow speed: 5
+[23:21:32] [Server thread/INFO]: Fix TNT cannons: false
+[23:21:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:21:32] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:21:32] [Server thread/INFO]: World async lighting: false
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:21:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:21:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:21:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:21:32] [Server thread/INFO]: Random Lighting Updates: false
+[23:21:32] [Server thread/INFO]: Structure Info Saving: true
+[23:21:32] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:21:32] [Server thread/INFO]: Max Entity Collisions: 8
+[23:21:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:21:32] [Server thread/INFO]: Max TNT Explosions: 100
+[23:21:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:21:32] [Server thread/INFO]: Mob Spawn Range: 4
+[23:21:32] [Server thread/INFO]: Anti X-Ray: true
+[23:21:32] [Server thread/INFO]: 	Engine Mode: 1
+[23:21:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:21:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:21:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:21:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:21:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:21:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:21:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:21:32] [Server thread/INFO]: View Distance: 4
+[23:21:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:21:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:21:32] [Server thread/INFO]: Clear tick list: false
+[23:21:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:21:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:21:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:21:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:21:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:21:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:21:32] [Server thread/INFO]: Water over lava flow speed: 5
+[23:21:32] [Server thread/INFO]: Fix TNT cannons: false
+[23:21:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:21:32] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:21:32] [Server thread/INFO]: World async lighting: false
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:21:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:21:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:21:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:21:32] [Server thread/INFO]: Random Lighting Updates: false
+[23:21:32] [Server thread/INFO]: Structure Info Saving: true
+[23:21:32] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:21:32] [Server thread/INFO]: Max Entity Collisions: 8
+[23:21:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:21:32] [Server thread/INFO]: Max TNT Explosions: 100
+[23:21:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:21:32] [Server thread/INFO]: Mob Spawn Range: 4
+[23:21:32] [Server thread/INFO]: Anti X-Ray: true
+[23:21:32] [Server thread/INFO]: 	Engine Mode: 1
+[23:21:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:21:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:21:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:21:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:21:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:21:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:21:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:21:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:21:32] [Server thread/INFO]: View Distance: 4
+[23:21:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:21:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:21:32] [Server thread/INFO]: Clear tick list: false
+[23:21:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:21:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:21:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:21:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:21:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:21:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:21:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:21:32] [Server thread/INFO]: Water over lava flow speed: 5
+[23:21:32] [Server thread/INFO]: Fix TNT cannons: false
+[23:21:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:21:32] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:21:32] [Server thread/INFO]: World async lighting: false
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:21:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:21:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
+[23:21:33] [Server thread/INFO]: Preparing spawn area: 81%
+[23:21:33] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
+[23:21:34] [Server thread/INFO]: Preparing spawn area: 10%
+[23:21:35] [Server thread/INFO]: Preparing spawn area: 75%
+[23:21:36] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3938812724319040331)
+[23:21:36] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[23:21:36] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[13:42:30] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[23:21:36] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[13:42:30] [Server thread/WARN]: 	at protocolsupport.utils.Utils.setStaticFinalField(Utils.java:22)
+[23:21:36] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[23:21:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[23:21:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:21:37] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[23:21:37] [Server thread/INFO]: [MendingEnchantment] Enabling MendingEnchantment v0.1
+[23:21:37] [Server thread/INFO]: [MendingEnchantment] Successfully enabled!
 
-[13:42:30] [Server thread/WARN]: 	at protocolsupport.injector.ServerInjector.fixBlocksRefs(ServerInjector.java:83)
-
-[13:42:30] [Server thread/WARN]: 	at protocolsupport.injector.ServerInjector.inject(ServerInjector.java:36)
-
-[13:42:30] [Server thread/WARN]: 	at protocolsupport.ProtocolSupport.onLoad(ProtocolSupport.java:29)
-
-[13:42:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298)
-
-[13:42:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202)
-
-[13:42:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[13:42:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[13:42:30] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
-[13:42:30] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
-[13:42:30] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.23.dev
-[13:42:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:42:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:42:30] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[13:42:30] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[13:42:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:42:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:42:30] [Server thread/INFO]: Preparing level "world"
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:42:30] [Server thread/INFO]: Mob Spawn Range: 4
-[13:42:30] [Server thread/INFO]: Anti X-Ray: true
-[13:42:30] [Server thread/INFO]: 	Engine Mode: 1
-[13:42:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:42:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:42:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:42:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:42:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:42:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:42:30] [Server thread/INFO]: Random Lighting Updates: false
-[13:42:30] [Server thread/INFO]: Structure Info Saving: true
-[13:42:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:42:30] [Server thread/INFO]: Max Entity Collisions: 8
-[13:42:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:42:30] [Server thread/INFO]: Max TNT Explosions: 100
-[13:42:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:42:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:42:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:42:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:42:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:42:30] [Server thread/INFO]: View Distance: 4
-[13:42:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:42:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:42:30] [Server thread/INFO]: Clear tick list: false
-[13:42:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:42:30] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:42:30] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:42:30] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:42:30] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:42:30] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:42:30] [Server thread/INFO]: Water over lava flow speed: 5
-[13:42:30] [Server thread/INFO]: Fix TNT cannons: false
-[13:42:30] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:42:30] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:42:30] [Server thread/INFO]: World async lighting: false
-[13:42:30] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:42:30] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:42:30] [Server thread/INFO]: Mob Spawn Range: 4
-[13:42:30] [Server thread/INFO]: Anti X-Ray: true
-[13:42:30] [Server thread/INFO]: 	Engine Mode: 1
-[13:42:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:42:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:42:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:42:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:42:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:42:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:42:30] [Server thread/INFO]: Random Lighting Updates: false
-[13:42:30] [Server thread/INFO]: Structure Info Saving: true
-[13:42:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:42:30] [Server thread/INFO]: Max Entity Collisions: 8
-[13:42:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:42:30] [Server thread/INFO]: Max TNT Explosions: 100
-[13:42:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:42:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:42:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:42:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:42:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:42:30] [Server thread/INFO]: View Distance: 4
-[13:42:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:42:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:42:30] [Server thread/INFO]: Clear tick list: false
-[13:42:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:42:30] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:42:30] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:42:30] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:42:30] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:42:30] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:42:30] [Server thread/INFO]: Water over lava flow speed: 5
-[13:42:30] [Server thread/INFO]: Fix TNT cannons: false
-[13:42:30] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:42:30] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:42:30] [Server thread/INFO]: World async lighting: false
-[13:42:30] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:42:30] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:42:30] [Server thread/INFO]: Mob Spawn Range: 4
-[13:42:30] [Server thread/INFO]: Anti X-Ray: true
-[13:42:30] [Server thread/INFO]: 	Engine Mode: 1
-[13:42:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:42:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:42:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:42:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:42:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:42:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:42:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:42:30] [Server thread/INFO]: Random Lighting Updates: false
-[13:42:30] [Server thread/INFO]: Structure Info Saving: true
-[13:42:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:42:30] [Server thread/INFO]: Max Entity Collisions: 8
-[13:42:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:42:30] [Server thread/INFO]: Max TNT Explosions: 100
-[13:42:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:42:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:42:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:42:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:42:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:42:30] [Server thread/INFO]: View Distance: 4
-[13:42:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:42:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:42:30] [Server thread/INFO]: Clear tick list: false
-[13:42:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:42:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:42:30] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:42:30] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:42:30] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:42:30] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:42:30] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:42:30] [Server thread/INFO]: Water over lava flow speed: 5
-[13:42:30] [Server thread/INFO]: Fix TNT cannons: false
-[13:42:30] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:42:30] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:42:30] [Server thread/INFO]: World async lighting: false
-[13:42:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:42:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:42:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
-[13:42:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
-[13:42:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3938812724319040331)
-[13:42:31] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[13:42:31] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[13:42:31] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[13:42:31] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[13:42:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[13:42:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:42:31] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[13:42:31] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[13:42:31] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[13:42:31] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[13:42:31] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[13:42:31] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[13:42:31] [Server thread/INFO]: [MendingEnchantment] Enabling MendingEnchantment v0.1
-[13:42:31] [Server thread/INFO]: [MendingEnchantment] Successfully enabled!
-
-[13:42:31] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[13:42:31] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
-[13:42:31] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
-[13:42:31] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
-[13:42:31] [Server thread/INFO]: GriefPrevention: 2 total claims loaded.
-[13:42:31] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
-[13:42:31] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
-[13:42:31] [Server thread/INFO]: GriefPrevention: Boot finished.
-[13:42:31] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[13:42:31] [Server thread/INFO]: 
+[23:21:37] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[23:21:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[23:21:37] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
+[23:21:37] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
+[23:21:37] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
+[23:21:37] [Server thread/INFO]: GriefPrevention: 3 total claims loaded.
+[23:21:37] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
+[23:21:37] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
+[23:21:37] [Server thread/INFO]: GriefPrevention: Boot finished.
+[23:21:37] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[23:21:37] [Server thread/INFO]: 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -428,32 +367,217 @@ org.bukkit.plugin.UnknownDependencyException: ViaVersion
             /____//____/
 
 
-[13:42:31] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[13:42:31] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[13:42:31] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[13:42:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:42:31] [Server thread/INFO]: Done (1.286s)! For help, type "help" or "?"
-[13:42:31] [Server thread/INFO]: Stopping server
-[13:42:31] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
-[13:42:31] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[13:42:31] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v8.9
-[13:42:32] [Server thread/INFO]: GriefPrevention: GriefPrevention disabled.
-[13:42:32] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v4.23.dev
-[13:42:32] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[13:42:32] [Server thread/INFO]: [MendingEnchantment] Disabling MendingEnchantment v0.1
-[13:42:32] [Server thread/INFO]: [MendingEnchantment] Successfully disabled!
+[23:21:37] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[23:21:37] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[23:21:37] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[23:21:37] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v9.0
+[23:21:37] [Server thread/INFO]: [LibsDisguises] Discovered MC version: v1_8_R3
+[23:21:37] [Server thread/INFO]: java.lang.NoSuchMethodException: net.minecraft.server.v1_8_R3.MobEffectList.getId(net.minecraft.server.v1_8_R3.MobEffectList)
 
-[13:42:32] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[13:42:32] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[13:42:32] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[13:42:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[13:42:32] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[13:42:32] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
 
-[13:42:32] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:400)
 
-[13:42:32] [Server thread/INFO]: Saving players
-[13:42:32] [Server thread/INFO]: Saving worlds
-[13:42:32] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[13:42:32] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[13:42:32] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:410)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:32)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[23:21:37] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[23:21:37] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[23:21:37] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[23:21:37] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[23:21:37] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[23:21:37] [Server thread/INFO]: java.lang.NoSuchFieldException: REGISTRY
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:361)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:371)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+
+[23:21:37] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+
+[23:21:37] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[23:21:37] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[23:21:38] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[23:21:38] [Server thread/INFO]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because the return value of "me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(String, String)" is null
+
+[23:21:38] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
+
+[23:21:38] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+
+[23:21:38] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+
+[23:21:38] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+
+[23:21:38] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+
+[23:21:38] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+
+[23:21:38] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[23:21:38] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[23:21:38] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[23:21:38] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[23:21:38] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[23:21:38] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[23:21:38] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[23:21:38] [Server thread/ERROR]: Error occurred while enabling LibsDisguises v9.0 (Is it up to date?)
+java.lang.NoSuchFieldError: Class org.bukkit.Sound does not have member field 'org.bukkit.Sound ENTITY_ARROW_HIT'
+	at me.libraryaddict.disguise.utilities.DisguiseSound.<clinit>(DisguiseSound.java:13) ~[?:?]
+	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:250) ~[?:?]
+	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[23:21:38] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v9.0
+[23:21:38] [Server thread/INFO]: [Morphy] Enabling Morphy v2.18
+[23:21:38] [Server thread/ERROR]: Error occurred while enabling Morphy v2.18 (Is it up to date?)
+java.lang.NoClassDefFoundError: me/libraryaddict/disguise/disguisetypes/Disguise
+	at me.bumblebeee_.morph.Morph.setupCommands(Morph.java:77) ~[?:?]
+	at me.bumblebeee_.morph.Morph.onEnable(Morph.java:35) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.libraryaddict.disguise.disguisetypes.Disguise
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23:21:38] [Server thread/INFO]: [Morphy] Disabling Morphy v2.18
+[23:21:38] [Server thread/ERROR]: Error occurred while disabling Morphy v2.18 (Is it up to date?)
+java.lang.NoClassDefFoundError: me/libraryaddict/disguise/disguisetypes/Disguise
+	at me.bumblebeee_.morph.Morph.onDisable(Morph.java:72) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.libraryaddict.disguise.disguisetypes.Disguise
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23:21:38] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[23:21:38] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[23:21:38] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[23:21:38] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[23:21:38] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[23:21:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:21:38] [Server thread/INFO]: Done (5.942s)! For help, type "help" or "?"
+[23:21:38] [Server thread/INFO]: Timings Reset
+[23:21:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[23:21:38] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[23:21:38] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[23:21:38] [Craft Scheduler Thread - 1/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
+[23:21:39] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[23:21:39] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[23:21:39] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[23:21:39] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.10.1, you're on: 4.9.3
+[23:21:40] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
+[23:23:09] [Thread-9/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[23:23:09] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:60148] logged in with entity id 178 at ([world]67.43584935837387, 241.0, 213.2228166614903)
+[23:23:22] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[23:23:22] [Server thread/INFO]: drip_norman left the game.
+[23:28:38] [Server thread/INFO]: GriefPrevention:  F3rn's new player claim expired.
