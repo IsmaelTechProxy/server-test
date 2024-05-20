@@ -1,0 +1,738 @@
+#These are normal rewards. There can be UNLIMITED amount of normal rewards.
+#Make sure you edit all spaces. If the new reward doesn't have all values.
+#Plugin might not start correctly.
+Normal:
+  #Make sure you use the same identifier in all servers otherwise players will be able to claim
+  #the same reward because it has a different name.<- IMPORTANT
+  1:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 1
+    #This allows you to restrict this reward to be claimed ONLY in certain servers.
+    #Use [] if it can be claimable in all servers.
+    Servers: []
+    #PlaceholderAPI is NOT AND WILL NEVER BE SUPPORTED HERE.
+    #Available additional placeholders:
+    # {REWARD_LEVEL} replaced with the level required for this reward
+    Lore:
+    - ""
+    - "&8+&b100 &7Network Experience"
+    - ""
+    - "&8Experience will make you level up"
+    - "&8to unlock perks, features, multipliers"
+    - "&8and more!"
+    #PlaceholderAPI support (If available)
+    #Available additional placeholders:
+    # {PLAYER} replaced with player name
+    # {UUID} replaced with player uuid
+    # {REWARD_LEVEL} replaced with the level required for this reward
+    # {PLAYER_LEVEL} replaced with player level
+    # {WORLD} replaced with name of the world the player is
+    Commands:
+    - "alonsolevels addexp {PLAYER} 100 true"
+  2:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 2
+    Servers: ["Survival"]
+    Lore:
+    - ""
+    - "&8+&b5 &7Diamond blocks"
+    - ""
+    - "&8Diamond blocks are useful to craft"
+    - "&8strong armor and faster tools."
+    Commands:
+    - "give {PLAYER} minecraft:diamond_block 5"
+  3:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 3
+    Servers: ["Skywars"]
+    Lore:
+    - ""
+    - "&7+&a5 &7Skywars Iron+ Kit"
+    - ""
+    - "&8Kits allow you to have more chances"
+    - "&8to defeat your enemies."
+    Commands:
+    - "kit add {PLAYER} Iron+"
+  4:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 4
+    Servers: []
+    Lore:
+    - ""
+    - "&8+&72 &e✫✫&7✫✫✫ &bMystery Boxes"
+    - ""
+    - "&8Mystery Boxes can be"
+    - "&8opened at a Mystery Vault"
+    - "&8located in any lobby."
+    Commands:
+    #Give mystery boxes if you have GadgetsMenu plugin.
+    - "gmysteryboxes give {PLAYER} 2 2 ex=4d reqperm=false"
+  5:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 5
+    Servers: []
+    Lore:
+    - ""
+    - "&8+&b10 Mystery Dust"
+    - ""
+    - "&8Mystery Dust can be"
+    - "&8to unlock cosmetics."
+    Commands:
+    #Give mystery dust if you have GadgetsMenu plugin.
+    - "mysterydust add {PLAYER} 10"
+  6:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 6
+    Servers: []
+    Lore:
+    - ""
+    - "&8+&b(100 - 12000) &7Network Experience"
+    - ""
+    - "&8Experience will make you level up"
+    - "&8to unlock perks, features, multipliers"
+    - "&8and more!"
+    Commands:
+    - "alonsolevels addrandomexp {PLAYER} 100 12000 true"
+  7:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 7
+    Servers: []
+    Lore:
+    - ""
+    - "&8+&73 &e✫✫&7✫✫✫ &bMystery Boxes"
+    - ""
+    - "&8Mystery Boxes can be"
+    - "&8opened at a Mystery Vault"
+    - "&8located in any lobby."
+    Commands:
+    - "gmysteryboxes give {PLAYER} 3 2 ex=4d reqperm=false"
+  8:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 8
+    Servers: ["Survival"]
+    Lore:
+    - ""
+    - "&8+&610 &7Gold blocks"
+    - ""
+    - "&8Gold blocks are useful to craft"
+    - "&8golden apples."
+    Commands:
+    - "give {PLAYER} minecraft:gold_block 10"
+  9:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 9
+    Servers: ["Survival"]
+    Lore:
+    - ""
+    - "&8+&23 &7Diamond blocks"
+    - ""
+    - "&8Emerald blocks are useful to craft"
+    - "&8trade with villagers."
+    Commands:
+    - "give {PLAYER} minecraft:emerald_block 3"
+  #PLEASE, EDIT AND ADD/MODIFY THE REWARDS AS YOU WANT.
+  10:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 10
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  11:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 11
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  12:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 12
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  13:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 13
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  14:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 14
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  15:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 15
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  16:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 16
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  17:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 17
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  18:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 18
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  19:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 19
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  20:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 20
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  21:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 21
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  22:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 22
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  23:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 23
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  24:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 24
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  25:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 25
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  26:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 26
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  27:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 27
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  28:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 28
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  29:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 29
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  30:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 30
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  31:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 31
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  32:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 32
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  33:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 33
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  34:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 34
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  35:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 35
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  36:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 36
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  37:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 37
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  38:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 38
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  39:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 39
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  40:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 40
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  41:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 41
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  42:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 42
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  43:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 43
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  44:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 44
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  45:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 45
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  46:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 46
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  47:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 47
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  48:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 48
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  49:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 49
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  50:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 50
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  51:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 51
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  52:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 52
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  53:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 53
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  54:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 54
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  55:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 55
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+  56:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 56
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&62500 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 2500"
+
+#These are veteran rewards. There can be ONLY 14 veteran rewards.
+#Please, do NOT add more. It will be ignored, no matter what you try.
+Veteran:
+  v1:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 110
+    Servers: ["Minigames Lobbies"]
+    Lore:
+    - ""
+    - "&8+&6100000 &7Arcade Coins"
+    - ""
+    - "&8Coins will allow you to buy new kits,"
+    - "&8unlock perks, features and more!"
+    Commands:
+    - "coins add {PLAYER} 100000"
+  v2:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 120
+    Servers: []
+    Lore:
+    - ""
+    - "&7+&b10000 &7Network Experience"
+    - ""
+    - "&8Experience will make you level up"
+    - "&8to unlock perks, features, multipliers"
+    - "&8and more!"
+    Commands:
+    - "alonsolevels addexp {PLAYER} 10000"
+  v3:
+    Displayname: "{COLOR}YourNetwork Level Reward {LEVEL}"
+    Min-level: 130
+    Servers: ["Survival"]
+    Lore:
+    - ""
+    - "&7+&b32 &7Diamond blocks"
+    - ""
+    - "&8Diamond blocks are useful to craft"
+    - "&8strong armor and faster tools."
+    Commands:
+    - "give {PLAYER} minecraft:diamond_block 32"

@@ -1,0 +1,4 @@
+# Updater by ArsenArsen
+# Global config
+# Sets should updates be downloaded globaly
+update: true

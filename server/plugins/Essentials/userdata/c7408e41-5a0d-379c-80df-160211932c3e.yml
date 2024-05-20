@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: true
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1715465171629
+  login: 1715465079954
+money: '0'
+last-account-name: drip_norman34564
+lastlocation:
+  world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
+  world-name: world
+  x: 65.30000001192093
+  y: 60.0
+  z: 213.30460344841174
+  yaw: -271.35003662109375
+  pitch: 35.10000228881836
+jail: jail1
+logoutlocation:
+  world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
+  world-name: world
+  x: 70.01539352793395
+  y: 66.0
+  z: 225.02785824505148
+  yaw: -2.10003662109375
+  pitch: 35.250003814697266

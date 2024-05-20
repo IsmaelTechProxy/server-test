@@ -1,0 +1,54 @@
+M320:
+    Item_Information:
+        Attachments:
+            Type: accessory
+            Toggle_Delay: 5
+            Sounds_Toggle: NOTE_STICKS-1-2-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 20
+        Projectile_Damage: 1
+        Sounds_Shoot: EXPLODE-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 45
+        Sounds_Reloading: PISTON_EXTEND-1-1-10,SKELETON_WALK-1-0-20,PISTON_RETRACT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-24
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 10
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        On_Impact_With_Anything: true
+        Projectile_Activation_Time: 5
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+
+Tactical_Knife:
+    Item_Information:
+        Item_Name: "&eTactical Knife"
+        Item_Type: 288
+        Item_Lore: "&eA melee attachment.|&eNot intended for standalone use."
+        Melee_Mode: true
+        Sounds_Acquired: SHOOT_ARROW-1-0-0
+        Hidden_From_List: true
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Projectile_Damage: 40
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-0-0,SLIME_WALK-1-1-1

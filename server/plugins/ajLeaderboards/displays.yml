@@ -1,0 +1,17 @@
+# This file is for storing sign location, npcs, and other things in the plugin that might display data
+signs:
+- world,77.0,67.0,226.0,0.0,0.0,;statistic_time_since_death;1;ALLTIME
+- world,77.0,67.0,227.0,0.0,0.0,;statistic_time_since_death;2;ALLTIME
+- world,77.0,67.0,228.0,0.0,0.0,;statistic_time_since_death;3;ALLTIME
+- world,77.0,67.0,229.0,0.0,0.0,;statistic_time_since_death;4;ALLTIME
+- world,77.0,67.0,230.0,0.0,0.0,;statistic_time_since_death;5;ALLTIME
+- world,72.0,67.0,225.0,0.0,0.0,;statistic_player_kills;1;ALLTIME
+- world,73.0,67.0,225.0,0.0,0.0,;statistic_player_kills;2;ALLTIME
+- world,74.0,67.0,225.0,0.0,0.0,;statistic_player_kills;3;ALLTIME
+- world,75.0,67.0,225.0,0.0,0.0,;statistic_player_kills;4;ALLTIME
+- world,76.0,67.0,225.0,0.0,0.0,;statistic_player_kills;5;ALLTIME
+- world,76.0,67.0,231.0,0.0,0.0,;statistic_time_played;1;ALLTIME
+- world,75.0,67.0,231.0,0.0,0.0,;statistic_time_played;2;ALLTIME
+- world,73.0,67.0,231.0,0.0,0.0,;statistic_time_played;4;ALLTIME
+- world,74.0,67.0,231.0,0.0,0.0,;statistic_time_played;3;ALLTIME
+- world,72.0,67.0,231.0,0.0,0.0,;statistic_time_played;5;ALLTIME

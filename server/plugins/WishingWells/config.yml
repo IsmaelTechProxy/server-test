@@ -1,0 +1,31 @@
+# 
+#  Name is a test variable, so we need to comment them out
+#  name:
+#    - <itemnumber> <amount> <meta>
+Delay: 60
+Accepted:
+- GOLD_INGOT
+- GOLD_NUGGET
+Returned:
+  test:
+  - DIAMOND_HOE 1
+  Example:
+  - DIAMOND_AXE 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+ReturnedChance:
+  Example: 50
+  test: 50
+CongratsMessage: '&aYou got a new item back from the well!'
+TooBadMessage: '&cOh no! You lost your item in the well. Too bad!'
+ItemNotAccepted: '&4That item isnt accepted in the well!'
+Delay message: '&cYou cant make another wish for %s seconds!'
+auto-update: true
+ChanceOfNoReward: 0.5
+wellLocs:
+  Island_well:
+    ==: org.bukkit.Location
+    world: world
+    x: 74.31058731492375
+    y: 66.0
+    z: 228.50758544193545
+    pitch: 90.0
+    yaw: -89.700005

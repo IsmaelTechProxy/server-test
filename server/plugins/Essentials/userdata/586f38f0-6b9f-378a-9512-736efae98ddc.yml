@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716207955716
+  login: 1716206480576
+money: '0'
+last-account-name: aedenFLASH
+logoutlocation:
+  world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
+  world-name: world
+  x: 70.43660488691393
+  y: 104.38341237716791
+  z: 221.8691725456971
+  yaw: 296.55010986328125
+  pitch: 58.04999542236328
+lastlocation:
+  world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
+  world-name: world
+  x: -5044.301296784691
+  y: 117.11617155985942
+  z: -406.82944094296187
+  yaw: 149.25025939941406
+  pitch: 25.199995040893555

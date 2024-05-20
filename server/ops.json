@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "a96572e6-1e6a-3092-b6b2-6719e2de0d5a",
+    "name": "2p",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "4d964fd7-8d58-3d2e-b45e-57030886430f",
     "name": "drip_norman",
     "level": 4,
@@ -14,6 +20,12 @@
   {
     "uuid": "586f38f0-6b9f-378a-9512-736efae98ddc",
     "name": "aedenFLASH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7b26b166-2024-3cef-b53f-2da5c1068f35",
+    "name": "@p",
     "level": 4,
     "bypassesPlayerLimit": false
   }

@@ -1,0 +1,46 @@
+# 
+# Whether the plugin should check for updates
+
+saveInventory: true
+requireEmptyInventory: false
+treasurehunt:
+  waittime: 3600
+multiplayer:
+  waitforplayers: 10
+  startcountdown: 5
+  timerMessageInterval:
+  - 900
+  - 600
+  - 300
+  - 60
+  - 30
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  floordegenerator:
+    time: 30
+  ctf:
+    flagrespawntime: 60
+disabledCommands:
+- home
+- warp
+- spawn
+broadcastCompletion: true
+playSounds: true
+regeneration:
+  maxDelay: 10
+updateChecker: true
+lang: en_AU
+backend:
+  type: sqlite
+  host: localhost:3306
+  database: database
+  username: username
+  password: password
+tool: BLAZE_ROD
+warnings: true
+outputCMDToFile: false
+minigames: {}

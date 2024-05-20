@@ -1,0 +1,15 @@
+spleef:
+  blocksdrop: false
+  blockbreak: true
+  blockplace: false
+  type: MULTIPLAYER
+  lives: 1
+  loadouts:
+    default:
+	  items:
+	    '0':
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SPADE
+  whitelistblocks:
+  - SNOW_BLOCK
+  whitelistmode: true

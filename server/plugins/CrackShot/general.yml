@@ -1,0 +1,41 @@
+#Visit the Complete Guide to CrackShot for information on everything in the configuration.
+#https://github.com/Shampaggon/CrackShot/wiki/The-Complete-Guide-to-CrackShot
+
+#Use this node to completely disable CrackShot in certain worlds. Example usage:
+#
+#Disabled_Worlds:
+#    - world_nether
+#    - world_the_end
+#    - world_foldername
+#
+#"Disabled_Worlds: []" means the list is empty. Change it to "Disabled_Worlds:" before listing worlds.
+#Remember not to use any tabs. The spacing must also be correct.
+Disabled_Worlds: []
+
+#Use this module to limit the amount of weapons a player can have in the hot bar.
+#If the specified amount is exceeded, the weapon cannot be used. Example usage:
+#
+#Inventory_Control:
+#    Group_Primary:
+#        Limit: 2
+#    Group_BlaBlaBla:
+#        Limit: 2
+#    Whatever_Name_You_Want:
+#        Limit: 2
+#
+#You can create as many groups as you want. Messages and sounds are optional.
+#Enforce these limits using the Inventory_Control node in the weapon's Item_Information module.
+#The example below is used for the default weapon Bazooka.
+Inventory_Control:
+    Group_Bazookas:
+        Limit: 1
+        Message_Exceeded: "&e[IC] &bYou cannot have more than one Bazooka in the hot bar!"
+        Sounds_Exceeded: LAVA_POP-1-1-0
+
+#A merged reload refers to the act of reloading multiple weapons in the same slot.
+#Set "Disable" to true if you wish to prevent players from doing this.
+#Messages and sounds are optional.
+Merged_Reload:
+    Disable: false
+    Message_Denied: "&eYou cannot reload slots that contain more than one weapon!"
+    Sounds_Denied: VILLAGER_NO-1-1-0

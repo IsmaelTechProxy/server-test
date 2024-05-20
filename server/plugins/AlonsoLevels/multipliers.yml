@@ -1,0 +1,43 @@
+#You cannot add/remove any multiplier from this file.
+#If you do it, it will break the plugin.
+Normal:
+  1_5:
+    Min-level: 5
+    Multiplier: 1.5
+  2_0:
+    Min-level: 10
+    Multiplier: 2.0
+  2_5:
+    Min-level: 15
+    Multiplier: 2.5
+  3_0:
+    Min-level: 20
+    Multiplier: 3.0
+  3_5:
+    Min-level: 25
+    Multiplier: 3.5
+  4_0:
+    Min-level: 30
+    Multiplier: 4.0
+  4_5:
+    Min-level: 40
+    Multiplier: 4.5
+  5_0:
+    Min-level: 50
+    Multiplier: 5.0
+Veteran:
+  5_5:
+    Min-level: 100
+    Multiplier: 5.5
+  6_0:
+    Min-level: 125
+    Multiplier: 6.0
+  6_5:
+    Min-level: 150
+    Multiplier: 6.5
+  7_0:
+    Min-level: 200
+    Multiplier: 7.0
+  8_0:
+    Min-level: 250
+    Multiplier: 8.0
