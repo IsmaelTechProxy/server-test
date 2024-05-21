@@ -132,8 +132,8 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     view-distance: 4
     hanging-tick-frequency: 100
