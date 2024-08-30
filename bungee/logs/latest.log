@@ -50,3 +50,28 @@
 [13:20:05] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Downloading new certificate: https://eaglercraft.com/backup.cert
 [13:20:05] [EaglerXBungee: Network Tick Tasks/WARN] [EaglercraftXBungee]: Deleting stale certificate: $dl.36f4cf2b9f9f3eb802b83ceecd0083b45c6001f9.cert
 [13:20:05] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/server-test/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[15:05:02] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+[15:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Connected via websocket
+[15:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Origin header is null
+[15:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33350]: Logged in as 'aedenFLASH'
+[15:05:05] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|aedenFLASH] -> UpstreamBridge has connected
+[15:05:05] [Netty Worker IO Thread #2/INFO]: [aedenFLASH|/[0:0:0:0:0:0:0:1%0]:33350] <-> ServerConnector [lobby] has connected
+[15:15:01] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|aedenFLASH] -> UpstreamBridge has disconnected
+[15:15:01] [Netty Worker IO Thread #2/INFO]: [aedenFLASH] disconnected with: Proxy lost connection to server.
+[15:15:01] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33350|aedenFLASH] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:16:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56844]: Connected via websocket
+[15:16:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56844]: Origin header is null
+[15:16:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56844]: Logged in as 'aedenFLASH'
+[15:16:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56844|aedenFLASH] -> UpstreamBridge has connected
+[15:16:12] [Netty Worker IO Thread #2/INFO]: [aedenFLASH|/[0:0:0:0:0:0:0:1%0]:56844] <-> ServerConnector [lobby] has connected
+[15:17:36] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56844|aedenFLASH] -> UpstreamBridge has disconnected
+[15:17:36] [Netty Worker IO Thread #2/INFO]: [aedenFLASH] disconnected with: Proxy lost connection to server.
+[15:17:36] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56844|aedenFLASH] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:18:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33928]: Connected via websocket
+[15:18:34] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33928]: Origin header is null
+[15:18:35] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33928]: Logged in as 'aedenFLASH'
+[15:18:35] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33928|aedenFLASH] -> UpstreamBridge has connected
+[15:18:35] [Netty Worker IO Thread #1/INFO]: [aedenFLASH|/[0:0:0:0:0:0:0:1%0]:33928] <-> ServerConnector [lobby] has connected
+[15:19:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33928|aedenFLASH] -> UpstreamBridge has disconnected
+[15:19:40] [Netty Worker IO Thread #1/INFO]: [aedenFLASH] disconnected with: Proxy lost connection to server.
+[15:19:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33928|aedenFLASH] <-> DownstreamBridge <-> [lobby] has disconnected
