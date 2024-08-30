@@ -1,38 +1,38 @@
-[12:29:11] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[12:29:11] [Server thread/INFO]: Loading properties
-[12:29:11] [Server thread/INFO]: Default game type: SURVIVAL
-[12:29:11] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[12:29:11] [Server thread/INFO]: Debug logging is disabled
-[12:29:11] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[12:29:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:13:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:13:56] [Server thread/INFO]: Loading properties
+[16:13:56] [Server thread/INFO]: Default game type: SURVIVAL
+[16:13:56] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:13:56] [Server thread/INFO]: Debug logging is disabled
+[16:13:56] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:13:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[12:29:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:29:11] [Server thread/INFO]: Data value allowed items: 
-[12:29:11] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[16:13:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:13:56] [Server thread/INFO]: Data value allowed items: 
+[16:13:56] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[12:29:11] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[16:13:56] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[12:29:11] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[16:13:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[12:29:11] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[16:13:56] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[12:29:11] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[16:13:56] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[12:29:11] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[16:13:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[12:29:11] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[16:13:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[12:29:11] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[16:13:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[12:29:11] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:13:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[12:29:11] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:13:56] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[12:29:11] [Server thread/INFO]: Generating keypair
-[12:29:12] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[12:29:12] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[12:29:12] [Server thread/INFO]: Using default channel type
-[12:29:12] [Server thread/ERROR]: Could not load 'plugins/ViaProxy-3.2.1+java8.jar' in folder 'plugins'
+[16:13:56] [Server thread/INFO]: Generating keypair
+[16:13:56] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:13:56] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:13:56] [Server thread/INFO]: Using default channel type
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/ViaProxy-3.2.1+java8.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,7 +42,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[12:29:12] [Server thread/ERROR]: Could not load 'plugins/MrCrayfishFurntiureModv3.6.1(1.8.9).jar' in folder 'plugins'
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/MrCrayfishFurntiureModv3.6.1(1.8.9).jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -52,7 +52,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[12:29:12] [Server thread/ERROR]: Could not load 'plugins/ido-1.12.2-2.0.0-B.jar' in folder 'plugins'
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/ido-1.12.2-2.0.0-B.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -62,7 +62,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[12:29:13] [Server thread/ERROR]: Could not load 'plugins/Geyser-BungeeCord.jar' in folder 'plugins'
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/Geyser-BungeeCord.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -72,9 +72,9 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[12:29:13] [Server thread/ERROR]: Ambiguous plugin name `LibsDisguises' for files `plugins/LibsDisguises.jar' and `plugins/LibsDisguises-10.0.42-Free.jar' in `plugins'
-[12:29:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[12:29:13] [Server thread/ERROR]: Could not load 'plugins/EaglerXBungee-1.1.0.jar' in folder 'plugins'
+[16:13:57] [Server thread/ERROR]: Ambiguous plugin name `LibsDisguises' for files `plugins/LibsDisguises.jar' and `plugins/LibsDisguises-10.0.42-Free.jar' in `plugins'
+[16:13:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/EaglerXBungee-1.1.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -126,7 +126,7 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[12:29:13] [Server thread/ERROR]: Could not load 'plugins/floodgate-bungee.jar' in folder 'plugins'
+[16:13:57] [Server thread/ERROR]: Could not load 'plugins/floodgate-bungee.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -178,7 +178,7 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[12:29:13] [Server thread/ERROR]: Could not load 'plugins/EssentialsXDiscordLink-2.21.0-dev+81-cde7184.jar' in folder 'plugins'
+[16:13:58] [Server thread/ERROR]: Could not load 'plugins/EssentialsXDiscordLink-2.21.0-dev+81-cde7184.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.IncompatibleClassChangeError: class net.essentialsx.discordlink.EssentialsDiscordLink overrides final method org.bukkit.plugin.java.JavaPlugin.getLogger()Ljava/util/logging/Logger;
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -206,239 +206,240 @@ Caused by: java.lang.IncompatibleClassChangeError: class net.essentialsx.discord
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[12:29:13] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[12:29:13] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.50
-[12:29:13] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
-[12:29:13] [Server thread/INFO]: [Minigames] Loading Minigames v1.8.0
-[12:29:13] [Server thread/INFO]: [MendingEnchantment] Loading MendingEnchantment v0.1
-[12:29:13] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
-[12:29:13] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[12:29:13] [Server thread/INFO]: [WishingWells] Loading WishingWells v1.0.9
-[12:29:13] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[12:29:13] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
-[12:29:13] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[12:29:13] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[12:29:14] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[12:29:14] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
-[12:29:14] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
-[12:29:14] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[12:29:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:29:15] [Server thread/INFO]: [ServerMinimap] Loading ServerMinimap v0.7.23
-[12:29:15] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
-[12:29:15] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.102
-[12:29:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
-[12:29:15] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
-[12:29:17] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v9.0
-[12:29:17] [Server thread/INFO]: [Morphy] Loading Morphy v2.18
-[12:29:17] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+81-cde7184
-[12:29:17] [Server thread/INFO]: [TAB] Loading TAB v4.1.4
-[12:29:17] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+81-cde7184
-[12:29:17] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.0-dev+81-cde7184
-[12:29:17] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[12:29:17] [Server thread/INFO]: [AlonsoLevels] Loading AlonsoLevels v2.3.2-BETA
-[12:29:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
-[12:29:17] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[16:13:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:13:58] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.50
+[16:13:58] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
+[16:13:58] [Server thread/INFO]: [Minigames] Loading Minigames v1.8.0
+[16:13:58] [Server thread/INFO]: [MendingEnchantment] Loading MendingEnchantment v0.1
+[16:13:58] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[16:13:58] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:13:58] [Server thread/INFO]: [WishingWells] Loading WishingWells v1.0.9
+[16:13:58] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[16:13:58] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[16:13:58] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[16:13:58] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[16:13:58] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
+[16:13:58] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[16:13:58] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[16:13:59] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:13:59] [Server thread/INFO]: [ServerMinimap] Loading ServerMinimap v0.7.23
+[16:13:59] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v8.9
+[16:13:59] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.102
+[16:13:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
+[16:13:59] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[16:14:01] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v9.0
+[16:14:01] [Server thread/INFO]: [Morphy] Loading Morphy v2.18
+[16:14:01] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+81-cde7184
+[16:14:01] [Server thread/INFO]: [TAB] Loading TAB v4.1.4
+[16:14:01] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+81-cde7184
+[16:14:01] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.0-dev+81-cde7184
+[16:14:01] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:14:01] [Server thread/INFO]: [AlonsoLevels] Loading AlonsoLevels v2.3.2-BETA
+[16:14:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[16:14:01] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[12:29:17] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.102[m
+[16:14:01] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.102[m
 
-[12:29:17] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[16:14:01] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[12:29:17] [Server thread/INFO]: [m
+[16:14:01] [Server thread/INFO]: [m
 
-[12:29:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:29:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:29:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:29:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:29:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2140ms)
-[12:29:19] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[12:29:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:29:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:29:19] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[12:29:19] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[12:29:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:29:19] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[12:29:19] [Server thread/INFO]: Preparing level "world"
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[12:29:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:29:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:29:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:29:19] [Server thread/INFO]: Random Lighting Updates: false
-[12:29:19] [Server thread/INFO]: Structure Info Saving: true
-[12:29:19] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:29:19] [Server thread/INFO]: Max Entity Collisions: 8
-[12:29:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:29:19] [Server thread/INFO]: Max TNT Explosions: 100
-[12:29:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:29:19] [Server thread/INFO]: Mob Spawn Range: 4
-[12:29:19] [Server thread/INFO]: Anti X-Ray: true
-[12:29:19] [Server thread/INFO]: 	Engine Mode: 1
-[12:29:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:29:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:29:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:29:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:29:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:29:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:29:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:29:19] [Server thread/INFO]: View Distance: 4
-[12:29:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:29:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:29:19] [Server thread/INFO]: Clear tick list: false
-[12:29:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world] --------
-[12:29:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:29:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:29:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:29:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:29:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:29:19] [Server thread/INFO]: Water over lava flow speed: 5
-[12:29:19] [Server thread/INFO]: Fix TNT cannons: false
-[12:29:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:29:19] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:29:19] [Server thread/INFO]: World async lighting: false
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[12:29:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:29:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:29:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:29:19] [Server thread/INFO]: Random Lighting Updates: false
-[12:29:19] [Server thread/INFO]: Structure Info Saving: true
-[12:29:19] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:29:19] [Server thread/INFO]: Max Entity Collisions: 8
-[12:29:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:29:19] [Server thread/INFO]: Max TNT Explosions: 100
-[12:29:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:29:19] [Server thread/INFO]: Mob Spawn Range: 4
-[12:29:19] [Server thread/INFO]: Anti X-Ray: true
-[12:29:19] [Server thread/INFO]: 	Engine Mode: 1
-[12:29:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:29:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:29:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:29:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:29:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:29:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:29:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:29:19] [Server thread/INFO]: View Distance: 4
-[12:29:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:29:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:29:19] [Server thread/INFO]: Clear tick list: false
-[12:29:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[12:29:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:29:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:29:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:29:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:29:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:29:19] [Server thread/INFO]: Water over lava flow speed: 5
-[12:29:19] [Server thread/INFO]: Fix TNT cannons: false
-[12:29:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:29:19] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:29:19] [Server thread/INFO]: World async lighting: false
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[12:29:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:29:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:29:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:29:19] [Server thread/INFO]: Random Lighting Updates: false
-[12:29:19] [Server thread/INFO]: Structure Info Saving: true
-[12:29:19] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:29:19] [Server thread/INFO]: Max Entity Collisions: 8
-[12:29:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:29:19] [Server thread/INFO]: Max TNT Explosions: 100
-[12:29:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:29:19] [Server thread/INFO]: Mob Spawn Range: 4
-[12:29:19] [Server thread/INFO]: Anti X-Ray: true
-[12:29:19] [Server thread/INFO]: 	Engine Mode: 1
-[12:29:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:29:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:29:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:29:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:29:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:29:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:29:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:29:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:29:19] [Server thread/INFO]: View Distance: 4
-[12:29:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:29:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:29:19] [Server thread/INFO]: Clear tick list: false
-[12:29:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:29:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[12:29:19] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:29:19] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:29:19] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:29:19] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:29:19] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:29:19] [Server thread/INFO]: Water over lava flow speed: 5
-[12:29:19] [Server thread/INFO]: Fix TNT cannons: false
-[12:29:19] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:29:19] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:29:19] [Server thread/INFO]: World async lighting: false
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:29:19] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:29:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
-[12:29:21] [Server thread/INFO]: Preparing spawn area: 33%
-[12:29:21] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
-[12:29:22] [Server thread/INFO]: Preparing spawn area: 34%
-[12:29:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3938812724319040331)
-[12:29:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[12:29:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:29:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[12:29:24] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.50
-[12:29:24] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[12:29:24] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[12:29:24] [Server thread/INFO]: [Minigames] Enabling Minigames v1.8.0
-[12:29:24] [Server thread/INFO]: [Minigames] Using lang en_AU
-[12:29:24] [Server thread/INFO]: [Minigames] No Vault plugin found! You may only reward items.
-[12:29:24] [Server thread/INFO]: Minigames successfully enabled.
-[12:29:24] [Server thread/INFO]: [MendingEnchantment] Enabling MendingEnchantment v0.1
-[12:29:24] [Server thread/INFO]: [MendingEnchantment] Successfully enabled!
+[16:14:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:14:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:14:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:14:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:14:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2149ms)
+[16:14:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[16:14:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:14:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:14:03] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:14:03] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:14:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:14:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:14:03] [Server thread/INFO]: Preparing level "world"
+[16:14:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:14:03] [Server thread/INFO]: Mob Spawn Range: 4
+[16:14:03] [Server thread/INFO]: Anti X-Ray: true
+[16:14:03] [Server thread/INFO]: 	Engine Mode: 1
+[16:14:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:14:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:14:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:14:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:14:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:14:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:14:03] [Server thread/INFO]: Random Lighting Updates: false
+[16:14:03] [Server thread/INFO]: Structure Info Saving: true
+[16:14:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:14:03] [Server thread/INFO]: Max Entity Collisions: 8
+[16:14:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:14:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:14:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:14:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:14:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:14:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:14:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:14:03] [Server thread/INFO]: View Distance: 4
+[16:14:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:14:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:14:03] [Server thread/INFO]: Clear tick list: false
+[16:14:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:14:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:14:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:14:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:14:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:14:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:14:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:14:03] [Server thread/INFO]: Water over lava flow speed: 5
+[16:14:03] [Server thread/INFO]: Fix TNT cannons: false
+[16:14:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:14:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:14:03] [Server thread/INFO]: World async lighting: false
+[16:14:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:14:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:14:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:14:03] [Server thread/INFO]: Mob Spawn Range: 4
+[16:14:03] [Server thread/INFO]: Anti X-Ray: true
+[16:14:03] [Server thread/INFO]: 	Engine Mode: 1
+[16:14:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:14:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:14:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:14:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:14:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:14:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:14:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:14:03] [Server thread/INFO]: Random Lighting Updates: false
+[16:14:03] [Server thread/INFO]: Structure Info Saving: true
+[16:14:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:14:03] [Server thread/INFO]: Max Entity Collisions: 8
+[16:14:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:14:03] [Server thread/INFO]: Max TNT Explosions: 100
+[16:14:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:14:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:14:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:14:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:14:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:14:03] [Server thread/INFO]: View Distance: 4
+[16:14:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:14:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:14:03] [Server thread/INFO]: Clear tick list: false
+[16:14:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:14:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:14:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:14:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:14:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:14:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:14:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:14:03] [Server thread/INFO]: Water over lava flow speed: 5
+[16:14:03] [Server thread/INFO]: Fix TNT cannons: false
+[16:14:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:14:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:14:03] [Server thread/INFO]: World async lighting: false
+[16:14:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:14:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:14:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:14:04] [Server thread/INFO]: Mob Spawn Range: 4
+[16:14:04] [Server thread/INFO]: Anti X-Ray: true
+[16:14:04] [Server thread/INFO]: 	Engine Mode: 1
+[16:14:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:14:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:14:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:14:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:14:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:14:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:14:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:14:04] [Server thread/INFO]: Random Lighting Updates: false
+[16:14:04] [Server thread/INFO]: Structure Info Saving: true
+[16:14:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:14:04] [Server thread/INFO]: Max Entity Collisions: 8
+[16:14:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:14:04] [Server thread/INFO]: Max TNT Explosions: 100
+[16:14:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:14:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:14:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:14:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:14:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:14:04] [Server thread/INFO]: View Distance: 4
+[16:14:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:14:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:14:04] [Server thread/INFO]: Clear tick list: false
+[16:14:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:14:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:14:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:14:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:14:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:14:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:14:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:14:04] [Server thread/INFO]: Water over lava flow speed: 5
+[16:14:04] [Server thread/INFO]: Fix TNT cannons: false
+[16:14:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:14:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:14:04] [Server thread/INFO]: World async lighting: false
+[16:14:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:14:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:14:04] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2382687356522857733)
+[16:14:05] [Server thread/INFO]: Preparing spawn area: 22%
+[16:14:06] [Server thread/INFO]: Preparing spawn area: 82%
+[16:14:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2382687356522857733)
+[16:14:07] [Server thread/INFO]: Preparing spawn area: 52%
+[16:14:07] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3938812724319040331)
+[16:14:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:14:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:14:08] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:14:08] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.50
+[16:14:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[16:14:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:14:08] [Server thread/INFO]: [Minigames] Enabling Minigames v1.8.0
+[16:14:08] [Server thread/INFO]: [Minigames] Using lang en_AU
+[16:14:08] [Server thread/INFO]: [Minigames] No Vault plugin found! You may only reward items.
+[16:14:08] [Server thread/INFO]: Minigames successfully enabled.
+[16:14:08] [Server thread/INFO]: [MendingEnchantment] Enabling MendingEnchantment v0.1
+[16:14:08] [Server thread/INFO]: [MendingEnchantment] Successfully enabled!
 
-[12:29:24] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
-[12:29:24] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[16:14:08] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[16:14:08] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
 
-[12:29:24] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[12:29:24] [Server thread/INFO]: [WishingWells] Enabling WishingWells v1.0.9
-[12:29:25] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[12:29:25] [Server thread/INFO]: [0;31;1m[HolographicDisplays] Encountered 2 error(s) on load:[m
+[16:14:08] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:14:08] [Server thread/INFO]: [WishingWells] Enabling WishingWells v1.0.9
+[16:14:09] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[16:14:09] [Server thread/INFO]: [0;31;1m[HolographicDisplays] Encountered 2 error(s) on load:[m
  [m
 [0;33;1m1) [0;37;1mError while upgrading "database.yml" to the new format: invalid YAML syntax. Details:[m
 [0;33;1mwhile scanning an anchor
@@ -548,7 +549,7 @@ expected alphabetic or numeric character, but found =(61)
 [0;30;1m	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAnchor(ScannerImpl.java:939)[m
 [0;30;1m	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:370)[m
 [0;30;1m	at org.yaml.snakeyaml.scanner.ScannerImpl.che
-[12:29:25] [Server thread/INFO]: ckToken(ScannerImpl.java:226)[m
+[16:14:09] [Server thread/INFO]: ckToken(ScannerImpl.java:226)[m
 [0;30;1m	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:532)[m
 [0;30;1m	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)[m
 [0;30;1m	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143)[m
@@ -568,8 +569,8 @@ expected alphabetic or numeric character, but found =(61)
 [0;30;1m---------------------------------------------[m
  [m
 
-[12:29:25] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[12:29:25] [Server thread/INFO]: 
+[16:14:09] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[16:14:09] [Server thread/INFO]: 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -578,25 +579,25 @@ expected alphabetic or numeric character, but found =(61)
             /____//____/
 
 
-[12:29:25] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[12:29:25] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[12:29:25] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[12:29:25] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[12:29:25] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[16:14:09] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[16:14:09] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[16:14:09] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[16:14:09] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:14:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[12:29:25] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[16:14:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[12:29:25] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[12:29:25] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
-[12:29:25] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[12:29:25] [Server thread/INFO]: [ajLeaderboards] Loaded 3 boards
-[12:29:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
-[12:29:26] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[12:29:26] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
-[12:29:26] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0
-[12:29:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[12:29:26] [Server thread/INFO]: [ServerMinimap] Enabling ServerMinimap v0.7.23
-[12:29:26] [Server thread/ERROR]: Error occurred while enabling ServerMinimap v0.7.23 (Is it up to date?)
+[16:14:09] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:14:09] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
+[16:14:09] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[16:14:10] [Server thread/INFO]: [ajLeaderboards] Loaded 3 boards
+[16:14:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
+[16:14:10] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[16:14:10] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
+[16:14:10] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0
+[16:14:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[16:14:10] [Server thread/INFO]: [ServerMinimap] Enabling ServerMinimap v0.7.23
+[16:14:10] [Server thread/ERROR]: Error occurred while enabling ServerMinimap v0.7.23 (Is it up to date?)
 java.lang.NoSuchMethodError: 'org.bukkit.map.MapView org.bukkit.Server.getMap(int)'
 	at de.craftlancer.serverminimap.ServerMinimap.loadMap(ServerMinimap.java:147) ~[?:?]
 	at de.craftlancer.serverminimap.ServerMinimap.onEnable(ServerMinimap.java:44) ~[?:?]
@@ -611,8 +612,8 @@ java.lang.NoSuchMethodError: 'org.bukkit.map.MapView org.bukkit.Server.getMap(in
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[12:29:26] [Server thread/INFO]: [ServerMinimap] Disabling ServerMinimap v0.7.23
-[12:29:26] [Server thread/ERROR]: Error occurred while disabling ServerMinimap v0.7.23 (Is it up to date?)
+[16:14:10] [Server thread/INFO]: [ServerMinimap] Disabling ServerMinimap v0.7.23
+[16:14:10] [Server thread/ERROR]: Error occurred while disabling ServerMinimap v0.7.23 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "de.craftlancer.serverminimap.waypoint.WaypointHandler.save()" because "this.waypoint" is null
 	at de.craftlancer.serverminimap.ServerMinimap.onDisable(ServerMinimap.java:80) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -627,147 +628,147 @@ java.lang.NullPointerException: Cannot invoke "de.craftlancer.serverminimap.wayp
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[12:29:26] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
-[12:29:26] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
-[12:29:26] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
-[12:29:26] [Server thread/INFO]: GriefPrevention: 2 total claims loaded.
-[12:29:26] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
-[12:29:26] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
-[12:29:26] [Server thread/INFO]: GriefPrevention: Boot finished.
-[12:29:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
-[12:29:26] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[12:29:26] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[12:29:26] [Server thread/INFO]: No kits found to migrate.
-[12:29:27] [Server thread/INFO]: Loaded 853 items from items.csv.
-[12:29:27] [Server thread/INFO]: Using locale en
-[12:29:27] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[12:29:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[12:29:27] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
-[12:29:27] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[12:29:27] [Server thread/INFO]: Using superperms-based permissions.
-[12:29:27] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v9.0
-[12:29:27] [Server thread/INFO]: [LibsDisguises] Discovered MC version: v1_8_R3
-[12:29:27] [Server thread/INFO]: java.lang.NoSuchMethodException: net.minecraft.server.v1_8_R3.MobEffectList.getId(net.minecraft.server.v1_8_R3.MobEffectList)
+[16:14:10] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v8.9
+[16:14:10] [Server thread/INFO]: GriefPrevention: Grief Prevention boot start.
+[16:14:10] [Server thread/INFO]: GriefPrevention: Finished loading configuration.
+[16:14:10] [Server thread/INFO]: GriefPrevention: 2 total claims loaded.
+[16:14:10] [Server thread/INFO]: GriefPrevention: Customizable messages loaded.
+[16:14:10] [Server thread/INFO]: GriefPrevention: Finished loading data (File Mode).
+[16:14:10] [Server thread/INFO]: GriefPrevention: Boot finished.
+[16:14:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
+[16:14:10] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[16:14:11] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:14:11] [Server thread/INFO]: No kits found to migrate.
+[16:14:11] [Server thread/INFO]: Loaded 853 items from items.csv.
+[16:14:11] [Server thread/INFO]: Using locale en
+[16:14:11] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[16:14:11] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:14:11] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[16:14:11] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[16:14:11] [Server thread/INFO]: Using superperms-based permissions.
+[16:14:11] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v9.0
+[16:14:11] [Server thread/INFO]: [LibsDisguises] Discovered MC version: v1_8_R3
+[16:14:11] [Server thread/INFO]: java.lang.NoSuchMethodException: net.minecraft.server.v1_8_R3.MobEffectList.getId(net.minecraft.server.v1_8_R3.MobEffectList)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:400)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:400)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:410)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsMethod(ReflectionManager.java:410)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:32)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:32)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[12:29:27] [Server thread/INFO]: java.lang.NoSuchFieldException: REGISTRY
+[16:14:11] [Server thread/INFO]: java.lang.NoSuchFieldException: REGISTRY
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:361)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:361)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:371)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(ReflectionManager.java:371)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[12:29:27] [Server thread/INFO]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because the return value of "me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(String, String)" is null
+[16:14:11] [Server thread/INFO]: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Field.get(Object)" because the return value of "me.libraryaddict.disguise.utilities.ReflectionManager.getNmsField(String, String)" is null
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.disguisetypes.watchers.LivingWatcher.<clinit>(LivingWatcher.java:33)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName0(Native Method)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:421)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Class.forName(Class.java:412)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:141)
 
-[12:29:27] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
+[16:14:11] [Server thread/INFO]: 	at me.libraryaddict.disguise.LibsDisguises.onEnable(LibsDisguises.java:79)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
 
-[12:29:27] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[16:14:11] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
 
-[12:29:27] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[16:14:11] [Server thread/INFO]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[12:29:27] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[16:14:11] [Server thread/INFO]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[12:29:27] [Server thread/ERROR]: Error occurred while enabling LibsDisguises v9.0 (Is it up to date?)
+[16:14:11] [Server thread/ERROR]: Error occurred while enabling LibsDisguises v9.0 (Is it up to date?)
 java.lang.NoSuchFieldError: Class org.bukkit.Sound does not have member field 'org.bukkit.Sound ENTITY_ARROW_HIT'
 	at me.libraryaddict.disguise.utilities.DisguiseSound.<clinit>(DisguiseSound.java:13) ~[?:?]
 	at me.libraryaddict.disguise.LibsDisguises.registerValues(LibsDisguises.java:250) ~[?:?]
@@ -783,9 +784,9 @@ java.lang.NoSuchFieldError: Class org.bukkit.Sound does not have member field 'o
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[12:29:27] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v9.0
-[12:29:27] [Server thread/INFO]: [Morphy] Enabling Morphy v2.18
-[12:29:27] [Server thread/ERROR]: Error occurred while enabling Morphy v2.18 (Is it up to date?)
+[16:14:11] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v9.0
+[16:14:11] [Server thread/INFO]: [Morphy] Enabling Morphy v2.18
+[16:14:11] [Server thread/ERROR]: Error occurred while enabling Morphy v2.18 (Is it up to date?)
 java.lang.NoClassDefFoundError: me/libraryaddict/disguise/disguisetypes/Disguise
 	at me.bumblebeee_.morph.Morph.setupCommands(Morph.java:77) ~[?:?]
 	at me.bumblebeee_.morph.Morph.onEnable(Morph.java:35) ~[?:?]
@@ -807,8 +808,8 @@ Caused by: java.lang.ClassNotFoundException: me.libraryaddict.disguise.disguiset
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[12:29:27] [Server thread/INFO]: [Morphy] Disabling Morphy v2.18
-[12:29:27] [Server thread/ERROR]: Error occurred while disabling Morphy v2.18 (Is it up to date?)
+[16:14:11] [Server thread/INFO]: [Morphy] Disabling Morphy v2.18
+[16:14:11] [Server thread/ERROR]: Error occurred while disabling Morphy v2.18 (Is it up to date?)
 java.lang.NoClassDefFoundError: me/libraryaddict/disguise/disguisetypes/Disguise
 	at me.bumblebeee_.morph.Morph.onDisable(Morph.java:72) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -830,206 +831,209 @@ Caused by: java.lang.ClassNotFoundException: me.libraryaddict.disguise.disguiset
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 13 more
-[12:29:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+81-cde7184
-[12:29:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[12:29:27] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
-[12:29:27] [Server thread/INFO]: [TAB] [0;37;22mLoaded NMS hook in 39ms[m
+[16:14:11] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+81-cde7184
+[16:14:11] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:14:11] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
+[16:14:11] [Server thread/INFO]: [TAB] [0;37;22mLoaded NMS hook in 34ms[m
 
-[12:29:27] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 173ms[m
+[16:14:11] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 184ms[m
 
-[12:29:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+81-cde7184
-[12:29:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[12:29:27] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.0-dev+81-cde7184
-[12:29:28] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[12:29:28] [Server thread/INFO]: Attempting to login to Discord...
-[12:29:28] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+[16:14:11] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+81-cde7184
+[16:14:11] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:14:11] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.0-dev+81-cde7184
+[16:14:12] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:14:12] [Server thread/INFO]: Attempting to login to Discord...
+[16:14:12] [Server thread/ERROR]: An error occurred while logging into Discord, which has caused the plugin to disable itself: 
 No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[12:29:28] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[12:29:28] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[12:29:28] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[12:29:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[12:29:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[12:29:28] [Server thread/INFO]: [AlonsoLevels] Enabling AlonsoLevels v2.3.2-BETA
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMax health Attribute check not found. Using Player#getMaxHealth method..[m
+[16:14:12] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:14:12] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:14:12] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:14:12] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:14:12] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:14:12] [Server thread/INFO]: [AlonsoLevels] Enabling AlonsoLevels v2.3.2-BETA
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMax health Attribute check not found. Using Player#getMaxHealth method..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMax health Attribute check not found. Using Player#getMaxHealth method..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMax health Attribute check not found. Using Player#getMaxHealth method..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mInventory title with support for more than 32 characters. Skipping..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mInventory title with support for more than 32 characters. Skipping..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mHex colors are not available! Ignoring..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mHex colors are not available! Ignoring..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mOld constructor for HoverEvent found! Using it..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mOld constructor for HoverEvent found! Using it..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew sendTitle method not found! Using the old one..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew sendTitle method not found! Using the old one..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew setUnbreakable method not found! Using the old one for spigot ONLY..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew setUnbreakable method not found! Using the old one for spigot ONLY..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew isUnbreakable method not found! Using the old one for spigot ONLY..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mNew isUnbreakable method not found! Using the old one for spigot ONLY..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m    _   _                  _                _     Running [0;33;22mv2.3.2-BETA (v1_8)[m
+[16:14:12] [Server thread/INFO]: [0;33;1m    _   _                  _                _     Running [0;33;22mv2.3.2-BETA (v1_8)[m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m   /_\ | |___ _ _  ___ ___| |   _____ _____| |___ Server [0;33;22mCraftBukkit[0;33;1m vgit-PaperSpigot-445 (MC: 1.8.8)[m
+[16:14:12] [Server thread/INFO]: [0;33;1m   /_\ | |___ _ _  ___ ___| |   _____ _____| |___ Server [0;33;22mCraftBukkit[0;33;1m vgit-PaperSpigot-445 (MC: 1.8.8)[m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m  / _ \| / _ \ ' \(_-</ _ \ |__/ -_) V / -_) (_-< Discord for support: [0;33;22mhttps://alonsoaliaga.com/discord[m
+[16:14:12] [Server thread/INFO]: [0;33;1m  / _ \| / _ \ ' \(_-</ _ \ |__/ -_) V / -_) (_-< Discord for support: [0;33;22mhttps://alonsoaliaga.com/discord[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m /_/ \_\_\___/_||_/__/\___/____\___|\_/\___|_/__/ Thanks for purchasing my plugin [0;33;22m❤[0;33;1m![m
+[16:14:12] [Server thread/INFO]: [0;33;22m /_/ \_\_\___/_||_/__/\___/____\___|\_/\___|_/__/ Thanks for purchasing my plugin [0;33;22m❤[0;33;1m![m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m                 Developed by [0;33;22mAlonsoAliaga[m
+[16:14:12] [Server thread/INFO]: [0;33;1m                 Developed by [0;33;22mAlonsoAliaga[m
 
-[12:29:28] [Server thread/INFO]: [m
+[16:14:12] [Server thread/INFO]: [m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m==============================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;33;22m==============================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m[AlonsoLevels] You are using a Paper fork (CraftBukkit), plugin should work fine![m
+[16:14:12] [Server thread/INFO]: [0;33;1m[AlonsoLevels] You are using a Paper fork (CraftBukkit), plugin should work fine![m
 
-[12:29:28] [Server thread/INFO]: [0;33;1m[AlonsoLevels] If you have issues, join us on our official support server on alonsoaliaga.com/discord[m
+[16:14:12] [Server thread/INFO]: [0;33;1m[AlonsoLevels] If you have issues, join us on our official support server on alonsoaliaga.com/discord[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m==============================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;33;22m==============================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [m
+[16:14:12] [Server thread/INFO]: [m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mBungeeCord action bar not available for your server type/version! Skipping..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mBungeeCord action bar not available for your server type/version! Skipping..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mProtocolLib found! Checking..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mProtocolLib found! Checking..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mProtocolLib available for action bars. Method: 'GAME_INFO'. Hooking..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mProtocolLib available for action bars. Method: 'GAME_INFO'. Hooking..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[Auto-update] [0;37;22mConfiguration is up-to-date![m
+[16:14:12] [Server thread/INFO]: [0;33;22m[Auto-update] [0;37;22mConfiguration is up-to-date![m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[HikariCP] Using com.mysql.jdbc.jdbc2.optional.MysqlDataSource for source class name..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[HikariCP] Using com.mysql.jdbc.jdbc2.optional.MysqlDataSource for source class name..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[SQLite] Attempting to create 'alonsolevels' table..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[SQLite] Attempting to create 'alonsolevels' table..[m
 
-[12:29:28] [Server thread/INFO]: [SQLite] Connecting to database 'database-alonsolevels.db'![m
+[16:14:12] [Server thread/INFO]: [SQLite] Connecting to database 'database-alonsolevels.db'![m
 
-[12:29:28] [Server thread/INFO]: [SQLite] Driver available: SQLiteJDBC | 3.7.2[m
+[16:14:12] [Server thread/INFO]: [SQLite] Driver available: SQLiteJDBC | 3.7.2[m
 
-[12:29:28] [Server thread/INFO]: [SQLite] Successfully connected to database![m
+[16:14:12] [Server thread/INFO]: [SQLite] Successfully connected to database![m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[SQLite] Table 'alonsolevels' has been created if didn't exist.[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22m[SQLite] Table 'alonsolevels' has been created if didn't exist.[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mDatabase is empty! This is probably the first start..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mDatabase is empty! This is probably the first start..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMaterial selected is 'CUSTOM_HEAD' but NBTAPI is not installed. Using COBBLESTONE..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mMaterial selected is 'CUSTOM_HEAD' but NBTAPI is not installed. Using COBBLESTONE..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mServer name has been selected as 'Lobby'[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mServer name has been selected as 'Lobby'[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mConfig files are (re)loading.. Timestamp: Negative | Negative[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mConfig files are (re)loading.. Timestamp: Negative | Negative[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mFormula for experience is enabled! Loading..[m
+[16:14:12] [Server thread/INFO]: [0;33;22m[AlonsoLevels] [0;37;22mFormula for experience is enabled! Loading..[m
 
-[12:29:28] [Server thread/INFO]: [0;33;22m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;33;22m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'JavaScript' (1).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'JavaScript' (1).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'JavaScript' (2).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'JavaScript' (2).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'graal.js' (1).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'graal.js' (1).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'graal.js' (2).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'graal.js' (2).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'js' (1).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'js' (1).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'js' (2).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'js' (2).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'nashorn' (1).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'nashorn' (1).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'nashorn' (2).[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Failed to load 'nashorn' (2).[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mREAD THIS MESSAGE BEFORE REPORTING AN ISSUE OR RATING OUR RESOURCE![m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mBackup alternatives failed to start. Your system DOES NOT have requirements[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mBackup alternatives failed to start. Your system DOES NOT have requirements[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mto run JavaScript expressions which is REQUIRED for this plugin.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mto run JavaScript expressions which is REQUIRED for this plugin.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> FIRST ALTERNATIVE: (Recommended)[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> FIRST ALTERNATIVE: (Recommended)[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mInstall the plugin called MomoJS. MomoJS will attempt to add javascript[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mInstall the plugin called MomoJS. MomoJS will attempt to add javascript[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mengine to your server again and make this plugin work.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mengine to your server again and make this plugin work.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mDownload latest version here: https://alonsoaliaga.com/MomoJS[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mDownload latest version here: https://alonsoaliaga.com/MomoJS[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> SECOND ALTERNATIVE:[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> SECOND ALTERNATIVE:[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mYou can try installing the plugin called JSEngine. JSEngine will[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mYou can try installing the plugin called JSEngine. JSEngine will[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mattempt to add javascript Nashron JavaScript engine to your server.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mattempt to add javascript Nashron JavaScript engine to your server.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mDownload latest version here: https://alonsoaliaga.com/JSEngine[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mDownload latest version here: https://alonsoaliaga.com/JSEngine[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> THIRD ALTERNATIVE:[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1m====> THIRD ALTERNATIVE:[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mIf you still want to use the plugin without installing others, YOU will[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mIf you still want to use the plugin without installing others, YOU will[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mhave to set 'Options.Exp-formula.Enabled' option in config.yml to false.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mhave to set 'Options.Exp-formula.Enabled' option in config.yml to false.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mOnce done that, restart the server. Plugin will now use levels.yml file[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mOnce done that, restart the server. Plugin will now use levels.yml file[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mto manage levels information. You can edit required experience there.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mto manage levels information. You can edit required experience there.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mPlugin will be NOW disable as levels are required for this plugin.[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mPlugin will be NOW disable as levels are required for this plugin.[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mTHIS IS NOT AN ERROR FROM ALONSOLEVELS, CHOOSE AN ALTERNATIVE TO[m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mTHIS IS NOT AN ERROR FROM ALONSOLEVELS, CHOOSE AN ALTERNATIVE TO[m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mBE ABLE TO USE OUR PLUGIN. DO NOT REPORT THIS![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] [0;31;1mBE ABLE TO USE OUR PLUGIN. DO NOT REPORT THIS![m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m===========================================================================================[m
+[16:14:12] [Server thread/INFO]: [0;31;1m===========================================================================================[m
 
-[12:29:28] [Server thread/INFO]: [AlonsoLevels] Disabling AlonsoLevels v2.3.2-BETA
-[12:29:28] [Server thread/INFO]: [SQLite] Forcing connection close..[m
+[16:14:12] [Server thread/INFO]: [AlonsoLevels] Disabling AlonsoLevels v2.3.2-BETA
+[16:14:12] [Server thread/INFO]: [SQLite] Forcing connection close..[m
 
-[12:29:28] [Server thread/INFO]:  [m
+[16:14:12] [Server thread/INFO]:  [m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Plugin has been disabled![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Plugin has been disabled![m
 
-[12:29:28] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Thank you for using my plugin![m
+[16:14:12] [Server thread/INFO]: [0;31;1m[AlonsoLevels] Thank you for using my plugin![m
 
-[12:29:28] [Server thread/INFO]:  [m
+[16:14:12] [Server thread/INFO]:  [m
 
-[12:29:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:29:28] [Server thread/INFO]: Done (9.061s)! For help, type "help" or "?"
-[12:29:28] [Server thread/INFO]: Timings Reset
-[12:29:28] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[12:29:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[12:29:28] [Craft Scheduler Thread - 2/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
-[12:29:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[12:29:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[12:29:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
-[12:29:28] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
+[16:14:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:14:12] [Server thread/INFO]: Done (9.218s)! For help, type "help" or "?"
+[16:14:12] [Server thread/INFO]: Timings Reset
+[16:14:12] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[16:14:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[16:14:12] [Craft Scheduler Thread - 2/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
+[16:14:12] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[16:14:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:14:13] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[12:29:28] [Craft Scheduler Thread - 5/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[12:29:29] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[16:14:13] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[12:29:29] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[16:14:13] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[12:29:29] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[16:14:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[16:14:13] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
 
-[12:29:29] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.10.2, you're on: 4.9.3
-[12:29:29] [Server thread/INFO]: [0;31;1m[HolographicDisplays] Encountered 2 error(s) on load. Check previous console logs for more information.[m
+[16:14:13] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[16:14:13] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[16:14:13] [Craft Scheduler Thread - 7/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:14:13] [Craft Scheduler Thread - 4/INFO]: [0;32;1mFound a new version of [0;33;22mPluginConstructorAPI: [0;37;1mv1.1.53[0;35;1m downloading now!![m
 
-[12:29:29] [Craft Scheduler Thread - 6/INFO]: [0;32;1mFound a new version of [0;33;22mPluginConstructorAPI: [0;37;1mv1.1.53[0;35;1m downloading now!![m
+[16:14:13] [Craft Scheduler Thread - 1/WARN]: §4You're §c10 §4EssentialsX dev build(s) out of date!
+[16:14:13] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[16:14:13] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.10.2, you're on: 4.9.3
+[16:14:13] [Server thread/INFO]: [0;31;1m[HolographicDisplays] Encountered 2 error(s) on load. Check previous console logs for more information.[m
 
-[12:29:29] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+[16:14:14] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
 
-[18:29:28] [Craft Scheduler Thread - 51/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
