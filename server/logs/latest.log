@@ -5260,3 +5260,13 @@ Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
 [15:36:13] [Server thread/INFO]: aedenFLASH issued server command: /effect aedenflash night_vision 2500 250
 [15:36:13] [Server thread/INFO]: [aedenFLASH: Given Night Vision (ID 16) * 250 to aedenFLASH for 2500 seconds]
 [15:36:49] [Server thread/INFO]: aedenFLASH issued server command: /kill
+[15:37:21] [Server thread/INFO]: aedenFLASH issued server command: /gamerule keepInventory true
+[15:37:21] [Server thread/INFO]: [aedenFLASH: Game rule has been updated]
+[15:37:25] [Server thread/INFO]: aedenFLASH issued server command: /kill aedenflash
+[15:37:25] [Server thread/INFO]: aedenFLASH died
+[15:37:32] [Server thread/INFO]: CommandBlock at 71,67,214 issued server command: /tell aedenFLASH https://shorturl.at/aHQS9
+[15:37:32] [Server thread/INFO]: [0;33;22m[[0;31;1mme[0;33;22m -> [0;31;22maedenFLASH[0;33;22m] [mhttps://shorturl.at/aHQS9[m
+
+[15:37:34] [Server thread/INFO]: CommandBlock at 71,67,214 issued server command: /tell aedenFLASH https://shorturl.at/aHQS9
+[15:37:34] [Server thread/INFO]: [0;33;22m[[0;31;1mme[0;33;22m -> [0;31;22maedenFLASH[0;33;22m] [mhttps://shorturl.at/aHQS9[m
+
