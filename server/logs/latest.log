@@ -5270,3 +5270,5 @@ Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
 [15:37:34] [Server thread/INFO]: CommandBlock at 71,67,214 issued server command: /tell aedenFLASH https://shorturl.at/aHQS9
 [15:37:34] [Server thread/INFO]: [0;33;22m[[0;31;1mme[0;33;22m -> [0;31;22maedenFLASH[0;33;22m] [mhttps://shorturl.at/aHQS9[m
 
+[15:40:28] [Server thread/INFO]: aedenFLASH issued server command: /ignoreclaims
+[15:40:56] [Server thread/INFO]: CommandBlock at 62,61,211 issued server command: /tp aedenFLASH 74 65 222
