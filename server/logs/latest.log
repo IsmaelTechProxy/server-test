@@ -5255,3 +5255,8 @@ Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
 [15:32:52] [Server thread/INFO]: aedenFLASH[/[0:0:0:0:0:0:0:1]:43856] logged in with entity id 1256 at ([world]76.96330785070263, 69.10915491123149, 226.98445108612185)
 [15:33:31] [Server thread/INFO]: aedenFLASH issued server command: /lc gr
 [15:33:40] [Server thread/INFO]: aedenFLASH issued server command: /lr gc
+[15:36:07] [Server thread/INFO]: aedenFLASH issued server command: /effect aedenflash night_vision 2500000 250000
+[15:36:07] [Server thread/INFO]: [aedenFLASH: The number you have entered (2500000) is too big, it must be at most 1000000]
+[15:36:13] [Server thread/INFO]: aedenFLASH issued server command: /effect aedenflash night_vision 2500 250
+[15:36:13] [Server thread/INFO]: [aedenFLASH: Given Night Vision (ID 16) * 250 to aedenFLASH for 2500 seconds]
+[15:36:49] [Server thread/INFO]: aedenFLASH issued server command: /kill
