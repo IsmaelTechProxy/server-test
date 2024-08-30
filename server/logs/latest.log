@@ -5081,3 +5081,173 @@ Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[15:32:09] [Craft Scheduler Thread - 45/ERROR]: stopTiming called async for world - chunkLoad - Entities
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: java.lang.Throwable
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at co.aikar.timings.TimingHandler.stopTiming(TimingHandler.java:114)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:424)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:135)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:117)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getChunkAt(CraftWorld.java:145)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:91)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:592)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.Location.getBlock(Location.java:87)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.heads.HeadManager.search(HeadManager.java:30)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSign(SignManager.java:211)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSigns(SignManager.java:149)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[15:32:09] [Craft Scheduler Thread - 45/ERROR]: stopTiming called async for world - chunkLoad - TileEntities
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: java.lang.Throwable
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at co.aikar.timings.TimingHandler.stopTiming(TimingHandler.java:114)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:438)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:135)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:117)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getChunkAt(CraftWorld.java:145)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:91)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:592)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.Location.getBlock(Location.java:87)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.heads.HeadManager.search(HeadManager.java:30)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSign(SignManager.java:211)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSigns(SignManager.java:149)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[15:32:09] [Craft Scheduler Thread - 45/ERROR]: stopTiming called async for world - chunkLoad - TileTicks
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: java.lang.Throwable
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at co.aikar.timings.TimingHandler.stopTiming(TimingHandler.java:114)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:459)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:135)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:117)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getChunkAt(CraftWorld.java:145)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:91)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:592)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.Location.getBlock(Location.java:87)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.heads.HeadManager.search(HeadManager.java:30)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSign(SignManager.java:211)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSigns(SignManager.java:149)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: Exception in thread "Craft Scheduler Thread - 45" 
+[15:32:09] [Craft Scheduler Thread - 45/WARN]: org.apache.commons.lang.UnhandledException: Plugin ajLeaderboards v2.8.0 generated an exception while executing task 55
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14)
+	at net.minecraft.server.v1_8_R3.World.b(World.java:2738)
+	at net.minecraft.server.v1_8_R3.Chunk.addEntities(Chunk.java:912)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:49)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:135)
+	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:117)
+	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getChunkAt(CraftWorld.java:145)
+	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:91)
+	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:592)
+	at org.bukkit.Location.getBlock(Location.java:87)
+	at us.ajg0702.leaderboards.displays.heads.HeadManager.search(HeadManager.java:30)
+	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSign(SignManager.java:211)
+	at us.ajg0702.leaderboards.displays.signs.SignManager.updateSigns(SignManager.java:149)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
