@@ -5251,3 +5251,7 @@ Caused by: java.lang.IllegalStateException: Asynchronous entity world add!
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[15:32:52] [Thread-27/INFO]: UUID of player aedenFLASH is 586f38f0-6b9f-378a-9512-736efae98ddc
+[15:32:52] [Server thread/INFO]: aedenFLASH[/[0:0:0:0:0:0:0:1]:43856] logged in with entity id 1256 at ([world]76.96330785070263, 69.10915491123149, 226.98445108612185)
+[15:33:31] [Server thread/INFO]: aedenFLASH issued server command: /lc gr
+[15:33:40] [Server thread/INFO]: aedenFLASH issued server command: /lr gc

@@ -75,3 +75,8 @@
 [15:19:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33928|aedenFLASH] -> UpstreamBridge has disconnected
 [15:19:40] [Netty Worker IO Thread #1/INFO]: [aedenFLASH] disconnected with: Proxy lost connection to server.
 [15:19:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33928|aedenFLASH] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:32:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50100]: Connected via websocket
+[15:32:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50100]: Origin header is null
+[15:32:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50100]: Logged in as 'aedenFLASH'
+[15:32:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50100|aedenFLASH] -> UpstreamBridge has connected
+[15:32:52] [Netty Worker IO Thread #3/INFO]: [aedenFLASH|/[0:0:0:0:0:0:0:1%0]:50100] <-> ServerConnector [lobby] has connected
