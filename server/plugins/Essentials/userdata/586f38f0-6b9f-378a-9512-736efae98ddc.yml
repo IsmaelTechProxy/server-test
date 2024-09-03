@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1725031180480
+  logout: 1725032556996
   login: 1725031972520
 money: '0'
 last-account-name: aedenFLASH
 logoutlocation:
   world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
   world-name: world
-  x: 76.96330785070263
-  y: 69.10915491123149
-  z: 226.98445108612185
-  yaw: 228.30018615722656
-  pitch: 9.899989128112793
+  x: 83.30628952527839
+  y: 69.0
+  z: 223.79608993597037
+  yaw: 326.25006103515625
+  pitch: -15.299993515014648
 lastlocation:
   world: 73b8972e-2733-49c7-aa85-bd3ef2b82c68
   world-name: world
