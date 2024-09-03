@@ -48,3 +48,20 @@
 [11:03:14] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [11:03:14] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [11:03:15] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/server-test/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[13:40:53] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+[13:40:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40304]: Connected via websocket
+[13:40:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40304]: Origin header is null
+[13:40:56] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40304]: Logged in as 'drip_norman'
+[13:40:56] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40304|drip_norman] -> UpstreamBridge has connected
+[13:40:56] [Netty Worker IO Thread #2/INFO]: [drip_norman|/[0:0:0:0:0:0:0:1%0]:40304] <-> ServerConnector [lobby] has connected
+[13:41:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45032]: Connected via websocket
+[13:41:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45032]: Origin header is null
+[13:41:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45032]: Logged in as 'DarverDarvler638'
+[13:41:47] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45032|DarverDarvler638] -> UpstreamBridge has connected
+[13:41:47] [Netty Worker IO Thread #0/INFO]: [DarverDarvler638|/[0:0:0:0:0:0:0:1%0]:45032] <-> ServerConnector [lobby] has connected
+[13:42:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45032|DarverDarvler638] -> UpstreamBridge has disconnected
+[13:42:02] [Netty Worker IO Thread #0/INFO]: [DarverDarvler638] disconnected with: Proxy lost connection to server.
+[13:42:02] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:45032|DarverDarvler638] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:42:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40304|drip_norman] -> UpstreamBridge has disconnected
+[13:42:10] [Netty Worker IO Thread #2/INFO]: [drip_norman] disconnected with: Proxy lost connection to server.
+[13:42:10] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40304|drip_norman] <-> DownstreamBridge <-> [lobby] has disconnected

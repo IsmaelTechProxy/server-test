@@ -1036,3 +1036,11 @@ No token provided! Please follow the tutorial in the config in order to setup th
 
 [11:03:00] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
 
+[13:40:56] [Thread-21/INFO]: UUID of player drip_norman is 4d964fd7-8d58-3d2e-b45e-57030886430f
+[13:40:56] [Server thread/INFO]: drip_norman[/[0:0:0:0:0:0:0:1]:58888] logged in with entity id 283 at ([world]76.54816085770148, 69.07653611236182, 226.44589213873357)
+[13:41:47] [Thread-23/INFO]: UUID of player DarverDarvler638 is ae62b280-d016-3ef2-a8cd-1258dae15500
+[13:41:47] [Server thread/INFO]: DarverDarvler638[/[0:0:0:0:0:0:0:1]:39670] logged in with entity id 359 at ([world]74.5, 242.0, 212.5)
+[13:42:02] [Server thread/INFO]: DarverDarvler638 lost connection: Disconnected
+[13:42:02] [Server thread/INFO]: DarverDarvler638 left the game.
+[13:42:10] [Server thread/INFO]: drip_norman lost connection: Disconnected
+[13:42:10] [Server thread/INFO]: drip_norman left the game.
