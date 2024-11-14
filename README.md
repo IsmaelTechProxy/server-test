@@ -14,15 +14,33 @@ First, go to the top of the repo and click on code > codespaces > create codespa
 now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
 <br>
 <br>
-create 2 terminal tabs and paste in the following snipits:
+create 8 terminal tabs and paste in the following snipits:
 <br>
 <br>
-first tab: `cd server && sudo java -jar server.jar`
+first tab: `cd bungee && sudo java -jar bungee.jar`
 <br>
 <br>
-second tab: `cd bungee && sudo java -jar bungee.jar`
+second tab: `cd lobby && sudo java -jar server.jar`
 <br>
 <br>
-Now go to the ports area and forward (and make public) ports `25565` and `8081`
+third tab: `cd smp && sudo java -jar server.jar`
+<br>
+<br>
+fourth tab: `cd skyblock && sudo java -jar server.jar`
+<br>
+<br>
+fifth tab: `cd practice && sudo java -jar server.jar`
+<br>
+<br>
+sixth tab: `cd vanilla && sudo java -jar server.jar`
+<br>
+<br>
+seventh tab: `cd bridging && sudo java -jar server.jar`
+<br>
+<br>
+eight tab: `cd kitpvp && sudo java -jar server.jar`
+<br>
+<br>
+Now go to the ports area and forward ports `25565` and `8081`. Make port `8081` public <strong>EVERY TIME</strong> you start the server.
 <br>
 Your eaglercraft server is setup!
