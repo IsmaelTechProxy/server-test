@@ -1,0 +1,204 @@
+[19:11:51] [main/INFO]: Using mbed TLS based native cipher.
+[19:11:51] [main/INFO]: Using zlib based native compressor.
+[19:11:51] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[19:11:51] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[19:11:51] [main/INFO]: Epoll is working, utilising it!
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[19:11:51] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:51] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[19:11:51] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[19:11:51] [main/WARN]: :>  apart from the versions listed below:
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[19:11:51] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[19:11:51] [main/WARN]: :>  - FlameCord: 1.1.1
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[19:11:51] [main/WARN]: :>  
+[19:11:51] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[19:11:51] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[19:11:53] [Skin Download Thread #0/ERROR] [EaglercraftXBungee]: Recieved code 429 while looking up UUID of lax1dude
+[19:11:53] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[19:11:53] [main/WARN]: Forced host server pvp is not defined
+[19:11:53] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[19:11:53] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[19:11:53] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[19:11:54] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[19:11:54] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[19:11:54] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[19:11:56] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/server-test/bungee/server-icon.png
+[19:12:02] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34398]: Connected via websocket
+[19:12:02] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34398]: Origin header is null
+[19:12:02] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34398]: Logged in as 'Canadauan'
+[19:12:02] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34398|Canadauan] -> UpstreamBridge has connected
+[19:12:02] [Netty Worker IO Thread #3/INFO]: [Canadauan|/[0:0:0:0:0:0:0:1%0]:34398] <-> ServerConnector [lobby] has connected
+[19:12:02] [Netty Worker IO Thread #3/INFO]: [Canadauan] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:12:02] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:34398|Canadauan] -> UpstreamBridge has disconnected
+[19:12:02] [Netty Worker IO Thread #3/INFO]: [Canadauan|/[0:0:0:0:0:0:0:1%0]:34398] <-> ServerConnector [lobby] has disconnected
+[19:12:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34410]: Connected via websocket
+[19:12:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34410]: Origin header is null
+[19:12:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34410]: Logged in as 'Canadauan'
+[19:12:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34410|Canadauan] -> UpstreamBridge has connected
+[19:12:06] [Netty Worker IO Thread #0/INFO]: [Canadauan|/[0:0:0:0:0:0:0:1%0]:34410] <-> ServerConnector [lobby] has connected
+[19:12:06] [Netty Worker IO Thread #0/INFO]: [Canadauan] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:12:06] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34410|Canadauan] -> UpstreamBridge has disconnected
+[19:12:06] [Netty Worker IO Thread #0/INFO]: [Canadauan|/[0:0:0:0:0:0:0:1%0]:34410] <-> ServerConnector [lobby] has disconnected
+[19:12:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46262]: Connected via websocket
+[19:12:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46262]: Origin header is null
+[19:12:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46262]: Logged in as 'Invincible_Atlas'
+[19:12:51] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46262|Invincible_Atlas] -> UpstreamBridge has connected
+[19:12:51] [Netty Worker IO Thread #1/INFO]: [Invincible_Atlas|/[0:0:0:0:0:0:0:1%0]:46262] <-> ServerConnector [lobby] has connected
+[19:12:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46274]: Connected via websocket
+[19:12:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46274]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:12:59] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46274]: Logged in as 'minhkhanh123'
+[19:12:59] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46274|minhkhanh123] -> UpstreamBridge has connected
+[19:12:59] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:46274] <-> ServerConnector [lobby] has connected
+[19:12:59] [Netty Worker IO Thread #3/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:12:59] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46274|minhkhanh123] -> UpstreamBridge has disconnected
+[19:12:59] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:46274] <-> ServerConnector [lobby] has disconnected
+[19:13:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56618]: Connected via websocket
+[19:13:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56618]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:13:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56618]: Logged in as 'minhkhanh123'
+[19:13:10] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56618|minhkhanh123] -> UpstreamBridge has connected
+[19:13:10] [Netty Worker IO Thread #0/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56618] <-> ServerConnector [lobby] has connected
+[19:13:10] [Netty Worker IO Thread #0/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:13:10] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:56618|minhkhanh123] -> UpstreamBridge has disconnected
+[19:13:10] [Netty Worker IO Thread #0/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56618] <-> ServerConnector [lobby] has disconnected
+[19:13:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56624]: Connected via websocket
+[19:13:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56624]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:13:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56624]: Logged in as 'minhkhanh123'
+[19:13:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56624|minhkhanh123] -> UpstreamBridge has connected
+[19:13:12] [Netty Worker IO Thread #1/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56624] <-> ServerConnector [lobby] has connected
+[19:13:12] [Netty Worker IO Thread #1/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:13:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56624|minhkhanh123] -> UpstreamBridge has disconnected
+[19:13:12] [Netty Worker IO Thread #1/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56624] <-> ServerConnector [lobby] has disconnected
+[19:13:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56640]: Connected via websocket
+[19:13:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56640]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:13:15] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56640]: Logged in as 'minhkhanh123'
+[19:13:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56640|minhkhanh123] -> UpstreamBridge has connected
+[19:13:15] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56640] <-> ServerConnector [lobby] has connected
+[19:13:15] [Netty Worker IO Thread #3/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:13:15] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56640|minhkhanh123] -> UpstreamBridge has disconnected
+[19:13:15] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:56640] <-> ServerConnector [lobby] has disconnected
+[19:13:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47842]: Connected via websocket
+[19:13:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47842]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:13:51] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47842]: Logged in as 'minhkhanh123'
+[19:13:51] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47842|minhkhanh123] -> UpstreamBridge has connected
+[19:13:51] [Netty Worker IO Thread #0/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47842] <-> ServerConnector [lobby] has connected
+[19:13:52] [Netty Worker IO Thread #0/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:13:52] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47842|minhkhanh123] -> UpstreamBridge has disconnected
+[19:13:52] [Netty Worker IO Thread #0/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47842] <-> ServerConnector [lobby] has disconnected
+[19:13:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47856]: Connected via websocket
+[19:13:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47856]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:13:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47856]: Logged in as 'minhkhanh123'
+[19:13:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47856|minhkhanh123] -> UpstreamBridge has connected
+[19:13:54] [Netty Worker IO Thread #1/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47856] <-> ServerConnector [lobby] has connected
+[19:13:54] [Netty Worker IO Thread #1/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:13:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47856|minhkhanh123] -> UpstreamBridge has disconnected
+[19:13:54] [Netty Worker IO Thread #1/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47856] <-> ServerConnector [lobby] has disconnected
+[19:14:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55126]: Connected via websocket
+[19:14:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55126]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:14:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55126]: Logged in as 'minhkhanh123'
+[19:14:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:55126|minhkhanh123] -> UpstreamBridge has connected
+[19:14:00] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:55126] <-> ServerConnector [lobby] has connected
+[19:14:00] [Netty Worker IO Thread #3/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:14:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:55126|minhkhanh123] -> UpstreamBridge has disconnected
+[19:14:00] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:55126] <-> ServerConnector [lobby] has disconnected
+[19:14:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47032]: Connected via websocket
+[19:14:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47032]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:14:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47032]: Logged in as 'minhkhanh123'
+[19:14:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47032|minhkhanh123] -> UpstreamBridge has connected
+[19:14:24] [Netty Worker IO Thread #2/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47032] <-> ServerConnector [lobby] has connected
+[19:14:24] [Netty Worker IO Thread #2/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:14:24] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:47032|minhkhanh123] -> UpstreamBridge has disconnected
+[19:14:24] [Netty Worker IO Thread #2/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47032] <-> ServerConnector [lobby] has disconnected
+[19:14:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47048]: Connected via websocket
+[19:14:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47048]: Origin header is https://glorious-memory-5wq9q9g7rg625rw-8081.app.github.dev
+[19:14:26] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47048]: Logged in as 'minhkhanh123'
+[19:14:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47048|minhkhanh123] -> UpstreamBridge has connected
+[19:14:26] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47048] <-> ServerConnector [lobby] has connected
+[19:14:26] [Netty Worker IO Thread #3/INFO]: [minhkhanh123] disconnected with: Kicked whilst connecting to lobby: You are not whitelisted on this server!
+[19:14:26] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47048|minhkhanh123] -> UpstreamBridge has disconnected
+[19:14:26] [Netty Worker IO Thread #3/INFO]: [minhkhanh123|/[0:0:0:0:0:0:0:1%0]:47048] <-> ServerConnector [lobby] has disconnected
+[19:52:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55662]: Connected via websocket
+[19:52:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55662]: Origin header is null
+[19:52:31] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55662]: Logged in as 'QU4S3'
+[19:52:31] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55662|QU4S3] -> UpstreamBridge has connected
+[19:52:31] [Netty Worker IO Thread #0/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:55662] <-> ServerConnector [lobby] has connected
+[19:53:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55662|QU4S3] -> UpstreamBridge has disconnected
+[19:53:56] [Netty Worker IO Thread #0/INFO]: [QU4S3] disconnected with: Proxy lost connection to server.
+[19:53:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:55662|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:01:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38816]: Connected via websocket
+[20:01:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38816]: Origin header is null
+[20:01:47] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38816]: Logged in as 'QU4S3'
+[20:01:47] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38816|QU4S3] -> UpstreamBridge has connected
+[20:01:47] [Netty Worker IO Thread #1/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:38816] <-> ServerConnector [lobby] has connected
+[20:10:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38816|QU4S3] -> UpstreamBridge has disconnected
+[20:10:27] [Netty Worker IO Thread #1/INFO]: [QU4S3] disconnected with: Proxy lost connection to server.
+[20:10:27] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38816|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:10:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50904]: Connected via websocket
+[20:10:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50904]: Origin header is null
+[20:10:30] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50904]: Logged in as 'QU4S3'
+[20:10:30] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50904|QU4S3] -> UpstreamBridge has connected
+[20:10:30] [Netty Worker IO Thread #2/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:50904] <-> ServerConnector [lobby] has connected
+[20:10:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50904|QU4S3] -> UpstreamBridge has disconnected
+[20:10:35] [Netty Worker IO Thread #2/INFO]: [QU4S3] disconnected with: Proxy lost connection to server.
+[20:10:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50904|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:11:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52060]: Connected via websocket
+[20:11:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52060]: Origin header is null
+[20:11:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52060]: Logged in as 'QU4S3'
+[20:11:07] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52060|QU4S3] -> UpstreamBridge has connected
+[20:11:07] [Netty Worker IO Thread #3/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:52060] <-> ServerConnector [lobby] has connected
+[20:11:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52060|QU4S3] -> UpstreamBridge has disconnected
+[20:11:28] [Netty Worker IO Thread #3/INFO]: [QU4S3] disconnected with: Proxy lost connection to server.
+[20:11:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:52060|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:11:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47566]: Connected via websocket
+[20:11:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47566]: Origin header is null
+[20:11:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47566]: Logged in as 'QU4S3'
+[20:11:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47566|QU4S3] -> UpstreamBridge has connected
+[20:11:30] [Netty Worker IO Thread #0/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:47566] <-> ServerConnector [lobby] has connected
+[20:12:00] [Netty Worker IO Thread #0/INFO]: [QU4S3] disconnected with: Login timed out!
+[20:12:00] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47566|QU4S3] -> UpstreamBridge has disconnected
+[20:12:00] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47566|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:12:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44000]: Connected via websocket
+[20:12:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44000]: Origin header is null
+[20:12:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44000]: Logged in as 'QU4S3'
+[20:12:04] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44000|QU4S3] -> UpstreamBridge has connected
+[20:12:04] [Netty Worker IO Thread #2/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:44000] <-> ServerConnector [lobby] has connected
+[20:12:34] [Netty Worker IO Thread #2/INFO]: [QU4S3] disconnected with: Login timed out!
+[20:12:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44000|QU4S3] -> UpstreamBridge has disconnected
+[20:12:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:44000|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:12:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47746]: Connected via websocket
+[20:12:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47746]: Origin header is null
+[20:12:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47746]: Logged in as 'QU4S3'
+[20:12:37] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47746|QU4S3] -> UpstreamBridge has connected
+[20:12:37] [Netty Worker IO Thread #3/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:47746] <-> ServerConnector [lobby] has connected
+[20:13:08] [Netty Worker IO Thread #3/INFO]: [QU4S3] disconnected with: Login timed out!
+[20:13:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47746|QU4S3] -> UpstreamBridge has disconnected
+[20:13:08] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:47746|QU4S3] <-> DownstreamBridge <-> [lobby] has disconnected
+[20:13:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33938]: Connected via websocket
+[20:13:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33938]: Origin header is null
+[20:13:55] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33938]: Logged in as 'QU4S3'
+[20:13:55] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:33938|QU4S3] -> UpstreamBridge has connected
+[20:13:55] [Netty Worker IO Thread #0/INFO]: [QU4S3|/[0:0:0:0:0:0:0:1%0]:33938] <-> ServerConnector [lobby] has connected

@@ -1,0 +1,82 @@
+[
+  {
+    "uuid": "f8280e00-1608-3c7e-b655-3b7af31f1fb4",
+    "name": "199191919199191w",
+    "created": "2024-03-06 14:48:07 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "4039e662-5e8d-39d5-9113-5764300cc855",
+    "name": "FCPS_ADMIN12345",
+    "created": "2024-03-06 14:46:16 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "22bab605-5cf8-3604-bf4a-93335c6276dc",
+    "name": "FCPS_ADMIN123456",
+    "created": "2024-03-06 14:47:10 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "dd77ce53-0aff-3d0f-8e0c-e78a585dbf2e",
+    "name": "money20",
+    "created": "2024-03-06 14:40:41 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "06f79c74-34a5-3b4f-9db0-9238cd755306",
+    "name": "1991919191991919",
+    "created": "2024-03-06 14:47:38 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "660d9765-5a71-3312-b070-0fc4766e3c69",
+    "name": "FCPS_ADMIN1",
+    "created": "2024-03-06 14:42:01 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "09e77e8b-473b-365e-813f-1b920e1b9d0d",
+    "name": "money02",
+    "created": "2024-03-06 13:10:46 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "462b469d-1f89-39c6-bf6e-f9618c3955e2",
+    "name": "FCPS_ADMIN12",
+    "created": "2024-03-06 14:42:14 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "74acf413-f942-3822-9865-397f3c823d60",
+    "name": "FCPS_ADMIN123",
+    "created": "2024-03-06 14:42:32 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "0102b723-95ea-3a30-9d8f-241ed1bfa143",
+    "name": "FCPS_ADMIN",
+    "created": "2024-03-06 14:41:38 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Im not stupid"
+  }
+]
