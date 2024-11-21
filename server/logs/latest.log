@@ -1,0 +1,656 @@
+[17:37:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:37:01] [Server thread/INFO]: Loading properties
+[17:37:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:37:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:37:01] [Server thread/INFO]: Debug logging is disabled
+[17:37:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[17:37:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[17:37:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:37:01] [Server thread/INFO]: Data value allowed items: 
+[17:37:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[17:37:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[17:37:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[17:37:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[17:37:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[17:37:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[17:37:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[17:37:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[17:37:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[17:37:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[17:37:01] [Server thread/INFO]: Generating keypair
+[17:37:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[17:37:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[17:37:02] [Server thread/INFO]: Using default channel type
+[17:37:02] [Server thread/ERROR]: Could not load 'plugins/voicechat-bungeecord-2.5.12.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[17:37:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:37:02] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[17:37:02] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[17:37:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[17:37:02] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[17:37:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:37:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:37:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[17:37:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[17:37:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:37:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:37:02] [Server thread/INFO]: Preparing level "world"
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:37:02] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:02] [Server thread/INFO]: Anti X-Ray: true
+[17:37:02] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:02] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:02] [Server thread/INFO]: Structure Info Saving: true
+[17:37:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:02] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:02] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:02] [Server thread/INFO]: View Distance: 4
+[17:37:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:02] [Server thread/INFO]: Clear tick list: false
+[17:37:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:37:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:37:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:37:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:37:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:37:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:37:02] [Server thread/INFO]: Water over lava flow speed: 5
+[17:37:02] [Server thread/INFO]: Fix TNT cannons: false
+[17:37:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:37:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:37:02] [Server thread/INFO]: World async lighting: false
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:37:02] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:02] [Server thread/INFO]: Anti X-Ray: true
+[17:37:02] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:02] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:02] [Server thread/INFO]: Structure Info Saving: true
+[17:37:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:02] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:02] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:02] [Server thread/INFO]: View Distance: 4
+[17:37:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:02] [Server thread/INFO]: Clear tick list: false
+[17:37:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:37:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:37:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:37:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:37:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:37:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:37:02] [Server thread/INFO]: Water over lava flow speed: 5
+[17:37:02] [Server thread/INFO]: Fix TNT cannons: false
+[17:37:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:37:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:37:02] [Server thread/INFO]: World async lighting: false
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:37:02] [Server thread/INFO]: Mob Spawn Range: 4
+[17:37:02] [Server thread/INFO]: Anti X-Ray: true
+[17:37:02] [Server thread/INFO]: 	Engine Mode: 1
+[17:37:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:37:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:37:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:37:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:37:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:37:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:37:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:37:02] [Server thread/INFO]: Random Lighting Updates: false
+[17:37:02] [Server thread/INFO]: Structure Info Saving: true
+[17:37:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:37:02] [Server thread/INFO]: Max Entity Collisions: 8
+[17:37:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:37:02] [Server thread/INFO]: Max TNT Explosions: 100
+[17:37:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:37:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:37:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:37:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:37:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:37:02] [Server thread/INFO]: View Distance: 4
+[17:37:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:37:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:37:02] [Server thread/INFO]: Clear tick list: false
+[17:37:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:37:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:37:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:37:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:37:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:37:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:37:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:37:02] [Server thread/INFO]: Water over lava flow speed: 5
+[17:37:02] [Server thread/INFO]: Fix TNT cannons: false
+[17:37:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:37:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:37:02] [Server thread/INFO]: World async lighting: false
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:37:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:37:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: 683939919093769653)
+[17:37:03] [Server thread/INFO]: Preparing spawn area: 41%
+[17:37:03] [Thread-5/INFO]: UUID of player tnt is 3589a4ef-01ad-3456-a348-0025cfbde1e5
+[17:37:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 683939919093769653)
+[17:37:04] [Thread-6/INFO]: UUID of player Redowan is a865f9ff-364c-3058-8734-6c0950639dbc
+[17:37:05] [Server thread/INFO]: Preparing spawn area: 58%
+[17:37:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: 683939919093769653)
+[17:37:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[17:37:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[17:37:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[17:37:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[17:37:06] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[17:37:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[17:37:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:37:06] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[17:37:06] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[17:37:06] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:37:06] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:37:06] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:37:06] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:37:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:37:07] [Server thread/INFO]: Done (4.734s)! For help, type "help" or "?"
+[17:37:07] [Server thread/INFO]: Timings Reset
+[17:37:07] [Server thread/INFO]: tnt[/[0:0:0:0:0:0:0:1]:44340] logged in with entity id 422 at ([world]-3010.7193436543967, 64.0, 3357.913586832434)
+[17:37:07] [Server thread/INFO]: Redowan[/[0:0:0:0:0:0:0:1]:44342] logged in with entity id 423 at ([world]-2425.939769214023, 52.0, 1202.1222698276977)
+[17:37:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[17:37:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[17:37:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[17:37:25] [Server thread/INFO]: tnt issued server command: /update
+[17:37:28] [Server thread/INFO]: tnt issued server command: /lac update
+[17:37:28] [Craft Scheduler Thread - 0/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
+[17:37:29] [Craft Scheduler Thread - 0/INFO]: [LoginSecurity] Download complete!
+[17:37:38] [Server thread/INFO]: Redowan lost connection: Login timed out!
+[17:37:38] [Server thread/INFO]: Redowan left the game.
+[17:37:38] [Server thread/WARN]: handleDisconnection() called twice
+[17:38:14] [Server thread/INFO]: tnt issued server command: /tp -747 73 1311
+[17:38:14] [Server thread/INFO]: [tnt: Teleported tnt to -746.5, 73.0, 1311.5]
+[17:38:32] [Thread-9/INFO]: UUID of player Redowan is a865f9ff-364c-3058-8734-6c0950639dbc
+[17:38:33] [Server thread/INFO]: Redowan[/[0:0:0:0:0:0:0:1]:51068] logged in with entity id 996 at ([world]-2425.944643535064, 52.0, 1202.0243911242464)
+[17:38:55] [Server thread/INFO]: tnt issued server command: /home redo
+[17:39:15] [Server thread/INFO]: tnt issued server command: /home house
+[17:39:23] [Server thread/INFO]: tnt issued server command: /give tnt gold_block 64
+[17:39:23] [Server thread/INFO]: [tnt: Given [Block of Gold] * 64 to tnt]
+[17:39:34] [Server thread/INFO]: tnt issued server command: /give tnt gold_block 64
+[17:39:34] [Server thread/INFO]: [tnt: Given [Block of Gold] * 64 to tnt]
+[17:40:15] [Server thread/INFO]: tnt issued server command: /give tnt gold_block 64
+[17:40:15] [Server thread/INFO]: [tnt: Given [Block of Gold] * 64 to tnt]
+[17:40:22] [Server thread/INFO]: tnt issued server command: /give tnt gold_block 64
+[17:40:22] [Server thread/INFO]: [tnt: Given [Block of Gold] * 64 to tnt]
+[17:40:33] [Server thread/INFO]: tnt issued server command: /give tnt gold_block 59
+[17:40:33] [Server thread/INFO]: [tnt: Given [Block of Gold] * 59 to tnt]
+[17:40:57] [Server thread/INFO]: tnt issued server command: /home redo
+[17:41:24] [Server thread/INFO]: tnt issued server command: /home house
+[17:41:49] [Server thread/INFO]: tnt issued server command: /give tnt sheer
+[17:41:49] [Server thread/INFO]: [tnt: There is no such item with name minecraft:sheer]
+[17:41:52] [Server thread/INFO]: tnt issued server command: /give tnt shear
+[17:41:52] [Server thread/INFO]: [tnt: There is no such item with name minecraft:shear]
+[17:41:57] [Server thread/INFO]: tnt issued server command: /give tnt sher
+[17:41:57] [Server thread/INFO]: [tnt: There is no such item with name minecraft:sher]
+[17:42:18] [Server thread/INFO]: tnt issued server command: /home mountain 4
+[17:42:23] [Server thread/INFO]: tnt issued server command: /home mountain4
+[17:43:09] [Server thread/INFO]: tnt issued server command: /home redowan
+[17:43:15] [Server thread/INFO]: tnt issued server command: /home redo
+[17:43:59] [Server thread/INFO]: tnt issued server command: /home tnt
+[17:44:02] [Server thread/WARN]: tnt moved wrongly!
+[17:44:44] [Server thread/INFO]: tnt issued server command: /home
+[17:44:47] [Server thread/INFO]: Redowan lost connection: Disconnected
+[17:44:47] [Server thread/INFO]: Redowan left the game.
+[17:44:48] [Server thread/INFO]: tnt lost connection: Disconnected
+[17:44:48] [Server thread/INFO]: tnt left the game.
+[17:48:21] [Thread-11/INFO]: UUID of player tnt is 3589a4ef-01ad-3456-a348-0025cfbde1e5
+[17:48:21] [Server thread/INFO]: tnt[/[0:0:0:0:0:0:0:1]:42850] logged in with entity id 2009 at ([world]-454.69882407366725, 64.0, 1291.699999988079)
+[17:48:50] [Thread-12/INFO]: UUID of player Redowan is a865f9ff-364c-3058-8734-6c0950639dbc
+[17:48:50] [Server thread/INFO]: Redowan[/[0:0:0:0:0:0:0:1]:44556] logged in with entity id 2112 at ([world]-2432.7398087951055, 52.0, 1187.419714908529)
+[17:49:06] [Server thread/INFO]: tnt issued server command: /home redo
+[17:50:41] [Async Chat Thread - #0/INFO]: <tnt> asfhoias dfnaskdfjasdf[m
+
+[17:50:59] [Server thread/INFO]: tnt issued server command: /home house
+[17:51:17] [Server thread/INFO]: tnt issued server command: /home redo
+[17:51:31] [Server thread/INFO]: tnt issued server command: /give tnt blaze_rod 64
+[17:51:31] [Server thread/INFO]: [tnt: Given [Blaze Rod] * 64 to tnt]
+[17:53:00] [Server thread/INFO]: tnt issued server command: /home -747 70 1311
+[17:53:06] [Server thread/INFO]: tnt issued server command: /tp -747 70 1311
+[17:53:06] [Server thread/INFO]: [tnt: Teleported tnt to -746.5, 70.0, 1311.5]
+[17:53:44] [Server thread/INFO]: tnt issued server command: /tp -747 70 1311
+[17:53:44] [Server thread/INFO]: [tnt: Teleported tnt to -746.5, 70.0, 1311.5]
+[17:54:02] [Server thread/INFO]: tnt issued server command: /give tnt obesidan 4
+[17:54:02] [Server thread/INFO]: [tnt: There is no such item with name minecraft:obesidan]
+[17:54:08] [Server thread/INFO]: tnt issued server command: /give tnt obsedian 4
+[17:54:08] [Server thread/INFO]: [tnt: There is no such item with name minecraft:obsedian]
+[17:54:25] [Server thread/INFO]: tnt issued server command: /give tnt obsidian
+[17:54:25] [Server thread/INFO]: [tnt: Given [Obsidian] * 1 to tnt]
+[17:54:37] [Server thread/INFO]: tnt issued server command: /give tnt obsidian 32
+[17:54:37] [Server thread/INFO]: [tnt: Given [Obsidian] * 32 to tnt]
+[17:55:20] [Server thread/INFO]: tnt issued server command: /home red
+[17:55:26] [Server thread/INFO]: tnt issued server command: /home redo
+[17:56:21] [Async Chat Thread - #1/INFO]: <tnt> trynna go to the end[m
+
+[17:56:25] [Async Chat Thread - #1/INFO]: <Redowan> rn?[m
+
+[17:56:29] [Async Chat Thread - #1/INFO]: <tnt> or during ahod?[m
+
+[17:56:30] [Async Chat Thread - #1/INFO]: <Redowan> lets do during aod[m
+
+[17:56:31] [Async Chat Thread - #1/INFO]: <Redowan> ye[m
+
+[17:56:32] [Async Chat Thread - #1/INFO]: <tnt> alr[m
+
+[17:56:32] [Async Chat Thread - #1/INFO]: <Redowan> bet[m
+
+[17:57:41] [Async Chat Thread - #2/INFO]: <tnt> bro wtf ish appenign[m
+
+[17:57:51] [Async Chat Thread - #2/INFO]: <tnt> shi smells like french fries[m
+
+[17:57:53] [Async Chat Thread - #2/INFO]: <Redowan> idk bruh this is awkard[m
+
+[17:57:59] [Async Chat Thread - #2/INFO]: <Redowan> shes eating them[m
+
+[17:58:00] [Async Chat Thread - #2/INFO]: <tnt> getting me hungry[m
+
+[17:58:07] [Async Chat Thread - #2/INFO]: <Redowan> nah wrd[m
+
+[17:58:42] [Async Chat Thread - #2/INFO]: <tnt> bro[m
+
+[17:58:56] [Async Chat Thread - #2/INFO]: <tnt> tell her for her rblx account[m
+
+[17:59:01] [Async Chat Thread - #2/INFO]: <Redowan> nah[m
+
+[17:59:19] [Async Chat Thread - #2/INFO]: <tnt> ima ask her that you want her rblx account to play with her[m
+
+[17:59:23] [Async Chat Thread - #2/INFO]: <Redowan> no bru[m
+
+[17:59:35] [Async Chat Thread - #2/INFO]: <Redowan> time to leabe[m
+
+[17:59:39] [Async Chat Thread - #2/INFO]: <tnt> alr[m
+
+[17:59:41] [Server thread/INFO]: tnt lost connection: Disconnected
+[17:59:41] [Server thread/INFO]: tnt left the game.
+[17:59:43] [Server thread/INFO]: Redowan lost connection: Disconnected
+[17:59:43] [Server thread/INFO]: Redowan left the game.
+[18:05:31] [Thread-13/INFO]: UUID of player Issarielz is 19f6fae5-0b4a-3c14-be0f-0e1398b4a6c6
+[18:05:31] [Server thread/INFO]: Issarielz[/[0:0:0:0:0:0:0:1]:54778] logged in with entity id 4173 at ([world]-391.04626562371215, 15.0, 1277.5425077074146)
+[18:06:01] [Thread-14/INFO]: UUID of player angel is e38d0b4f-1caf-3304-b9b3-1044e9cd4212
+[18:06:01] [Server thread/INFO]: angel[/[0:0:0:0:0:0:0:1]:50464] logged in with entity id 4303 at ([world]68.5, 66.0, 190.5)
+[18:06:01] [Thread-15/INFO]: UUID of player tnt is 3589a4ef-01ad-3456-a348-0025cfbde1e5
+[18:06:01] [Server thread/INFO]: tnt[/[0:0:0:0:0:0:0:1]:50476] logged in with entity id 4305 at ([world]-2429.890548438018, 52.0, 1189.4095058872251)
+[18:06:26] [Thread-16/INFO]: UUID of player chris____ is cf853397-7224-3888-a72a-941e89991a4d
+[18:06:26] [Server thread/INFO]: chris____[/[0:0:0:0:0:0:0:1]:56944] logged in with entity id 4489 at ([world]-360.69999998807907, 13.0, 1318.1142340328752)
+[18:06:32] [Server thread/INFO]: angel lost connection: Login timed out!
+[18:06:32] [Server thread/INFO]: angel left the game.
+[18:06:32] [Server thread/WARN]: handleDisconnection() called twice
+[18:08:08] [Thread-17/INFO]: UUID of player Chino__ is 9740ea36-0825-3014-9102-fe2cbd206aec
+[18:08:08] [Server thread/INFO]: Chino__[/[0:0:0:0:0:0:0:1]:55502] logged in with entity id 4685 at ([world]66.5, 68.0, 195.5)
+[18:09:16] [Async Chat Thread - #3/INFO]: <tnt> bro my chromebook about to die[m
+
+[18:09:23] [Async Chat Thread - #3/INFO]: <tnt> ayudame[m
+
+[18:09:25] [Server thread/INFO]: Issarielz lost connection: Disconnected
+[18:09:25] [Server thread/INFO]: Issarielz left the game.
+[18:09:25] [Server thread/INFO]: tnt lost connection: Disconnected
+[18:09:25] [Server thread/INFO]: tnt left the game.
+[18:09:25] [Server thread/INFO]: chris____ lost connection: Disconnected
+[18:09:25] [Server thread/INFO]: chris____ left the game.
+[18:09:25] [Server thread/INFO]: Chino__ lost connection: Disconnected
+[18:09:25] [Server thread/INFO]: Chino__ left the game.
+[18:09:30] [Thread-18/INFO]: UUID of player Issarielz is 19f6fae5-0b4a-3c14-be0f-0e1398b4a6c6
+[18:09:30] [Server thread/INFO]: Issarielz[/[0:0:0:0:0:0:0:1]:60618] logged in with entity id 4901 at ([world]-412.15761055714654, 7.0, 1312.3233450558162)
+[18:09:42] [Thread-19/INFO]: UUID of player tnt is 3589a4ef-01ad-3456-a348-0025cfbde1e5
+[18:09:42] [Server thread/INFO]: tnt[/[0:0:0:0:0:0:0:1]:52706] logged in with entity id 5022 at ([world]-2425.626091705061, 52.0, 1192.8789822394117)
+[18:09:58] [Thread-20/INFO]: UUID of player Chino__ is 9740ea36-0825-3014-9102-fe2cbd206aec
+[18:09:58] [Server thread/INFO]: Chino__[/[0:0:0:0:0:0:0:1]:35776] logged in with entity id 5159 at ([world]86.7509253613326, 70.0, 198.14572807372926)
+[18:10:08] [Thread-21/INFO]: UUID of player zaeqb is f01fdc02-d447-3b04-a12b-66b17652634b
+[18:10:08] [Server thread/INFO]: zaeqb[/[0:0:0:0:0:0:0:1]:33950] logged in with entity id 5327 at ([world]56.5, 66.0, 199.5)
+[18:10:39] [Thread-22/INFO]: UUID of player chris____ is cf853397-7224-3888-a72a-941e89991a4d
+[18:10:39] [Server thread/INFO]: chris____[/[0:0:0:0:0:0:0:1]:60762] logged in with entity id 5464 at ([world]-360.69999998807907, 13.0, 1318.1142340328752)
+[18:10:39] [Server thread/INFO]: zaeqb lost connection: Login timed out!
+[18:10:39] [Server thread/INFO]: zaeqb left the game.
+[18:10:39] [Server thread/WARN]: handleDisconnection() called twice
+[18:10:45] [Thread-23/INFO]: UUID of player zaeqb is f01fdc02-d447-3b04-a12b-66b17652634b
+[18:10:45] [Server thread/INFO]: zaeqb[/[0:0:0:0:0:0:0:1]:40582] logged in with entity id 5544 at ([world]56.5, 66.0, 199.5)
+[18:11:02] [Async Chat Thread - #4/INFO]: <tnt> Jesus?[m
+
+[18:11:03] [Async Chat Thread - #4/INFO]: <Chino__> JESUS[m
+
+[18:11:04] [Async Chat Thread - #4/INFO]: <Chino__> ???[m
+
+[18:11:04] [Async Chat Thread - #4/INFO]: <Chino__> ??[m
+
+[18:11:05] [Server thread/INFO]: Chino__ issued server command: /
+[18:11:06] [Server thread/INFO]: Chino__ issued server command: /?
+[18:11:06] [Server thread/INFO]: Chino__ issued server command: /
+[18:11:09] [Async Chat Thread - #4/INFO]: <tnt> who gave the server[m
+
+[18:11:11] [Async Chat Thread - #4/INFO]: <tnt> ?[m
+
+[18:11:12] [Server thread/INFO]: Chino__ issued server command: /bukkit
+[18:11:18] [Async Chat Thread - #4/INFO]: <chris____> mb[m
+
+[18:11:20] [Async Chat Thread - #4/INFO]: <zaeqb> me[m
+
+[18:11:23] [Server thread/INFO]: Chino__ issued server command: /bukkit:pl
+[18:11:51] [Server thread/INFO]: Chino__ issued server command: /minecraft:me
+[18:12:35] [Server thread/INFO]: chris____ was shot by Skeleton
+[18:12:42] [Server thread/INFO]: Issarielz issued server command: /t
+[18:12:44] [Server thread/INFO]: chris____ issued server command: /back
+[18:12:56] [Server thread/INFO]: chris____ issued server command: /back
+[18:13:02] [Server thread/INFO]: chris____ issued server command: /back
+[18:13:09] [Server thread/INFO]: chris____ issued server command: /back
+[18:13:45] [Async Chat Thread - #5/INFO]: <tnt> alr[m
+
+[18:13:50] [Server thread/INFO]: tnt issued server command: /tell redowan the end???
+[18:13:50] [Server thread/INFO]: [tnt: That player cannot be found]
+[18:13:53] [Thread-25/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[18:13:53] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:55844] logged in with entity id 6636 at ([world]-289.46945138728114, 72.0, 1597.9938676648908)
+[18:13:56] [Server thread/INFO]: tnt issued server command: /tell quvus the end???
+[18:13:56] [Server thread/INFO]: [tnt: That player cannot be found]
+[18:14:02] [Server thread/INFO]: zaeqb lost connection: Disconnected
+[18:14:02] [Server thread/INFO]: zaeqb left the game.
+[18:14:18] [Thread-26/INFO]: UUID of player Redowan is a865f9ff-364c-3058-8734-6c0950639dbc
+[18:14:18] [Server thread/INFO]: Redowan[/[0:0:0:0:0:0:0:1]:46530] logged in with entity id 6844 at ([world]-2430.71728093269, 52.0, 1186.9344362248362)
+[18:14:19] [Server thread/INFO]: chris____ was slain by Zombie
+[18:14:23] [Server thread/INFO]: Chino__ issued server command: /tpa redowan
+[18:14:23] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpa' in plugin SimpleTpa v6.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.PURPLE
+	at java.lang.Enum.valueOf(Enum.java:293) ~[?:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:51) ~[?:?]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendRequest(SimpleTpaUtils.java:82) ~[?:?]
+	at me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:68) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[18:14:24] [Server thread/INFO]: chris____ issued server command: /back
+[18:14:26] [Async Chat Thread - #5/INFO]: <Redowan> MY GOD[m
+
+[18:14:30] [Async Chat Thread - #5/INFO]: <Redowan> airle!!!![m
+
+[18:14:33] [Async Chat Thread - #5/INFO]: <Redowan> ariel[m
+
+[18:14:35] [Async Chat Thread - #5/INFO]: <Chino__> redowan accept now[m
+
+[18:14:36] [Async Chat Thread - #5/INFO]: <Redowan> passi[m
+
+[18:14:39] [Async Chat Thread - #5/INFO]: <Chino__> i have nothing[m
+
+[18:14:41] [Async Chat Thread - #5/INFO]: <Chino__> istg[m
+
+[18:14:41] [Async Chat Thread - #5/INFO]: <Redowan> no bruh[m
+
+[18:14:43] [Async Chat Thread - #5/INFO]: <Chino__> accept[m
+
+[18:14:43] [Async Chat Thread - #5/INFO]: <Redowan> get out[m
+
+[18:14:44] [Async Chat Thread - #5/INFO]: <Chino__> istg[m
+
+[18:14:44] [Server thread/INFO]: tnt issued server command: /tell redowan the end?????
+[18:14:49] [Async Chat Thread - #5/INFO]: <Redowan> after what you didt[m
+
+[18:14:51] [Async Chat Thread - #5/INFO]: <Redowan> never[m
+
+[18:14:51] [Async Chat Thread - #5/INFO]: <Chino__> if yu feel like im suspisious kill me[m
+
+[18:14:53] [Async Chat Thread - #5/INFO]: <Chino__> i have nothing[m
+
+[18:14:54] [Async Chat Thread - #5/INFO]: <Redowan> unforgivable[m
+
+[18:14:55] [Async Chat Thread - #5/INFO]: <Chino__> istg[m
+
+[18:14:58] [Server thread/INFO]: chris____ was shot by Skeleton
+[18:15:02] [Async Chat Thread - #5/INFO]: <___> ariel is here?[m
+
+[18:15:04] [Server thread/INFO]: chris____ issued server command: /back
+[18:15:15] [Server thread/WARN]: chris____ moved wrongly!
+[18:15:19] [Server thread/INFO]: tnt issued server command: /home house
+[18:15:33] [Server thread/INFO]: Chino__ issued server command: /tpa tnt
+[18:15:33] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpa' in plugin SimpleTpa v6.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.PURPLE
+	at java.lang.Enum.valueOf(Enum.java:293) ~[?:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:51) ~[?:?]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendRequest(SimpleTpaUtils.java:82) ~[?:?]
+	at me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:68) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[18:15:43] [Server thread/INFO]: tnt issued server command: /tpaccept
+[18:15:48] [Thread-27/INFO]: UUID of player rxx is 522c75a3-6bde-3df3-b0b7-4d2297d90cdc
+[18:15:48] [Server thread/INFO]: rxx[/[0:0:0:0:0:0:0:1]:54092] logged in with entity id 7822 at ([world]-445.6688230910492, 70.5, 1279.3131712858672)
+[18:16:06] [Async Chat Thread - #6/INFO]: <___> is ariel in the server rn?[m
+
+[18:16:13] [Async Chat Thread - #6/INFO]: <chris____> yea[m
+
+[18:16:18] [Server thread/INFO]: rxx lost connection: Login timed out!
+[18:16:18] [Server thread/INFO]: rxx left the game.
+[18:16:18] [Server thread/WARN]: handleDisconnection() called twice
+[18:16:19] [Async Chat Thread - #6/INFO]: <___> ok[m
+
+[18:16:24] [Thread-28/INFO]: UUID of player rxx is 522c75a3-6bde-3df3-b0b7-4d2297d90cdc
+[18:16:24] [Server thread/INFO]: rxx[/[0:0:0:0:0:0:0:1]:43090] logged in with entity id 8485 at ([world]-445.6688230910492, 70.5, 1279.3131712858672)
+[18:16:29] [Async Chat Thread - #6/INFO]: <tnt> tell jesus to join us[m
+
+[18:16:30] [Async Chat Thread - #6/INFO]: <Redowan> ryan we are breaking up[m
+
+[18:16:31] [Async Chat Thread - #6/INFO]: <Redowan> good bye[m
+
+[18:17:32] [Server thread/INFO]: Chino__ issued server command: /createhome tony
+[18:17:35] [Thread-29/INFO]: UUID of player quvus is 0fb348c3-f795-393e-8029-2e0f3513afc7
+[18:17:35] [Server thread/INFO]: quvus[/[0:0:0:0:0:0:0:1]:49478] logged in with entity id 9008 at ([world]-276.7183729688164, 70.0, 1502.479569753524)
+[18:17:41] [Server thread/INFO]: ___ lost connection: Disconnected
+[18:17:41] [Server thread/INFO]: ___ left the game.
+[18:17:48] [Server thread/INFO]: Chino__ was shot by tnt using [Armageddon]
+[18:17:51] [Server thread/INFO]: Issarielz lost connection: Disconnected
+[18:17:51] [Server thread/INFO]: Issarielz left the game.
+[18:17:53] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:06] [Server thread/INFO]: Chino__ was shot by tnt using [Armageddon]
+[18:18:10] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:16] [Server thread/INFO]: Chino__ was shot by tnt using [Armageddon]
+[18:18:22] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:27] [Server thread/INFO]: Chino__ was shot by tnt using [Armageddon]
+[18:18:28] [Server thread/WARN]: Chino__ moved wrongly!
+[18:18:32] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:37] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:42] [Server thread/INFO]: Chino__ was shot by tnt using [Armageddon]
+[18:18:47] [Server thread/INFO]: Chino__ issued server command: /back
+[18:18:47] [Async Chat Thread - #7/INFO]: <quvus> bro wth[m
+
+[18:18:50] [Thread-30/INFO]: UUID of player Alexis is f808b4e6-5570-3c78-a12c-bbc9f3023e90
+[18:18:50] [Server thread/INFO]: Alexis[/[0:0:0:0:0:0:0:1]:32980] logged in with entity id 10421 at ([world]66.5, 68.0, 195.5)
+[18:18:55] [Server thread/INFO]: tnt issued server command: /home tnt
+[18:18:56] [Server thread/INFO]: Chino__ issued server command: /neymar
+[18:19:03] [Async Chat Thread - #7/INFO]: <Redowan> Hi alexis[m
+
+[18:19:15] [Async Chat Thread - #7/INFO]: <tnt> hola[m
+
+[18:19:15] [Async Chat Thread - #7/INFO]: <Chino__> tell john get on[m
+
+[18:19:18] [Async Chat Thread - #7/INFO]: <Chino__> i need my things[m
+
+[18:19:21] [Server thread/INFO]: Alexis lost connection: Login timed out!
+[18:19:21] [Server thread/INFO]: Alexis left the game.
+[18:19:21] [Server thread/WARN]: handleDisconnection() called twice
+[18:19:22] [Async Chat Thread - #7/INFO]: <Chino__> tell em now[m
+
+[18:19:23] [Async Chat Thread - #7/INFO]: <quvus> hes looking for a skin[m
+
+[18:19:25] [Thread-31/INFO]: UUID of player Alexis is f808b4e6-5570-3c78-a12c-bbc9f3023e90
+[18:19:25] [Server thread/INFO]: Alexis[/[0:0:0:0:0:0:0:1]:46616] logged in with entity id 10881 at ([world]66.98065723477018, 68.01655150137626, 195.85317111619995)
+[18:19:26] [Async Chat Thread - #7/INFO]: <tnt> bro[m
+
+[18:19:28] [Async Chat Thread - #7/INFO]: <Chino__> bru[m
+
+[18:19:38] [Async Chat Thread - #7/INFO]: <Alexis> hi[m
+
+[18:19:44] [Async Chat Thread - #7/INFO]: <tnt> hola my pookie lookie dookie aookie ryan[m
+
+[18:19:48] [Server thread/INFO]: quvus issued server command: /tell Alexis slide the cords
+[18:20:00] [Server thread/INFO]: Alexis has just earned the achievement [Taking Inventory]
+[18:20:18] [Async Chat Thread - #7/INFO]: <Chino__> tell him i said hurry[m
+
+[18:20:25] [Server thread/INFO]: chris____ was slain by Zombie
+[18:20:32] [Server thread/INFO]: chris____ issued server command: /back
+[18:20:48] [Thread-32/INFO]: UUID of player goofyahjon is 78724eda-3699-3c6b-809d-109798aa3895
+[18:20:48] [Server thread/INFO]: goofyahjon[/[0:0:0:0:0:0:0:1]:45584] logged in with entity id 11985 at ([world]58.5, 64.0, 188.5)
+[18:21:13] [Server thread/INFO]: goofyahjon issued server command: /mother12#
+[18:21:19] [Server thread/INFO]: goofyahjon lost connection: Login timed out!
+[18:21:19] [Server thread/INFO]: goofyahjon left the game.
+[18:21:19] [Server thread/WARN]: handleDisconnection() called twice
+[18:21:26] [Async Chat Thread - #8/INFO]: <tnt> Yeppie[m
+
+[18:21:49] [Server thread/INFO]: chris____ was blown up by Creeper
+[18:21:56] [Server thread/INFO]: chris____ issued server command: /back
+[18:22:14] [Server thread/INFO]: quvus issued server command: /home adan
+[18:22:23] [Server thread/INFO]: Alexis lost connection: Disconnected
+[18:22:23] [Server thread/INFO]: Alexis left the game.
+[18:23:10] [Server thread/INFO]: quvus issued server command: /home base
+[18:23:37] [Server thread/INFO]: quvus issued server command: /home outbase
+[18:24:02] [Server thread/INFO]: quvus issued server command: /home outbase
+[18:24:25] [Server thread/INFO]: quvus issued server command: /home redowan
+[18:24:28] [Server thread/WARN]: quvus moved wrongly!
+[18:24:46] [Async Chat Thread - #9/INFO]: <quvus> give that slik touch[m
+
+[18:25:23] [Async Chat Thread - #9/INFO]: <quvus> bro y[m
+
+[18:25:27] [Async Chat Thread - #9/INFO]: <Redowan> ?[m
+
+[18:25:39] [Server thread/INFO]: chris____ was slain by Spider
+[18:25:43] [Async Chat Thread - #9/INFO]: <Redowan> lets tests it[m
+
+[18:25:46] [Server thread/INFO]: chris____ issued server command: /back
+[18:25:59] [Server thread/INFO]: quvus issued server command: /home base
+[18:26:01] [Async Chat Thread - #9/INFO]: <Redowan> yessir[m
+
+[18:26:12] [Server thread/INFO]: quvus issued server command: /home oldoutbase
+[18:26:24] [Server thread/INFO]: quvus issued server command: /home oldoutbase
+[18:26:36] [Server thread/INFO]: Chino__ issued server command: /tpa rxx
+[18:26:36] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpa' in plugin SimpleTpa v6.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.PURPLE
+	at java.lang.Enum.valueOf(Enum.java:293) ~[?:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:51) ~[?:?]
+	at me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendRequest(SimpleTpaUtils.java:82) ~[?:?]
+	at me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:68) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[18:26:41] [Server thread/INFO]: rxx issued server command: /tpaccept

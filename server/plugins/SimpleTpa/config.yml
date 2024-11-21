@@ -81,7 +81,7 @@ Particle-Name: "EXPLOSION_NORMAL"
 
 #Accept Button Properties
 Accept-Button: "ACCEPT"
-Accept-Button-Color: "RED"
+Accept-Button-Color: "YELLOW"
 Accept-Button-Set-Bold: true
 Accept-Button-Description: "&6Click here to &cACCEPT &6the tp request!"
 
@@ -93,7 +93,7 @@ Middle-Button-Description: "&7 <- Choose between -> "
 
 #Deny Button Properties
 Deny-Button: "DENY"
-Deny-Button-Color: "RED"
+Deny-Button-Color: "PURPLE"
 Deny-Button-Set-Bold: true
 Deny-Button-Description: "&6Click here to &cDENY &6the tp request!"
 
@@ -152,5 +152,6 @@ tpahereall-cooldown: 10
 #The options for commands are: tpa | tpahere | back | tpahereall
 #Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
 #This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
+
 
 
