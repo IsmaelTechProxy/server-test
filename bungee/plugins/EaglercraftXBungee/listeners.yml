@@ -8,9 +8,9 @@ listener_01:
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
-  server_icon: server-icon.png
+  server_icon: logo.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&l&3Just Join.'
   allow_motd: true
   allow_query: true
   request_motd_cache:
@@ -46,7 +46,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     motd:
-      enable: false
+      enable: true
       period: 30
       limit: 5
       limit_lockout: 15
