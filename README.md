@@ -14,7 +14,10 @@ First, go to the top of the repo and click on code > codespaces > create codespa
 now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
 <br>
 <br>
-create 2 terminal tabs and paste in the following snipits:
+create 2 terminal tabs:
+<br>
+<br>
+do this before too but this is specific to my anarchy server: `sudo apk update` after that do this `sudo apk add open jdk8`
 <br>
 <br>
 first tab: `cd server && sudo java -jar server.jar`
