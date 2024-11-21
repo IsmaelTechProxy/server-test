@@ -1,0 +1,852 @@
+[12:35:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:35:01] [Server thread/INFO]: Loading properties
+[12:35:01] [Server thread/INFO]: Default game type: SURVIVAL
+[12:35:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:35:01] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
+[12:35:01] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
+[12:35:01] [Server thread/INFO]: Unable to find file ops.json, creating it.
+[12:35:01] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
+[12:35:01] [Server thread/INFO]: Debug logging is disabled
+[12:35:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:35:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[12:35:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:35:01] [Server thread/INFO]: Data value allowed items: 
+[12:35:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[12:35:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[12:35:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[12:35:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[12:35:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[12:35:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[12:35:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[12:35:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[12:35:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[12:35:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[12:35:01] [Server thread/INFO]: Generating keypair
+[12:35:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:35:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:35:02] [Server thread/INFO]: Using default channel type
+[12:35:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:35:02] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:35:02] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:35:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:35:02] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:35:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:35:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:35:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:35:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:35:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:35:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:35:02] [Server thread/INFO]: Preparing level "world"
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:35:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:35:02] [Server thread/INFO]: Anti X-Ray: true
+[12:35:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:35:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:35:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:35:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:35:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:35:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:35:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:35:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:35:02] [Server thread/INFO]: Structure Info Saving: true
+[12:35:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:35:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:35:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:35:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:35:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:35:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:35:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:35:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:35:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:35:02] [Server thread/INFO]: View Distance: 4
+[12:35:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:35:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:35:02] [Server thread/INFO]: Clear tick list: false
+[12:35:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:35:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:35:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:35:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:35:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:35:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:35:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:35:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:35:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:35:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:35:02] [Server thread/INFO]: World async lighting: false
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:35:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:35:02] [Server thread/INFO]: Anti X-Ray: true
+[12:35:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:35:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:35:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:35:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:35:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:35:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:35:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:35:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:35:02] [Server thread/INFO]: Structure Info Saving: true
+[12:35:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:35:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:35:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:35:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:35:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:35:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:35:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:35:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:35:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:35:02] [Server thread/INFO]: View Distance: 4
+[12:35:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:35:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:35:02] [Server thread/INFO]: Clear tick list: false
+[12:35:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:35:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:35:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:35:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:35:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:35:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:35:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:35:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:35:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:35:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:35:02] [Server thread/INFO]: World async lighting: false
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:35:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:35:02] [Server thread/INFO]: Anti X-Ray: true
+[12:35:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:35:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:35:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:35:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:35:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:35:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:35:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:35:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:35:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:35:02] [Server thread/INFO]: Structure Info Saving: true
+[12:35:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:35:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:35:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:35:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:35:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:35:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:35:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:35:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:35:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:35:02] [Server thread/INFO]: View Distance: 4
+[12:35:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:35:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:35:02] [Server thread/INFO]: Clear tick list: false
+[12:35:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:35:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:35:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:35:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:35:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:35:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:35:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:35:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:35:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:35:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:35:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:35:02] [Server thread/INFO]: World async lighting: false
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:35:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:35:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: -91513272446898267)
+[12:35:03] [Server thread/INFO]: Preparing spawn area: 8%
+[12:35:04] [Server thread/INFO]: Preparing spawn area: 16%
+[12:35:05] [Server thread/INFO]: Preparing spawn area: 26%
+[12:35:06] [Server thread/INFO]: Preparing spawn area: 37%
+[12:35:07] [Server thread/INFO]: Preparing spawn area: 50%
+[12:35:08] [Server thread/INFO]: Preparing spawn area: 62%
+[12:35:09] [Server thread/INFO]: Preparing spawn area: 74%
+[12:35:10] [Server thread/INFO]: Preparing spawn area: 86%
+[12:35:11] [Server thread/INFO]: Preparing spawn area: 95%
+[12:35:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: -91513272446898267)
+[12:35:13] [Server thread/INFO]: Preparing spawn area: 9%
+[12:35:14] [Server thread/INFO]: Preparing spawn area: 16%
+[12:35:15] [Server thread/INFO]: Preparing spawn area: 23%
+[12:35:16] [Server thread/INFO]: Preparing spawn area: 31%
+[12:35:17] [Server thread/INFO]: Preparing spawn area: 43%
+[12:35:18] [Server thread/INFO]: Preparing spawn area: 76%
+[12:35:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -91513272446898267)
+[12:35:20] [Server thread/INFO]: Preparing spawn area: 66%
+[12:35:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:35:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[12:35:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[12:35:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:35:20] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:35:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:35:20] [Server thread/INFO]: WEPIF: Updated config file
+[12:35:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:35:20] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:35:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:35:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:35:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:35:20] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:35:20] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:35:21] [Server thread/INFO]: Done (18.823s)! For help, type "help" or "?"
+[12:35:21] [Server thread/INFO]: Timings Reset
+[12:35:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[12:35:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[12:35:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[12:41:08] [Thread-8/INFO]: UUID of player bigsigmarizzler is 9dcee0ad-4532-3c2c-86d3-1d7ceca9cc3a
+[12:41:08] [Server thread/INFO]: bigsigmarizzler[/[0:0:0:0:0:0:0:1]:53438] logged in with entity id 2708 at ([world]177.5, 70.0, 253.5)
+[12:41:14] [Thread-9/INFO]: UUID of player X_yo_yo is 73be08db-ed11-3ca1-a01f-05d1d28d805e
+[12:41:14] [Server thread/INFO]: X_yo_yo[/[0:0:0:0:0:0:0:1]:59988] logged in with entity id 3095 at ([world]177.5, 71.0, 259.5)
+[12:41:19] [Thread-10/INFO]: UUID of player ViggYee822 is 6b8c8981-c15a-36f3-8386-0d1ab0bcf74b
+[12:41:19] [Server thread/INFO]: ViggYee822[/[0:0:0:0:0:0:0:1]:59990] logged in with entity id 3224 at ([world]189.5, 71.0, 250.5)
+[12:41:25] [Server thread/INFO]: ViggYee822 lost connection: Disconnected
+[12:41:25] [Server thread/INFO]: ViggYee822 left the game.
+[12:41:33] [Thread-11/INFO]: UUID of player g1h21 is a6fc4081-f37a-3c03-bc4d-5297b1658273
+[12:41:33] [Server thread/INFO]: g1h21[/[0:0:0:0:0:0:0:1]:33848] logged in with entity id 3318 at ([world]179.5, 70.0, 247.5)
+[12:41:41] [Async Chat Thread - #0/INFO]: <bigsigmarizzler> new server[m
+
+[12:41:42] [Server thread/INFO]: bigsigmarizzler has just earned the achievement [Taking Inventory]
+[12:41:51] [Async Chat Thread - #0/INFO]: <g1h21> hi[m
+
+[12:41:53] [Server thread/INFO]: X_yo_yo has just earned the achievement [Taking Inventory]
+[12:41:56] [Server thread/INFO]: g1h21 has just earned the achievement [Taking Inventory]
+[12:42:08] [Server thread/INFO]: g1h21 has just earned the achievement [Getting Wood]
+[12:42:16] [Thread-12/INFO]: UUID of player Becker is a87594e3-512b-31fe-b613-186256320542
+[12:42:16] [Server thread/INFO]: Becker[/[0:0:0:0:0:0:0:1]:34084] logged in with entity id 3811 at ([world]193.5, 71.0, 252.5)
+[12:42:27] [Async Chat Thread - #0/INFO]: <Becker> hi guys[m
+
+[12:42:30] [Async Chat Thread - #0/INFO]: <g1h21> hi[m
+
+[12:42:51] [Thread-13/INFO]: UUID of player haligimo325 is 3da36b75-cd8d-37b7-ba3d-972163786d91
+[12:42:51] [Server thread/INFO]: haligimo325[/[0:0:0:0:0:0:0:1]:41114] logged in with entity id 4097 at ([world]192.5, 74.0, 247.5)
+[12:42:53] [Async Chat Thread - #0/INFO]: <bigsigmarizzler> wait who is g1h21[m
+
+[12:43:08] [Async Chat Thread - #0/INFO]: <bigsigmarizzler> mihamed[m
+
+[12:43:09] [Async Chat Thread - #0/INFO]: <g1h21> idk who is he ?>[m
+
+[12:43:11] [Async Chat Thread - #0/INFO]: <g1h21> NO[m
+
+[12:43:18] [Async Chat Thread - #0/INFO]: <Becker> bro[m
+
+[12:43:20] [Async Chat Thread - #0/INFO]: <bigsigmarizzler> im ali o[m
+
+[12:43:25] [Async Chat Thread - #0/INFO]: <Becker> th are u doing[m
+
+[12:43:27] [Async Chat Thread - #0/INFO]: <g1h21> im GHASSAN[m
+
+[12:43:36] [Server thread/INFO]: Becker was slain by haligimo325
+[12:43:53] [Server thread/INFO]: haligimo325 has just earned the achievement [Taking Inventory]
+[12:44:01] [Server thread/INFO]: Becker has just earned the achievement [Taking Inventory]
+[12:44:02] [Server thread/INFO]: Becker has just earned the achievement [Getting Wood]
+[12:44:37] [Server thread/INFO]: Becker has just earned the achievement [Benchmarking]
+[12:45:07] [Server thread/INFO]: Becker has just earned the achievement [Time to Mine!]
+[12:45:19] [Server thread/INFO]: X_yo_yo lost connection: Disconnected
+[12:45:19] [Server thread/INFO]: X_yo_yo left the game.
+[12:45:19] [Server thread/INFO]: haligimo325 lost connection: Disconnected
+[12:45:19] [Server thread/INFO]: haligimo325 left the game.
+[12:45:20] [Server thread/INFO]: bigsigmarizzler lost connection: Disconnected
+[12:45:20] [Server thread/INFO]: bigsigmarizzler left the game.
+[12:45:25] [Server thread/INFO]: Becker lost connection: Disconnected
+[12:45:25] [Server thread/INFO]: Becker left the game.
+[12:45:36] [Server thread/INFO]: g1h21 has just earned the achievement [Benchmarking]
+[12:45:52] [Server thread/INFO]: g1h21 has just earned the achievement [Time to Strike!]
+[12:47:04] [Server thread/INFO]: g1h21 has just earned the achievement [Monster Hunter]
+[12:47:20] [Server thread/INFO]: g1h21 has just earned the achievement [Cow Tipper]
+[12:47:39] [Server thread/INFO]: g1h21 was blown up by Creeper
+[12:47:42] [Server thread/INFO]: g1h21 issued server command: /back
+[12:49:34] [Async Chat Thread - #1/INFO]: <g1h21> wow[m
+
+[12:52:42] [Thread-14/INFO]: UUID of player haligimo325 is 3da36b75-cd8d-37b7-ba3d-972163786d91
+[12:52:42] [Server thread/INFO]: haligimo325[/[0:0:0:0:0:0:0:1]:53302] logged in with entity id 5949 at ([world]193.30000001192093, 69.0, 298.3000000119209)
+[12:52:47] [Async Chat Thread - #2/INFO]: <g1h21> hi MTY[m
+
+[12:52:50] [Async Chat Thread - #2/INFO]: <haligimo325> hi[m
+
+[12:52:55] [Thread-15/INFO]: UUID of player X_yo_yo is 73be08db-ed11-3ca1-a01f-05d1d28d805e
+[12:52:56] [Server thread/INFO]: X_yo_yo[/[0:0:0:0:0:0:0:1]:42010] logged in with entity id 6191 at ([world]137.69999998807907, 71.0, 271.69999998807896)
+[12:53:02] [Async Chat Thread - #2/INFO]: <g1h21> can I have cords ??[m
+
+[12:53:06] [Thread-16/INFO]: UUID of player Becker is a87594e3-512b-31fe-b613-186256320542
+[12:53:06] [Server thread/INFO]: Becker[/[0:0:0:0:0:0:0:1]:43976] logged in with entity id 6317 at ([world]194.98510572504563, 71.0, 266.75200799733705)
+[12:53:14] [Async Chat Thread - #2/INFO]: <X_yo_yo> no[m
+
+[12:53:16] [Async Chat Thread - #2/INFO]: <X_yo_yo> no[m
+
+[12:53:17] [Async Chat Thread - #2/INFO]: <X_yo_yo> no[m
+
+[12:53:18] [Async Chat Thread - #2/INFO]: <X_yo_yo> no[m
+
+[12:53:19] [Thread-17/INFO]: UUID of player bigsigmarizzler is 9dcee0ad-4532-3c2c-86d3-1d7ceca9cc3a
+[12:53:19] [Server thread/INFO]: bigsigmarizzler[/[0:0:0:0:0:0:0:1]:46578] logged in with entity id 6354 at ([world]106.69999998807907, 67.0, 243.94498075367324)
+[12:53:20] [Async Chat Thread - #2/INFO]: <X_yo_yo> no[m
+
+[12:53:21] [Async Chat Thread - #2/INFO]: <g1h21> actauly nvm[m
+
+[12:53:28] [Async Chat Thread - #2/INFO]: <g1h21> I found a good cave[m
+
+[12:53:38] [Async Chat Thread - #2/INFO]: <haligimo325> ok i need food[m
+
+[12:53:48] [Async Chat Thread - #2/INFO]: <g1h21> I have alot[m
+
+[12:53:49] [Async Chat Thread - #2/INFO]: <haligimo325> ali o stop shitting on the floor[m
+
+[12:54:03] [Async Chat Thread - #2/INFO]: <g1h21> MTY can u give me cords 2 give food[m
+
+[12:54:05] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> i am bigsigmarizzler i dont shit[m
+
+[12:54:10] [Async Chat Thread - #2/INFO]: <g1h21> what[m
+
+[12:54:11] [Async Chat Thread - #2/INFO]: <haligimo325> ii dont have food and ali o u shit alot[m
+
+[12:54:19] [Async Chat Thread - #2/INFO]: <g1h21> ill give u food[m
+
+[12:54:21] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> i am bigsigmarizzler[m
+
+[12:54:28] [Server thread/INFO]: X_yo_yo has just earned the achievement [Getting Wood]
+[12:54:29] [Async Chat Thread - #2/INFO]: <haligimo325> u mean bigsigmashitter[m
+
+[12:54:30] [Async Chat Thread - #2/INFO]: <g1h21> oml[m
+
+[12:54:37] [Async Chat Thread - #2/INFO]: <g1h21> haligimo[m
+
+[12:54:41] [Async Chat Thread - #2/INFO]: <haligimo325> yeah[m
+
+[12:54:47] [Async Chat Thread - #2/INFO]: <g1h21> hi ali[m
+
+[12:54:53] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> hi[m
+
+[12:54:54] [Async Chat Thread - #2/INFO]: <g1h21> ali.o found me[m
+
+[12:55:00] [Async Chat Thread - #2/INFO]: <haligimo325> shit masters[m
+
+[12:55:08] [Async Chat Thread - #2/INFO]: <g1h21> what did I do[m
+
+[12:55:12] [Server thread/INFO]: haligimo325 issued server command: /tpa bigsigmarizzler
+[12:55:31] [Server thread/INFO]: bigsigmarizzler issued server command: /tpaccept
+[12:55:45] [Server thread/INFO]: X_yo_yo issued server command: /tpa bigsigmarizzler
+[12:55:49] [Server thread/INFO]: bigsigmarizzler issued server command: /tpaccept
+[12:55:52] [Async Chat Thread - #2/INFO]: <g1h21> hi MTY[m
+
+[12:56:08] [Async Chat Thread - #2/INFO]: <g1h21> what is happening down there[m
+
+[12:56:16] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> erm wdym[m
+
+[12:56:22] [Async Chat Thread - #2/INFO]: <g1h21> noises[m
+
+[12:56:23] [Async Chat Thread - #2/INFO]: <g1h21> lol[m
+
+[12:56:29] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> oh[m
+
+[12:56:35] [Async Chat Thread - #2/INFO]: <g1h21> enderman ??[m
+
+[12:57:00] [Async Chat Thread - #2/INFO]: <g1h21> who wants 1 wool[m
+
+[12:57:13] [Async Chat Thread - #2/INFO]: <g1h21> MTY[m
+
+[12:57:15] [Async Chat Thread - #2/INFO]: <g1h21> here[m
+
+[12:57:38] [Async Chat Thread - #2/INFO]: <haligimo325> big skibidi algerian men stealing coal[m
+
+[12:57:45] [Async Chat Thread - #2/INFO]: <g1h21> lol[m
+
+[12:58:01] [Async Chat Thread - #2/INFO]: <g1h21> wool[m
+
+[12:58:18] [Async Chat Thread - #2/INFO]: <g1h21> Ali.O[m
+
+[12:58:24] [Server thread/INFO]: X_yo_yo was slain by haligimo325
+[12:58:25] [Server thread/INFO]: haligimo325 has just earned the achievement [Getting Wood]
+[12:58:30] [Server thread/INFO]: X_yo_yo issued server command: /back
+[12:58:31] [Async Chat Thread - #2/INFO]: <haligimo325> i tried to kill the pig[m
+
+[12:58:32] [Async Chat Thread - #2/INFO]: <Becker> hi[m
+
+[12:58:34] [Async Chat Thread - #2/INFO]: <haligimo325> and u lagged to me[m
+
+[12:58:54] [Async Chat Thread - #2/INFO]: <haligimo325> hamza kill me[m
+
+[12:58:58] [Async Chat Thread - #2/INFO]: <haligimo325> so i can regen hunger[m
+
+[12:59:05] [Server thread/INFO]: haligimo325 was slain by X_yo_yo
+[12:59:09] [Async Chat Thread - #2/INFO]: <g1h21> I HAVE SO MUCH FOOD[m
+
+[12:59:09] [Server thread/INFO]: haligimo325 issued server command: /back
+[12:59:24] [Async Chat Thread - #2/INFO]: <X_yo_yo> can i have some bro i have like nothing[m
+
+[12:59:28] [Server thread/INFO]: g1h21 issued server command: /sure
+[12:59:32] [Async Chat Thread - #2/INFO]: <g1h21> sure[m
+
+[12:59:40] [Async Chat Thread - #2/INFO]: <X_yo_yo> tysm[m
+
+[12:59:43] [Async Chat Thread - #2/INFO]: <haligimo325> bigsigmashitter where are you[m
+
+[12:59:47] [Server thread/INFO]: haligimo325 issued server command: /rtp
+[12:59:53] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> rizzler*[m
+
+[13:00:00] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> i rizz up little kids[m
+
+[13:00:07] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> black ones[m
+
+[13:00:09] [Async Chat Thread - #2/INFO]: <g1h21> thats sus[m
+
+[13:00:10] [Async Chat Thread - #2/INFO]: <haligimo325> u shit on little kids[m
+
+[13:00:12] [Server thread/INFO]: bigsigmarizzler has just earned the achievement [Getting Wood]
+[13:01:00] [Server thread/INFO]: X_yo_yo has just earned the achievement [Benchmarking]
+[13:01:02] [Async Chat Thread - #2/INFO]: <haligimo325> becker shat on me[m
+
+[13:01:09] [Async Chat Thread - #2/INFO]: <g1h21> can I see[m
+
+[13:01:11] [Async Chat Thread - #2/INFO]: <Becker> tf[m
+
+[13:01:18] [Async Chat Thread - #2/INFO]: <haligimo325> bro all becker does is build bases and be the most undergeared[m
+
+[13:01:19] [Async Chat Thread - #2/INFO]: <g1h21> lol[m
+
+[13:01:44] [Async Chat Thread - #2/INFO]: <g1h21> Ali.S is asking who is happy that Mr.Horani isnt here[m
+
+[13:01:54] [Async Chat Thread - #2/INFO]: <haligimo325> not me[m
+
+[13:01:59] [Async Chat Thread - #2/INFO]: <g1h21> ur sad[m
+
+[13:01:59] [Async Chat Thread - #2/INFO]: <bigsigmarizzler> daddy hourani*[m
+
+[13:02:02] [Async Chat Thread - #2/INFO]: <haligimo325> now we have to do work[m
+
+[13:02:03] [Async Chat Thread - #2/INFO]: <g1h21> WTF[m
+
+[13:02:31] [Async Chat Thread - #2/INFO]: <g1h21> can I have cords to give wool[m
+
+[13:02:52] [Async Chat Thread - #2/INFO]: <g1h21> HELLO[m
+
+[13:02:53] [Server thread/INFO]: X_yo_yo issued server command: /tpa bigsigmarizzler
+[13:02:56] [Server thread/INFO]: bigsigmarizzler issued server command: /tpaccept
+[13:03:14] [Server thread/INFO]: X_yo_yo issued server command: /tpa bigsigmarizzler
+[13:03:15] [Server thread/INFO]: bigsigmarizzler issued server command: /tpaccept
+[13:03:24] [Async Chat Thread - #2/INFO]: <X_yo_yo> ty[m
+
+[13:03:27] [Async Chat Thread - #2/INFO]: <g1h21> np[m
+
+[13:03:33] [Server thread/INFO]: X_yo_yo issued server command: /tpa bigsigmarizzler
+[13:03:34] [Async Chat Thread - #2/INFO]: <g1h21> her[m
+
+[13:03:37] [Async Chat Thread - #2/INFO]: <g1h21> *here[m
+
+[13:03:38] [Server thread/INFO]: bigsigmarizzler issued server command: /tpaccept
+[13:03:44] [Async Chat Thread - #2/INFO]: <g1h21> 1 wool[m
+
+[13:03:45] [Async Chat Thread - #2/INFO]: <haligimo325> bro ghassan stop shitting[m
+
+[13:03:51] [Async Chat Thread - #2/INFO]: <g1h21> where[m
+
+[13:04:18] [Async Chat Thread - #2/INFO]: <haligimo325> ok i have food no ima go caving[m
+
+[13:04:22] [Async Chat Thread - #2/INFO]: <g1h21> cords[m
+
+[13:04:29] [Async Chat Thread - #2/INFO]: <haligimo325> now*[m
+
+[13:04:30] [Async Chat Thread - #2/INFO]: <g1h21> ill give u some food[m
+
+[13:04:34] [Async Chat Thread - #2/INFO]: <haligimo325> i have food[m
+
+[13:04:40] [Async Chat Thread - #2/INFO]: <haligimo325> just tpa to me ghassan[m
+
+[13:04:45] [Async Chat Thread - #2/INFO]: <haligimo325> do /tpa haligimo325[m
+
+[13:04:51] [Server thread/INFO]: g1h21 issued server command: /tpa haligimo325
+[13:04:56] [Server thread/INFO]: haligimo325 issued server command: /tpaccept
+[13:05:10] [Server thread/INFO]: g1h21 issued server command: /tpa haligimo325
+[13:05:16] [Server thread/INFO]: haligimo325 issued server command: /tpaccept
+[13:05:23] [Server thread/INFO]: bigsigmarizzler issued server command: /tpa X_yo_yo
+[13:05:33] [Server thread/INFO]: X_yo_yo issued server command: /tpaccept
+[13:05:47] [Async Chat Thread - #3/INFO]: <haligimo325> ghassan lets find a cave[m
+
+[13:05:50] [Async Chat Thread - #3/INFO]: <haligimo325> follow me[m
+
+[13:05:51] [Async Chat Thread - #3/INFO]: <g1h21> ok[m
+
+[13:06:27] [Async Chat Thread - #3/INFO]: <haligimo325> LAVA POOL[m
+
+[13:06:36] [Async Chat Thread - #3/INFO]: <g1h21> save cords[m
+
+[13:06:37] [Async Chat Thread - #3/INFO]: <haligimo325> lets be the first ones to beat the game[m
+
+[13:06:41] [Async Chat Thread - #3/INFO]: <haligimo325> screen shot[m
+
+[13:06:45] [Async Chat Thread - #3/INFO]: <g1h21> u[m
+
+[13:07:07] [Async Chat Thread - #3/INFO]: <haligimo325> i screenshotted the coords[m
+
+[13:07:11] [Async Chat Thread - #3/INFO]: <g1h21> ok[m
+
+[13:07:49] [Async Chat Thread - #3/INFO]: <g1h21> dead end[m
+
+[13:07:53] [Async Chat Thread - #3/INFO]: <haligimo325> ik[m
+
+[13:08:23] [Async Chat Thread - #3/INFO]: <haligimo325> lemme check nether spawn rq ok[m
+
+[13:09:18] [Async Chat Thread - #3/INFO]: <g1h21> MTY wait[m
+
+[13:09:39] [Async Chat Thread - #3/INFO]: <haligimo325> ima get water brb[m
+
+[13:09:42] [Async Chat Thread - #3/INFO]: <g1h21> u still have some iron in furnace[m
+
+[13:09:44] [Async Chat Thread - #3/INFO]: <g1h21> oik[m
+
+[13:09:47] [Async Chat Thread - #3/INFO]: <haligimo325> ik[m
+
+[13:09:50] [Async Chat Thread - #3/INFO]: <g1h21> ok[m
+
+[13:09:59] [Async Chat Thread - #3/INFO]: <haligimo325> i found a cave at -155 -146[m
+
+[13:10:04] [Async Chat Thread - #3/INFO]: <g1h21> nice[m
+
+[13:11:03] [Server thread/INFO]: g1h21 has just earned the achievement [Time to Mine!]
+[13:11:03] [Server thread/INFO]: g1h21 has just earned the achievement [Getting an Upgrade]
+[13:11:29] [Async Chat Thread - #4/INFO]: <g1h21> MTY can I have 1 iron[m
+
+[13:11:31] [Async Chat Thread - #4/INFO]: <haligimo325> yeah[m
+
+[13:11:37] [Async Chat Thread - #4/INFO]: <g1h21> yay ty[m
+
+[13:12:18] [Async Chat Thread - #4/INFO]: <g1h21> um[m
+
+[13:12:27] [Async Chat Thread - #4/INFO]: <g1h21> what the freak[m
+
+[13:12:35] [Async Chat Thread - #4/INFO]: <g1h21> go go go[m
+
+[13:12:56] [Server thread/INFO]: haligimo325 tried to swim in lava
+[13:12:59] [Async Chat Thread - #4/INFO]: <haligimo325> its fine[m
+
+[13:13:01] [Async Chat Thread - #4/INFO]: <g1h21> nooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[13:13:04] [Server thread/INFO]: haligimo325 issued server command: /back
+[13:13:12] [Async Chat Thread - #4/INFO]: <g1h21> tpa 2 me[m
+
+[13:13:15] [Server thread/INFO]: bigsigmarizzler issued server command: /tpa becker
+[13:13:22] [Server thread/INFO]: haligimo325 issued server command: /tpa g1h21
+[13:13:27] [Server thread/INFO]: g1h21 issued server command: /tpaccept
+[13:13:27] [Async Chat Thread - #4/INFO]: <bigsigmarizzler> becker[m
+
+[13:13:29] [Async Chat Thread - #4/INFO]: <bigsigmarizzler> accept[m
+
+[13:13:29] [Server thread/INFO]: Becker issued server command: /tpdeny
+[13:13:34] [Server thread/INFO]: X_yo_yo issued server command: /tpa haligimo325
+[13:13:36] [Async Chat Thread - #4/INFO]: <g1h21> where is everyone at ??[m
+
+[13:13:36] [Async Chat Thread - #4/INFO]: <bigsigmarizzler> autistic black zingy[m
+
+[13:13:38] [Async Chat Thread - #4/INFO]: <haligimo325> gimme all of ur iron[m
+
+[13:13:45] [Async Chat Thread - #4/INFO]: <haligimo325> i died remember[m
+
+[13:13:48] [Async Chat Thread - #4/INFO]: <g1h21> dont have any[m
+
+[13:13:55] [Async Chat Thread - #4/INFO]: <X_yo_yo> g1h21 can i to to u[m
+
+[13:13:56] [Async Chat Thread - #4/INFO]: <X_yo_yo> tp[m
+
+[13:14:00] [Async Chat Thread - #4/INFO]: <X_yo_yo> im stuck in a cave[m
+
+[13:14:07] [Async Chat Thread - #4/INFO]: <g1h21> come 2 us[m
+
+[13:14:08] [Server thread/INFO]: X_yo_yo issued server command: /tpcancel player
+[13:14:11] [Async Chat Thread - #4/INFO]: <X_yo_yo> i cant[m
+
+[13:14:12] [Async Chat Thread - #4/INFO]: <g1h21> me and MTY[m
+
+[13:14:15] [Async Chat Thread - #4/INFO]: <X_yo_yo> im stuck in cave[m
+
+[13:14:17] [Async Chat Thread - #4/INFO]: <g1h21> with tpa[m
+
+[13:14:18] [Async Chat Thread - #4/INFO]: <haligimo325> ok i finish this later lets go caving[m
+
+[13:14:20] [Server thread/INFO]: X_yo_yo issued server command: /tpa g1h21
+[13:14:25] [Server thread/INFO]: g1h21 issued server command: /tpaccept
+[13:14:29] [Async Chat Thread - #4/INFO]: <g1h21> hamza is coming[m
+
+[13:14:36] [Async Chat Thread - #4/INFO]: <haligimo325> forest fire[m
+
+[13:14:39] [Server thread/INFO]: g1h21 issued server command: /tpaccept
+[13:14:42] [Server thread/INFO]: g1h21 issued server command: /
+[13:14:48] [Async Chat Thread - #4/INFO]: <g1h21> y[m
+
+[13:14:49] [Server thread/INFO]: haligimo325 has just earned the achievement [Benchmarking]
+[13:15:02] [Async Chat Thread - #4/INFO]: <g1h21> THE LAG[m
+
+[13:15:19] [Server thread/INFO]: haligimo325 has just earned the achievement [Time to Mine!]
+[13:15:24] [Async Chat Thread - #4/INFO]: <g1h21> hamza TPA[m
+
+[13:16:28] [Server thread/INFO]: haligimo325 has just earned the achievement [Getting an Upgrade]
+[13:16:36] [Async Chat Thread - #5/INFO]: <g1h21> MTY here[m
+
+[13:16:45] [Async Chat Thread - #5/INFO]: <g1h21> o[m
+
+[13:17:28] [Async Chat Thread - #5/INFO]: <haligimo325> iron armor then nether ok?[m
+
+[13:17:32] [Async Chat Thread - #5/INFO]: <g1h21> bet[m
+
+[13:17:57] [Async Chat Thread - #5/INFO]: <haligimo325> gimme food pls[m
+
+[13:18:01] [Async Chat Thread - #5/INFO]: <g1h21> ok[m
+
+[13:18:08] [Async Chat Thread - #5/INFO]: <haligimo325> food[m
+
+[13:18:15] [Async Chat Thread - #5/INFO]: <haligimo325> 1?[m
+
+[13:18:16] [Async Chat Thread - #5/INFO]: <haligimo325> ONLY[m
+
+[13:18:26] [Async Chat Thread - #5/INFO]: <g1h21> 2 is enough[m
+
+[13:18:27] [Async Chat Thread - #5/INFO]: <haligimo325> do u have any more[m
+
+[13:18:28] [Server thread/INFO]: g1h21 issued server command: /
+[13:18:37] [Async Chat Thread - #5/INFO]: <haligimo325> can i just ask u later if i need more[m
+
+[13:18:42] [Async Chat Thread - #5/INFO]: <g1h21> ok[m
+
+[13:19:45] [Server thread/INFO]: haligimo325 lost connection: Disconnected
+[13:19:45] [Server thread/INFO]: haligimo325 left the game.
+[13:19:47] [Server thread/INFO]: Becker lost connection: Disconnected
+[13:19:47] [Server thread/INFO]: Becker left the game.
+[13:19:47] [Server thread/INFO]: X_yo_yo lost connection: Internal Exception: java.net.SocketException: Connection reset
+[13:19:47] [Server thread/INFO]: X_yo_yo left the game.
+[13:19:48] [Server thread/INFO]: bigsigmarizzler lost connection: Disconnected
+[13:19:48] [Server thread/INFO]: bigsigmarizzler left the game.
+[13:19:50] [Server thread/INFO]: g1h21 lost connection: Internal Exception: java.io.IOException: Broken pipe
+[13:19:50] [Server thread/INFO]: g1h21 left the game.
+[14:26:21] [Thread-21/INFO]: UUID of player X_yo_yo is 73be08db-ed11-3ca1-a01f-05d1d28d805e
+[14:26:21] [Server thread/INFO]: X_yo_yo[/[0:0:0:0:0:0:0:1]:46836] logged in with entity id 18380 at ([world]150.87076259130654, 94.0, 16.496157690402917)
+[14:28:51] [Server thread/INFO]: X_yo_yo has just earned the achievement [Time to Mine!]
+[14:28:51] [Server thread/INFO]: X_yo_yo has just earned the achievement [Getting an Upgrade]
+[14:29:06] [Server thread/INFO]: X_yo_yo has just earned the achievement [Time to Strike!]
+[14:29:20] [Thread-22/INFO]: UUID of player bigsigmarizzler is 9dcee0ad-4532-3c2c-86d3-1d7ceca9cc3a
+[14:29:20] [Server thread/INFO]: bigsigmarizzler[/[0:0:0:0:0:0:0:1]:47916] logged in with entity id 18645 at ([world]138.7556013349846, 49.0, 55.303567395049235)
+[14:29:27] [Async Chat Thread - #6/INFO]: <X_yo_yo> hi[m
+
+[14:29:31] [Async Chat Thread - #6/INFO]: <bigsigmarizzler> hi[m
+
+[14:29:36] [Async Chat Thread - #6/INFO]: <X_yo_yo> bro ms elsayari is in my room rn[m
+
+[14:29:53] [Async Chat Thread - #6/INFO]: <X_yo_yo> they almost cuaght me[m
+
+[14:30:00] [Async Chat Thread - #6/INFO]: <X_yo_yo> kidding nobidy can catch me[m
+
+[14:31:04] [Server thread/INFO]: X_yo_yo has just earned the achievement [Monster Hunter]
+[14:33:03] [Server thread/INFO]: bigsigmarizzler was slain by Zombie
+[14:33:06] [Server thread/INFO]: bigsigmarizzler issued server command: /back
+[14:34:23] [Server thread/INFO]: X_yo_yo issued server command: /tpa bigsigmarizzler
+[14:34:25] [Server thread/INFO]: bigsigmarizzler was slain by Zombie
+[14:34:28] [Server thread/INFO]: bigsigmarizzler issued server command: /back
+[14:34:37] [Async Chat Thread - #7/INFO]: <X_yo_yo> bro ali o[m
+
+[14:34:41] [Async Chat Thread - #7/INFO]: <X_yo_yo> u keep dyinh[m
+
+[14:34:41] [Async Chat Thread - #7/INFO]: <X_yo_yo> u keep dyinh[m
+
+[14:34:47] [Async Chat Thread - #7/INFO]: <X_yo_yo> where are i rm[m
+
+[14:34:57] [Server thread/INFO]: bigsigmarizzler was slain by Zombie
+[14:35:01] [Server thread/INFO]: bigsigmarizzler issued server command: /back
+[14:35:01] [Async Chat Thread - #7/INFO]: <X_yo_yo> ali o[m
+
+[14:35:03] [Async Chat Thread - #7/INFO]: <X_yo_yo> yo[m
+
+[14:35:03] [Async Chat Thread - #7/INFO]: <X_yo_yo> yo[m
+
+[14:35:04] [Async Chat Thread - #7/INFO]: <bigsigmarizzler> hwta[m
+
+[14:35:06] [Async Chat Thread - #7/INFO]: <bigsigmarizzler> what[m
+
+[14:35:10] [Async Chat Thread - #7/INFO]: <X_yo_yo> why do u keep dying[m
+
+[14:35:17] [Async Chat Thread - #7/INFO]: <X_yo_yo> btw im at base tp to me if u neeed[m
+
+[14:35:26] [Async Chat Thread - #7/INFO]: <bigsigmarizzler> ok[m
+
+[14:35:39] [Async Chat Thread - #7/INFO]: <X_yo_yo> should i get sand btw[m
+
+[14:35:43] [Async Chat Thread - #7/INFO]: <bigsigmarizzler> sure[m
+
+[14:35:48] [Async Chat Thread - #7/INFO]: <X_yo_yo> k bet[m
+
+[14:37:30] [Async Chat Thread - #8/INFO]: <X_yo_yo> sww somebodys name tag[m
+
+[14:37:36] [Async Chat Thread - #8/INFO]: <bigsigmarizzler> its mine[m
+
+[14:37:40] [Async Chat Thread - #8/INFO]: <bigsigmarizzler> no one else is on[m
+
+[14:37:50] [Server thread/INFO]: bigsigmarizzler was shot by Skeleton
+[14:37:54] [Server thread/INFO]: bigsigmarizzler issued server command: /back
+[14:38:19] [Async Chat Thread - #8/INFO]: <X_yo_yo> how did u come down from here[m
+
+[14:38:44] [Async Chat Thread - #8/INFO]: <bigsigmarizzler> idk[m
+
+[14:39:57] [Server thread/INFO]: bigsigmarizzler lost connection: Disconnected
+[14:39:57] [Server thread/INFO]: bigsigmarizzler left the game.
+[14:42:15] [Thread-24/INFO]: UUID of player bigsigmarizzler is 9dcee0ad-4532-3c2c-86d3-1d7ceca9cc3a
+[14:42:15] [Server thread/INFO]: bigsigmarizzler[/[0:0:0:0:0:0:0:1]:46912] logged in with entity id 22243 at ([world]77.52500820991554, 19.0, 17.30000001192093)
+[14:43:39] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> jsmza[m
+
+[14:43:41] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> hamza[m
+
+[14:43:44] [Async Chat Thread - #9/INFO]: <X_yo_yo> what[m
+
+[14:43:46] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> can i tp[m
+
+[14:43:47] [Async Chat Thread - #9/INFO]: <X_yo_yo> btw i have 15 iron[m
+
+[14:43:50] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> nice[m
+
+[14:43:54] [Async Chat Thread - #9/INFO]: <X_yo_yo> im in weird cave[m
+
+[14:43:57] [Async Chat Thread - #9/INFO]: <X_yo_yo> are u on surface[m
+
+[14:44:01] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> no[m
+
+[14:44:01] [Async Chat Thread - #9/INFO]: <X_yo_yo> i wanna tp to u[m
+
+[14:44:06] [Async Chat Thread - #9/INFO]: <X_yo_yo> lemme tp to u[m
+
+[14:44:09] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> k[m
+
+[14:44:17] [Async Chat Thread - #9/INFO]: <X_yo_yo> actually come to me thh\ere is laba[m
+
+[14:44:50] [Async Chat Thread - #9/INFO]: <X_yo_yo> btw js got 24 ironw[m
+
+[14:45:04] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> i have 36[m
+
+[14:45:26] [Async Chat Thread - #9/INFO]: <X_yo_yo> 30 now and i already have full set except foe boots[m
+
+[14:45:31] [Async Chat Thread - #9/INFO]: <bigsigmarizzler> nicee[m
+
+[14:45:51] [Async Chat Thread - #9/INFO]: <X_yo_yo> 34 now[m
+
+[14:46:02] [Async Chat Thread - #9/INFO]: <X_yo_yo> ali tp to me[m
+
+[14:46:18] [Server thread/INFO]: bigsigmarizzler issued server command: /tpa x_yo_yo
+[14:46:23] [Server thread/INFO]: X_yo_yo issued server command: /tpaccept
+[14:47:10] [Async Chat Thread - #10/INFO]: <X_yo_yo> ali ima get to surface u can staay if u want there are still some unexplored parts if u wanna[m
+
+[14:47:21] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> ok[m
+
+[14:47:30] [Async Chat Thread - #10/INFO]: <X_yo_yo> k im at surafe ced[m
+
+[14:47:38] [Async Chat Thread - #10/INFO]: <X_yo_yo> much easiet than i thoggtj[m
+
+[14:48:19] [Async Chat Thread - #10/INFO]: <X_yo_yo> base dord?[m
+
+[14:48:22] [Async Chat Thread - #10/INFO]: <X_yo_yo> cords[m
+
+[14:48:24] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> idk[m
+
+[14:49:12] [Async Chat Thread - #10/INFO]: <X_yo_yo> nvm found base[m
+
+[14:49:25] [Async Chat Thread - #10/INFO]: <X_yo_yo> cords are 151 16[m
+
+[14:49:30] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> ok[m
+
+[14:49:51] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> cani tp[m
+
+[14:50:02] [Async Chat Thread - #10/INFO]: <X_yo_yo> eya[m
+
+[14:50:04] [Async Chat Thread - #10/INFO]: <X_yo_yo> yea[m
+
+[14:50:56] [Async Chat Thread - #10/INFO]: <X_yo_yo> bro ms ballouli is asking the people how we are aable to acces minecraft[m
+
+[14:51:02] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> fr?[m
+
+[14:51:05] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> who is she asking[m
+
+[14:51:07] [Async Chat Thread - #10/INFO]: <X_yo_yo> yea[m
+
+[14:51:10] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> dont snithc[m
+
+[14:51:11] [Async Chat Thread - #10/INFO]: <X_yo_yo> ms fwentiz[m
+
+[14:51:14] [Async Chat Thread - #10/INFO]: <X_yo_yo> k[m
+
+[14:51:22] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> shes not asking students?[m
+
+[14:51:26] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> stduents or staff[m
+
+[14:51:30] [Async Chat Thread - #10/INFO]: <X_yo_yo> staff[m
+
+[14:51:33] [Async Chat Thread - #10/INFO]: <bigsigmarizzler> oh ok[m
+
+[14:52:27] [Server thread/INFO]: bigsigmarizzler issued server command: /tpa x_yo_yo
+[14:52:38] [Server thread/INFO]: X_yo_yo issued server command: /tpaccept
+[14:52:46] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> mb[m
+
+[14:53:41] [Async Chat Thread - #11/INFO]: <X_yo_yo> bro what do i do with all this extra iron[m
+
+[14:53:46] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> save it[m
+
+[14:53:54] [Async Chat Thread - #11/INFO]: <X_yo_yo> i donte ven need it anymore i alredy made a bucket[m
+
+[14:54:28] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> yo hamza[m
+
+[14:54:35] [Server thread/INFO]: X_yo_yo issued server command: /
+[14:54:35] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> see that big mountain over there[m
+
+[14:54:38] [Async Chat Thread - #11/INFO]: <X_yo_yo> ?[m
+
+[14:54:40] [Async Chat Thread - #11/INFO]: <X_yo_yo> yea[m
+
+[14:54:44] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> lets make base there[m
+
+[14:54:50] [Async Chat Thread - #11/INFO]: <X_yo_yo> k[m
+
+[14:54:59] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> put the useless stuff in the chest[m
+
+[14:55:18] [Async Chat Thread - #11/INFO]: <X_yo_yo> i made a bucket btw[m
+
+[14:55:21] [Async Chat Thread - #11/INFO]: <bigsigmarizzler> me 2[m
+
+[14:55:43] [Server thread/INFO]: X_yo_yo lost connection: Disconnected
+[14:55:43] [Server thread/INFO]: X_yo_yo left the game.
+[14:55:43] [Server thread/INFO]: bigsigmarizzler lost connection: Disconnected
+[14:55:43] [Server thread/INFO]: bigsigmarizzler left the game.
+[15:20:14] [Thread-26/INFO]: UUID of player bigsigmarizzler is 9dcee0ad-4532-3c2c-86d3-1d7ceca9cc3a
+[15:20:14] [Server thread/INFO]: bigsigmarizzler[/[0:0:0:0:0:0:0:1]:60452] logged in with entity id 24232 at ([world]221.9766629931978, 78.0, 0.04664948300463648)
+[15:27:59] [Thread-27/INFO]: UUID of player g1h21 is a6fc4081-f37a-3c03-bc4d-5297b1658273
+[15:27:59] [Server thread/INFO]: g1h21[/[0:0:0:0:0:0:0:1]:52918] logged in with entity id 24484 at ([world]-180.6999999880791, 40.0, -213.69999998807904)
