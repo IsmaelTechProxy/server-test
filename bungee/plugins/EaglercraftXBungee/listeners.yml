@@ -1,7 +1,7 @@
 listener_01:
   address: 0.0.0.0:8081
   address_v6: 'null'
-  max_players: 60
+  max_players: 17
   tab_list: GLOBAL_PING
   default_server: lobby
   force_default_server: false
@@ -10,9 +10,17 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&l&1THE SERVER IS BACK!!!'
   allow_motd: true
   allow_query: true
+  allow_voice: true
+  min_minecraft_protocol: 47
+  max_minecraft_protocol: 340
+  allow_protocol_v3: true
+  allow_protocol_v4: true
+  protocol_v4_defrag_send_delay: 10
+  use_haproxy_protocol: false
+  allow_cookie_revoke_query: true
   request_motd_cache:
     cache_ttl: 7200
     online_server_list_animation: false
@@ -20,15 +28,16 @@ listener_01:
     online_server_list_trending: true
     online_server_list_portfolios: false
   http_server:
-    enabled: true
-    root: '../../../web'
+    enabled: false
+    root: 'web'
     page_404_not_found: 'default'
     page_index_name:
     - 'index.html'
     - 'index.htm'
+  allow_voice: false
   ratelimit:
     ip:
-      enable: false
+      enable: true
       period: 90
       limit: 60
       limit_lockout: 80
@@ -37,7 +46,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     login:
-      enable: false
+      enable: true
       period: 50
       limit: 5
       limit_lockout: 10
@@ -46,7 +55,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     motd:
-      enable: false
+      enable: true
       period: 30
       limit: 5
       limit_lockout: 15
@@ -55,7 +64,7 @@ listener_01:
       - '127.*'
       - '0:0:0:0:0:0:0:1'
     query:
-      enable: false
+      enable: true
       period: 30
       limit: 15
       limit_lockout: 25

@@ -1,0 +1,14 @@
+# The list of worlds this feature is enabled in
+enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Should the keep inventory effect only work in specific worlds or all worlds?
+# true = specific worlds in the enabled-worlds list
+# false = all worlds
+only-in-specific-worlds: false
+
+# Should the plugin require the player to have the permission to keep their inventory?
+# If false everyone will keep inventory
+permission: false

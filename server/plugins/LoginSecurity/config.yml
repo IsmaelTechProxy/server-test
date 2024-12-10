@@ -35,7 +35,7 @@ command-shortcut:
   login: /l
   register: /reg
 updater:
-  enabled: true
+  enabled: false
   # The type of builds you are checking. RELEASE, BETA, ALPHA
   channel: BETA
 # Session timeout in seconds, set to -1 to disable.

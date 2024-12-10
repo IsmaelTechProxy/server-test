@@ -1,0 +1,1347 @@
+[18:01:26] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:01:26] [Server thread/INFO]: Loading properties
+[18:01:26] [Server thread/INFO]: Default game type: SURVIVAL
+[18:01:27] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:01:27] [Server thread/INFO]: Debug logging is disabled
+[18:01:27] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:01:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:01:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:01:27] [Server thread/INFO]: Data value allowed items: 
+[18:01:27] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:01:27] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:01:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:01:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:01:27] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:01:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:01:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:01:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:01:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:01:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:01:27] [Server thread/INFO]: Generating keypair
+[18:01:27] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:01:27] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:01:27] [Server thread/INFO]: Using default channel type
+[18:01:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:01:28] [Server thread/INFO]: [EmotesChat] Loading EmotesChat v1.3.1
+[18:01:28] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:01:28] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.150
+[18:01:28] [Server thread/INFO]: [EssentialsSelectors] Loading EssentialsSelectors v1.6
+[18:01:28] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[18:01:28] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:01:28] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.5.0
+[18:01:28] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:01:28] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
+[18:01:28] [Server thread/INFO]: [MinecraftDashboard] Loading MinecraftDashboard v1.1.7
+[18:01:28] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.11
+[18:01:28] [Server thread/INFO]: [CustomCommands] Loading CustomCommands v1.4
+[18:01:28] [Server thread/INFO]: [BetterKeepInventory] Loading BetterKeepInventory v1.0.3
+[18:01:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[18:01:29] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[18:01:29] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.150[m
+
+[18:01:29] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[18:01:29] [Server thread/INFO]: [m
+
+[18:01:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:01:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:01:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:01:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:01:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2173ms)
+[18:01:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:01:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:01:30] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:01:30] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:01:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:01:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:01:30] [Server thread/INFO]: Preparing level "world"
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:01:31] [Server thread/INFO]: Anti X-Ray: true
+[18:01:31] [Server thread/INFO]: 	Engine Mode: 1
+[18:01:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:01:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:01:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:31] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:01:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:01:31] [Server thread/INFO]: Random Lighting Updates: false
+[18:01:31] [Server thread/INFO]: Structure Info Saving: true
+[18:01:31] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:01:31] [Server thread/INFO]: Max Entity Collisions: 8
+[18:01:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:01:31] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:31] [Server thread/INFO]: View Distance: 4
+[18:01:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:01:31] [Server thread/INFO]: Clear tick list: false
+[18:01:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:01:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:01:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:01:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:01:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:01:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:01:31] [Server thread/INFO]: Water over lava flow speed: 5
+[18:01:31] [Server thread/INFO]: Fix TNT cannons: false
+[18:01:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:01:31] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:01:31] [Server thread/INFO]: World async lighting: false
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:01:31] [Server thread/INFO]: Anti X-Ray: true
+[18:01:31] [Server thread/INFO]: 	Engine Mode: 1
+[18:01:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:01:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:01:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:31] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:01:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:01:31] [Server thread/INFO]: Random Lighting Updates: false
+[18:01:31] [Server thread/INFO]: Structure Info Saving: true
+[18:01:31] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:01:31] [Server thread/INFO]: Max Entity Collisions: 8
+[18:01:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:01:31] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:31] [Server thread/INFO]: View Distance: 4
+[18:01:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:01:31] [Server thread/INFO]: Clear tick list: false
+[18:01:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:01:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:01:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:01:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:01:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:01:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:01:31] [Server thread/INFO]: Water over lava flow speed: 5
+[18:01:31] [Server thread/INFO]: Fix TNT cannons: false
+[18:01:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:01:31] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:01:31] [Server thread/INFO]: World async lighting: false
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:01:31] [Server thread/INFO]: Anti X-Ray: true
+[18:01:31] [Server thread/INFO]: 	Engine Mode: 1
+[18:01:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:01:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:01:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:31] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:01:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:01:31] [Server thread/INFO]: Random Lighting Updates: false
+[18:01:31] [Server thread/INFO]: Structure Info Saving: true
+[18:01:31] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:01:31] [Server thread/INFO]: Max Entity Collisions: 8
+[18:01:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:01:31] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:31] [Server thread/INFO]: View Distance: 4
+[18:01:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:01:31] [Server thread/INFO]: Clear tick list: false
+[18:01:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:01:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:01:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:01:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:01:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:01:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:01:31] [Server thread/INFO]: Water over lava flow speed: 5
+[18:01:31] [Server thread/INFO]: Fix TNT cannons: false
+[18:01:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:01:31] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:01:31] [Server thread/INFO]: World async lighting: false
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:01:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:01:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1832180016976944579)
+[18:01:32] [Server thread/INFO]: Preparing spawn area: 27%
+[18:01:33] [Server thread/INFO]: Preparing spawn area: 78%
+[18:01:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1832180016976944579)
+[18:01:35] [Server thread/INFO]: Preparing spawn area: 6%
+[18:01:36] [Server thread/INFO]: Preparing spawn area: 31%
+[18:01:37] [Server thread/INFO]: Preparing spawn area: 83%
+[18:01:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1832180016976944579)
+[18:01:38] [Server thread/INFO]: [EmotesChat] Enabling EmotesChat v1.3.1
+[18:01:38] [Server thread/INFO]: [0;32;1mEnabled [0;33;1mEmotesChat v1.3.1[m
+
+[18:01:38] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:01:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:01:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:01:38] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:01:38] [Server thread/INFO]: [EssentialsSelectors] Enabling EssentialsSelectors v1.6
+[18:01:38] [Server thread/ERROR]: [EssentialsSelectors] Plugin EssentialsSelectors v1.6 has failed to register events for class doglover.Events.TabEvent because org/bukkit/event/server/TabCompleteEvent does not exist.
+[18:01:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[18:01:38] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:01:38] [Server thread/WARN]: §4Version mismatch! Please update EssentialsSelectors to the same version.
+[18:01:38] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:01:38] [Server thread/INFO]: No kits found to migrate.
+[18:01:38] [Server thread/INFO]: Loaded 853 items from items.csv.
+[18:01:38] [Server thread/INFO]: Using locale en
+[18:01:39] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:01:39] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:01:39] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[18:01:39] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:01:39] [Server thread/INFO]: Using superperms-based permissions.
+[18:01:39] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:01:39] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:01:39] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:01:39] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:01:39] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:01:39] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.5.0
+[18:01:39] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:01:39] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
+[18:01:39] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[18:01:40] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[18:01:40] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[18:01:40] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[18:01:40] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.11
+[18:01:40] [Server thread/INFO]: [CustomCommands] Enabling CustomCommands v1.4
+[18:01:40] [Server thread/INFO]: [BetterKeepInventory] Enabling BetterKeepInventory v1.0.3
+[18:01:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:01:40] [Server thread/INFO]: Done (9.951s)! For help, type "help" or "?"
+[18:01:40] [Server thread/INFO]: Timings Reset
+[18:01:40] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[18:01:41] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:01:41] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:01:41] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:02:00] [Thread-9/INFO]: UUID of player Spoke is 1a9872c0-26b3-39a5-a197-09924c98e9d1
+[18:02:00] [Server thread/INFO]: Spoke[/[0:0:0:0:0:0:0:1]:45504] logged in with entity id 343 at ([world]289.0110315746362, 24.0, 381.69999998807907)
+[18:02:04] [Thread-10/INFO]: UUID of player Cenozo is 80176aa8-7ac1-3616-aece-32acaf80928d
+[18:02:04] [Server thread/INFO]: Cenozo[/[0:0:0:0:0:0:0:1]:46100] logged in with entity id 421 at ([world]837.6999999880791, 79.0, 1205.6793940524508)
+[18:02:44] [Server thread/INFO]: Cenozo issued server command: /heal
+[18:03:16] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:03:19] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:03:27] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:03:29] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:03:46] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:05:03] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:05:08] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:05:10] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:05:13] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:07:39] [Server thread/INFO]: Cenozo lost connection: Timed out
+[18:07:39] [Server thread/INFO]: Cenozo left the game.
+[18:08:05] [Thread-12/INFO]: UUID of player KITKAT is 8bfbf5ca-3ccd-304c-b1e5-66e628f6e874
+[18:08:05] [Server thread/INFO]: KITKAT[/[0:0:0:0:0:0:0:1]:49268] logged in with entity id 1452 at ([world]128.5, 65.0, 240.5)
+[18:08:25] [Thread-13/INFO]: UUID of player Cenozo is 80176aa8-7ac1-3616-aece-32acaf80928d
+[18:08:25] [Server thread/INFO]: Cenozo[/[0:0:0:0:0:0:0:1]:45426] logged in with entity id 1489 at ([world]1072.300000011921, 58.0, 1182.5616614469095)
+[18:08:36] [Server thread/INFO]: KITKAT lost connection: Login timed out!
+[18:08:36] [Server thread/INFO]: KITKAT left the game.
+[18:08:36] [Server thread/WARN]: handleDisconnection() called twice
+[18:08:40] [Thread-14/INFO]: UUID of player KITKAT is 8bfbf5ca-3ccd-304c-b1e5-66e628f6e874
+[18:08:40] [Server thread/INFO]: KITKAT[/[0:0:0:0:0:0:0:1]:52308] logged in with entity id 1630 at ([world]128.5, 65.0, 240.5)
+[18:08:54] [Server thread/ERROR]: Could not pass event BlockBreakEvent to VeinMiner v1.5.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.PlayerInventory.getItemInMainHand()'
+	at me.choco.veinminer.events.BreakBlockListener.onBlockBreak(BreakBlockListener.java:39) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[18:10:19] [Server thread/INFO]: Cenozo lost connection: Disconnected
+[18:10:19] [Server thread/INFO]: Cenozo left the game.
+[18:10:20] [Server thread/INFO]: KITKAT lost connection: Disconnected
+[18:10:20] [Server thread/INFO]: KITKAT left the game.
+[18:10:29] [Server thread/INFO]: Spoke lost connection: Disconnected
+[18:10:29] [Server thread/INFO]: Spoke left the game.
+[18:16:14] [Thread-15/INFO]: UUID of player tim is e875083c-8a85-3fab-8e52-a676496aa12b
+[18:16:14] [Server thread/INFO]: tim[/[0:0:0:0:0:0:0:1]:36590] logged in with entity id 1945 at ([world]123.5, 67.0, 247.5)
+[18:16:34] [Server thread/INFO]: tim issued server command: /shop
+[18:16:50] [Server thread/INFO]: tim has just earned the achievement [Taking Inventory]
+[18:17:29] [Server thread/INFO]: tim has just earned the achievement [Getting Wood]
+[18:18:17] [Server thread/INFO]: Debug logging is disabled
+[18:18:17] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:18:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:18:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:18:17] [Server thread/INFO]: Data value allowed items: 
+[18:18:17] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:18:17] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:18:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:18:17] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:18:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:18:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:18:17] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:18:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:716)
+
+[18:18:17] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:556)
+
+[18:18:17] [Server thread/WARN]: 	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193)
+
+[18:18:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89)
+
+[18:18:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+
+[18:18:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
+
+[18:18:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
+
+[18:18:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
+
+[18:18:17] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
+
+[18:18:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:18:17] [Server thread/INFO]: Anti X-Ray: true
+[18:18:17] [Server thread/INFO]: 	Engine Mode: 1
+[18:18:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:18:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:18:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:18:17] [Server thread/INFO]: Mob Spawn Range: 4
+[18:18:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:18:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:18:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:18:17] [Server thread/INFO]: Random Lighting Updates: false
+[18:18:17] [Server thread/INFO]: Structure Info Saving: true
+[18:18:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:18:17] [Server thread/INFO]: Max Entity Collisions: 8
+[18:18:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:18:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:18:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:18:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:18:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:18:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:18:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:18:17] [Server thread/INFO]: View Distance: 4
+[18:18:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:18:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:18:17] [Server thread/INFO]: Clear tick list: false
+[18:18:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:18:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:18:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:18:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:18:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:18:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:18:17] [Server thread/INFO]: Water over lava flow speed: 5
+[18:18:17] [Server thread/INFO]: Fix TNT cannons: false
+[18:18:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:18:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:18:17] [Server thread/INFO]: World async lighting: false
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:18:17] [Server thread/INFO]: Anti X-Ray: true
+[18:18:17] [Server thread/INFO]: 	Engine Mode: 1
+[18:18:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:18:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:18:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:18:17] [Server thread/INFO]: Mob Spawn Range: 4
+[18:18:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:18:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:18:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:18:17] [Server thread/INFO]: Random Lighting Updates: false
+[18:18:17] [Server thread/INFO]: Structure Info Saving: true
+[18:18:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:18:17] [Server thread/INFO]: Max Entity Collisions: 8
+[18:18:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:18:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:18:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:18:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:18:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:18:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:18:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:18:17] [Server thread/INFO]: View Distance: 4
+[18:18:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:18:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:18:17] [Server thread/INFO]: Clear tick list: false
+[18:18:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:18:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:18:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:18:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:18:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:18:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:18:17] [Server thread/INFO]: Water over lava flow speed: 5
+[18:18:17] [Server thread/INFO]: Fix TNT cannons: false
+[18:18:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:18:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:18:17] [Server thread/INFO]: World async lighting: false
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:18:17] [Server thread/INFO]: Anti X-Ray: true
+[18:18:17] [Server thread/INFO]: 	Engine Mode: 1
+[18:18:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:18:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:18:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:18:17] [Server thread/INFO]: Mob Spawn Range: 4
+[18:18:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:18:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:18:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:18:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:18:17] [Server thread/INFO]: Random Lighting Updates: false
+[18:18:17] [Server thread/INFO]: Structure Info Saving: true
+[18:18:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:18:17] [Server thread/INFO]: Max Entity Collisions: 8
+[18:18:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:18:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:18:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:18:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:18:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:18:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:18:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:18:17] [Server thread/INFO]: View Distance: 4
+[18:18:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:18:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:18:17] [Server thread/INFO]: Clear tick list: false
+[18:18:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:18:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:18:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:18:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:18:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:18:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:18:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:18:17] [Server thread/INFO]: Water over lava flow speed: 5
+[18:18:17] [Server thread/INFO]: Fix TNT cannons: false
+[18:18:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:18:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:18:17] [Server thread/INFO]: World async lighting: false
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:18:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:18:17] [Server thread/INFO]: [BetterKeepInventory] Disabling BetterKeepInventory v1.0.3
+[18:18:17] [Server thread/INFO]: [CustomCommands] Disabling CustomCommands v1.4
+[18:18:17] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.29.11
+[18:18:17] [Server thread/INFO]: [MinecraftDashboard] Disabling MinecraftDashboard v1.1.7
+[18:18:17] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[18:18:17] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[18:18:17] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.5.0
+[18:18:17] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[18:18:17] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[18:18:17] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[18:18:17] [Server thread/INFO]: Disabling Essentials v2.20.1
+[18:18:17] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[18:18:17] [Server thread/INFO]: [EssentialsSelectors] Disabling EssentialsSelectors v1.6
+[18:18:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[18:18:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:18:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:18:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:18:17] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[18:18:17] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:18:17] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[18:18:17] [Server thread/INFO]: [EmotesChat] Disabling EmotesChat v1.3.1
+[18:18:18] [Server thread/INFO]: [EmotesChat] Loading EmotesChat v1.3.1
+[18:18:18] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:18:18] [Server thread/INFO]: [SimpleVeinMiner] Loading SimpleVeinMiner v1.4.1
+[18:18:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.150
+[18:18:18] [Server thread/INFO]: [EssentialsSelectors] Loading EssentialsSelectors v1.6
+[18:18:18] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[18:18:18] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:18:18] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:18:18] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v1.3
+[18:18:18] [Server thread/INFO]: [MinecraftDashboard] Loading MinecraftDashboard v1.1.7
+[18:18:18] [Server thread/INFO]: [InvSee++] Loading InvSeePlusPlus v0.29.11
+[18:18:18] [Server thread/INFO]: [CustomCommands] Loading CustomCommands v1.4
+[18:18:18] [Server thread/INFO]: [BetterKeepInventory] Loading BetterKeepInventory v1.0.3
+[18:18:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[18:18:19] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[18:18:19] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.150[m
+
+[18:18:19] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[18:18:19] [Server thread/INFO]: [m
+
+[18:18:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:18:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:18:19] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:18:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:18:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1187ms)
+[18:18:20] [Server thread/INFO]: [EmotesChat] Enabling EmotesChat v1.3.1
+[18:18:20] [Server thread/INFO]: [0;32;1mEnabled [0;33;1mEmotesChat v1.3.1[m
+
+[18:18:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:18:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:18:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:18:20] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:18:20] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:18:20] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:769) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:18:20] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:18:20] [Server thread/INFO]: [EssentialsSelectors] Enabling EssentialsSelectors v1.6
+[18:18:20] [Server thread/ERROR]: [EssentialsSelectors] Plugin EssentialsSelectors v1.6 has failed to register events for class doglover.Events.TabEvent because org/bukkit/event/server/TabCompleteEvent does not exist.
+[18:18:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[18:18:20] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:18:20] [Server thread/WARN]: §4Version mismatch! Please update EssentialsSelectors to the same version.
+[18:18:20] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:18:20] [Server thread/INFO]: No kits found to migrate.
+[18:18:20] [Server thread/INFO]: Loaded 853 items from items.csv.
+[18:18:20] [Server thread/INFO]: Using locale en
+[18:18:20] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:18:21] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:18:21] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[18:18:21] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:18:21] [Server thread/INFO]: Using superperms-based permissions.
+[18:18:21] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:18:21] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:18:21] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:18:21] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:18:21] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:18:21] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:18:21] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3
+[18:18:21] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[18:18:21] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[18:18:21] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[18:18:21] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[18:18:21] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.11
+[18:18:21] [Server thread/INFO]: [CustomCommands] Enabling CustomCommands v1.4
+[18:18:21] [Server thread/INFO]: [BetterKeepInventory] Enabling BetterKeepInventory v1.0.3
+[18:18:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:18:22] [Craft Scheduler Thread - 10/INFO]: §6Fetching version information...
+[18:18:22] [Server thread/INFO]: Timings Reset
+[18:18:22] [Craft Scheduler Thread - 9/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:18:22] [Craft Scheduler Thread - 9/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:18:22] [Craft Scheduler Thread - 9/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:19:15] [Thread-20/INFO]: UUID of player Cenozo is 80176aa8-7ac1-3616-aece-32acaf80928d
+[18:19:15] [Server thread/INFO]: Cenozo[/[0:0:0:0:0:0:0:1]:60562] logged in with entity id 2738 at ([world]1048.300000011921, 34.0, 1107.857750008838)
+[18:19:25] [Async Chat Thread - #0/INFO]: <tim> hi[m
+
+[18:19:41] [Server thread/INFO]: Cenozo issued server command: /gm c
+[18:20:21] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:21] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:21] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:24] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:24] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:24] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:25] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:25] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:25] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:25] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:25] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:25] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:25] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:26] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:26] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:20:45] [Server thread/INFO]: [SimpleVeinMiner] Enabling SimpleVeinMiner v1.4.1
+[18:20:45] [Server thread/ERROR]: Error occurred while enabling SimpleVeinMiner v1.4.1 (Is it up to date?)
+java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.addRequestProperty(HttpURLConnection.java:3343) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.addRequestProperty(HttpsURLConnectionImpl.java:300) ~[?:?]
+	at net.miau.simpleveinminer.SimpleVeinMiner.onEnable(SimpleVeinMiner.java:116) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at de.gnmyt.mcdash.panel.routes.plugin.PluginRoute.lambda$post$0(PluginRoute.java:61) ~[?:?]
+	at de.gnmyt.mcdash.api.handler.DefaultHandler.lambda$runSync$1(DefaultHandler.java:193) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftFuture.run(CraftFuture.java:89) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[18:20:45] [Server thread/INFO]: [SimpleVeinMiner] Disabling SimpleVeinMiner v1.4.1
+[18:25:01] [Server thread/INFO]: Cenozo issued server command: /gm s
+[18:26:16] [Server thread/INFO]: Cenozo issued server command: /heal
+[18:26:37] [Server thread/INFO]: Cenozo issued server command: /god
+[18:26:49] [Server thread/INFO]: Cenozo issued server command: /god
+[18:30:03] [Server thread/INFO]: tim lost connection: Disconnected
+[18:30:03] [Server thread/INFO]: tim left the game.
+[18:32:00] [Server thread/INFO]: Cenozo issued server command: /whitelist add Cenozo
+[18:32:00] [Server thread/INFO]: [Cenozo: Added Cenozo to the whitelist]
+[18:34:10] [Server thread/INFO]: Cenozo issued server command: /heal
+[18:38:49] [Thread-22/INFO]: UUID of player tim is e875083c-8a85-3fab-8e52-a676496aa12b
+[18:38:49] [Server thread/INFO]: tim[/[0:0:0:0:0:0:0:1]:43982] logged in with entity id 5288 at ([world]90.69999998807911, 76.0, 143.30000001192093)
+[18:41:23] [Server thread/INFO]: tim issued server command: /shop
+[18:42:12] [Server thread/INFO]: Cenozo issued server command: /heal
+[18:42:15] [Thread-23/INFO]: UUID of player KITKAT is 8bfbf5ca-3ccd-304c-b1e5-66e628f6e874
+[18:42:15] [Server thread/INFO]: KITKAT[/[0:0:0:0:0:0:0:1]:50892] logged in with entity id 6253 at ([world]128.5, 65.0, 240.5)
+[18:42:30] [Async Chat Thread - #1/INFO]: <KITKAT> m[m
+
+[18:42:36] [Async Chat Thread - #1/INFO]: <tim> x 49 y 61 z 72[m
+
+[18:42:47] [Server thread/INFO]: KITKAT issued server command: /tpa tim
+[18:42:54] [Server thread/INFO]: tim issued server command: /accept
+[18:43:08] [Async Chat Thread - #1/INFO]: <KITKAT> wait[m
+
+[18:43:11] [Async Chat Thread - #1/INFO]: <KITKAT> ill get some wood[m
+
+[18:43:14] [Async Chat Thread - #1/INFO]: <KITKAT> brb[m
+
+[18:43:15] [Server thread/INFO]: KITKAT issued server command: /back
+[18:43:32] [Server thread/INFO]: KITKAT lost connection: Disconnected
+[18:43:32] [Server thread/INFO]: KITKAT left the game.
+[18:43:54] [Thread-24/INFO]: UUID of player KITKAT is 8bfbf5ca-3ccd-304c-b1e5-66e628f6e874
+[18:43:54] [Server thread/INFO]: KITKAT[/[0:0:0:0:0:0:0:1]:40474] logged in with entity id 7109 at ([world]127.94299399726793, 64.0, 236.36230695576683)
+[18:44:11] [Server thread/INFO]: KITKAT lost connection: Disconnected
+[18:44:11] [Server thread/INFO]: KITKAT left the game.
+[18:44:11] [Thread-25/INFO]: UUID of player Spoke is 1a9872c0-26b3-39a5-a197-09924c98e9d1
+[18:44:11] [Server thread/INFO]: Spoke[/[0:0:0:0:0:0:0:1]:39480] logged in with entity id 7297 at ([world]292.29658865753964, 64.0, 341.37842529387615)
+[18:45:28] [Async Chat Thread - #2/INFO]: <Spoke> hi[m
+
+[18:45:31] [Async Chat Thread - #2/INFO]: <[0;34;1mCenozo[m> Yo[m
+
+[18:45:31] [Async Chat Thread - #2/INFO]: <Spoke> chat[m
+
+[18:46:06] [Server thread/INFO]: Cenozo issued server command: /god
+[18:46:08] [Server thread/INFO]: Cenozo issued server command: /fly
+[18:46:10] [Server thread/INFO]: Cenozo issued server command: /god
+[18:46:12] [Server thread/INFO]: Cenozo issued server command: /fly
+[18:46:50] [Async Chat Thread - #3/INFO]: <Spoke> put in teems pls[m
+
+[18:47:09] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> No one has wanted to team up so like?[m
+
+[18:47:18] [Async Chat Thread - #3/INFO]: <Spoke> me and kenly are[m
+
+[18:47:44] [Thread-26/INFO]: UUID of player KITKAT is 8bfbf5ca-3ccd-304c-b1e5-66e628f6e874
+[18:47:44] [Server thread/INFO]: KITKAT[/[0:0:0:0:0:0:0:1]:56796] logged in with entity id 7957 at ([world]127.30000001192093, 64.0, 236.158306183621)
+[18:47:51] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> What do you want the team name to be?[m
+
+[18:48:16] [Async Chat Thread - #3/INFO]: <KITKAT> so uh[m
+
+[18:48:20] [Async Chat Thread - #3/INFO]: <KITKAT> what happened to tiki is[m
+
+[18:48:21] [Async Chat Thread - #3/INFO]: <KITKAT> uh'[m
+
+[18:48:23] [Async Chat Thread - #3/INFO]: <KITKAT> UH[m
+
+[18:48:24] [Async Chat Thread - #3/INFO]: <Spoke> Spokes&kenbob[m
+
+[18:48:26] [Async Chat Thread - #3/INFO]: <KITKAT> solemme think[m
+
+[18:48:35] [Async Chat Thread - #3/INFO]: <KITKAT> i got called kitkat so i changed it[m
+
+[18:48:38] [Async Chat Thread - #3/INFO]: <KITKAT> becuase yeah[m
+
+[18:48:43] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add Spokes&kenbob
+[18:48:43] [Server thread/INFO]: [Cenozo: Added new team 'Spokes&kenbob' successfully]
+[18:48:47] [Async Chat Thread - #3/INFO]: <Spoke> Spoke & kenbob[m
+
+[18:48:48] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> What would the color be?[m
+
+[18:48:50] [Server thread/INFO]: KITKAT issued server command: /whisper tim hey
+[18:48:50] [Server thread/INFO]: §cKITKAT §4was denied access to command.
+[18:48:55] [Server thread/INFO]: Spoke issued server command: /blue
+[18:49:00] [Async Chat Thread - #3/INFO]: <Spoke> blue[m
+
+[18:49:02] [Async Chat Thread - #3/INFO]: <KITKAT> who is spoke[m
+
+[18:49:02] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> kk[m
+
+[18:49:10] [Async Chat Thread - #3/INFO]: <Spoke> peyton[m
+
+[18:49:13] [Async Chat Thread - #3/INFO]: <KITKAT> ohh[m
+
+[18:49:15] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Spokes&kenbob color blue
+[18:49:15] [Server thread/INFO]: [Cenozo: Set option color for team Spokes&kenbob to blue]
+[18:49:16] [Async Chat Thread - #3/INFO]: <Spoke> it is me[m
+
+[18:49:23] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Spokes&kenbob friendlyfire false
+[18:49:23] [Server thread/INFO]: [Cenozo: Set option friendlyfire for team Spokes&kenbob to false]
+[18:49:28] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Spokes&kenbob seeFriendlyInvisibles true
+[18:49:28] [Server thread/INFO]: [Cenozo: Set option seefriendlyinvisibles for team Spokes&kenbob to true]
+[18:49:36] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams join Spokes&kenbob Spoke
+[18:49:36] [Server thread/INFO]: [Cenozo: Added 1 player(s) to team Spokes&kenbob: Spoke]
+[18:49:50] [Server thread/INFO]: KITKAT issued server command: /shop
+[18:49:58] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Spokes&kenbob color aqua
+[18:49:58] [Server thread/INFO]: [Cenozo: Set option color for team Spokes&kenbob to aqua]
+[18:50:09] [Server thread/INFO]: Spoke lost connection: Disconnected
+[18:50:09] [Server thread/INFO]: Spoke left the game.
+[18:50:10] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Done.[m
+
+[18:50:16] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add Solo
+[18:50:16] [Server thread/INFO]: [Cenozo: Added new team 'Solo' successfully]
+[18:50:17] [Server thread/INFO]: KITKAT has just earned the achievement [Taking Inventory]
+[18:50:21] [Async Chat Thread - #3/INFO]: <tim> me and preston[m
+
+[18:50:28] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Solo color gray
+[18:50:28] [Server thread/INFO]: [Cenozo: Set option color for team Solo to gray]
+[18:50:35] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Solo friendlyfire true
+[18:50:35] [Server thread/INFO]: [Cenozo: Set option friendlyfire for team Solo to true]
+[18:50:39] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option Solo seeFriendlyInvisibles false
+[18:50:39] [Server thread/INFO]: [Cenozo: Set option seefriendlyinvisibles for team Solo to false]
+[18:50:50] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams join Solo @a
+[18:50:50] [Server thread/INFO]: [Cenozo: Added 3 player(s) to team Solo: tim, Cenozo and KITKAT]
+[18:51:01] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Do you want to be on a team with tim Kitkat?[m
+
+[18:51:07] [Async Chat Thread - #3/INFO]: <KITKAT> yes[m
+
+[18:51:11] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Team name?[m
+
+[18:51:25] [Async Chat Thread - #3/INFO]: <tim> the boys[m
+
+[18:51:28] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Team color[m
+
+[18:51:29] [Async Chat Thread - #3/INFO]: <KITKAT> wait[m
+
+[18:51:35] [Server thread/INFO]: Cenozo issued server command: /gof
+[18:51:36] [Server thread/INFO]: Cenozo issued server command: /god
+[18:51:37] [Server thread/INFO]: Cenozo issued server command: /fly
+[18:51:49] [Async Chat Thread - #3/INFO]: <KITKAT> team four corners[m
+
+[18:51:49] [Server thread/INFO]: Cenozo issued server command: /god
+[18:51:51] [Server thread/INFO]: Cenozo issued server command: /fly
+[18:51:55] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> TEAM COLOR GRRRRRR[m
+
+[18:52:01] [Async Chat Thread - #3/INFO]: <KITKAT> uhh[m
+
+[18:52:06] [Async Chat Thread - #3/INFO]: <KITKAT> teal[m
+
+[18:52:07] [Async Chat Thread - #3/INFO]: <tim> teal[m
+
+[18:52:13] [Thread-27/INFO]: UUID of player Spoke is 1a9872c0-26b3-39a5-a197-09924c98e9d1
+[18:52:13] [Server thread/INFO]: Spoke[/[0:0:0:0:0:0:0:1]:54142] logged in with entity id 8840 at ([world]292.9033874762264, 64.0, 338.85984986594866)
+[18:52:31] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Well that is already taken. I had to make Ken and Pey's team teal, because blue is too close to the[m
+
+[18:52:37] [Async Chat Thread - #3/INFO]: <KITKAT> ohh[m
+
+[18:52:44] [Async Chat Thread - #3/INFO]: <tim> dark blue[m
+
+[18:52:46] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Operator color.[m
+
+[18:52:48] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Alright[m
+
+[18:52:49] [Server thread/INFO]: Spoke issued server command: /teams
+[18:52:55] [Server thread/INFO]: Spoke issued server command: /red
+[18:52:58] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add The_Boys
+[18:52:58] [Server thread/INFO]: [Cenozo: Added new team 'The_Boys' successfully]
+[18:53:04] [Async Chat Thread - #3/INFO]: <Spoke> did you do it[m
+
+[18:53:06] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams remove The_Boys
+[18:53:06] [Server thread/INFO]: [Cenozo: Removed team The_Boys]
+[18:53:09] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Yes I did Spoe[m
+
+[18:53:13] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> Yes I did Spoke[m
+
+[18:53:19] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add The Boys
+[18:53:19] [Server thread/INFO]: [Cenozo: Added new team 'The' successfully]
+[18:53:23] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams remove The
+[18:53:23] [Server thread/INFO]: [Cenozo: Removed team The]
+[18:53:25] [Server thread/INFO]: KITKAT issued server command: /tpa tim
+[18:53:30] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add "The Boys"
+[18:53:30] [Server thread/INFO]: [Cenozo: Added new team '"The' successfully]
+[18:53:30] [Server thread/INFO]: tim issued server command: /accept
+[18:53:34] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams remove "The
+[18:53:34] [Server thread/INFO]: [Cenozo: Removed team "The]
+[18:53:40] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams add The_Boys
+[18:53:40] [Server thread/INFO]: [Cenozo: Added new team 'The_Boys' successfully]
+[18:53:47] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option The_Boys color dark_blue
+[18:53:47] [Server thread/INFO]: [Cenozo: Set option color for team The_Boys to dark_blue]
+[18:53:52] [Server thread/INFO]: KITKAT issued server command: /tpa tim
+[18:53:54] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option The_Boys friendlyfire false
+[18:53:54] [Server thread/INFO]: [Cenozo: Set option friendlyfire for team The_Boys to false]
+[18:53:56] [Server thread/INFO]: tim issued server command: /accept
+[18:53:59] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option The_Boys seeFriendlyInvisibles false
+[18:53:59] [Server thread/INFO]: [Cenozo: Set option seefriendlyinvisibles for team The_Boys to false]
+[18:54:02] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams option The_Boys seeFriendlyInvisibles true
+[18:54:02] [Server thread/INFO]: [Cenozo: Set option seefriendlyinvisibles for team The_Boys to true]
+[18:54:08] [Async Chat Thread - #3/INFO]: <KITKAT> yo[m
+
+[18:54:10] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams join The_Boys tim
+[18:54:10] [Server thread/INFO]: [Cenozo: Added 1 player(s) to team The_Boys: tim]
+[18:54:14] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams join The_Boys KITKAT
+[18:54:14] [Server thread/INFO]: [Cenozo: Added 1 player(s) to team The_Boys: KITKAT]
+[18:54:26] [Async Chat Thread - #3/INFO]: <KITKAT> this wont be our final base but a placeholder for now sound good?[m
+
+[18:54:33] [Async Chat Thread - #3/INFO]: <tim> yea[m
+
+[18:54:34] [Server thread/INFO]: Cenozo issued server command: /team
+[18:54:37] [Async Chat Thread - #3/INFO]: <KITKAT> thanks btw[m
+
+[18:54:42] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> np[m
+
+[18:54:53] [Async Chat Thread - #3/INFO]: <Spoke> is ken on[m
+
+[18:55:00] [Async Chat Thread - #3/INFO]: <[0;34;1mCenozo[m> No[m
+
+[18:55:04] [Async Chat Thread - #3/INFO]: <Spoke> kk[m
+
+[18:55:54] [Server thread/INFO]: Spoke lost connection: Disconnected
+[18:55:54] [Server thread/INFO]: Spoke left the game.
+[18:56:01] [Server thread/INFO]: Cenozo issued server command: /scoreboard objectives add Deaths deathCount
+[18:56:01] [Server thread/INFO]: [Cenozo: Added new objective 'Deaths' successfully]
+[18:56:17] [Server thread/INFO]: Cenozo issued server command: /scoreboard objectives add Health health
+[18:56:17] [Server thread/INFO]: [Cenozo: Added new objective 'Health' successfully]
+[18:56:19] [Server thread/INFO]: KITKAT issued server command: /sell all
+[18:56:19] [Server thread/INFO]: §cKITKAT §4was denied access to command.
+[18:56:27] [Server thread/INFO]: Cenozo issued server command: /scoreboard objectives setdisplay list Deaths
+[18:56:27] [Server thread/INFO]: [Cenozo: Set the display objective in slot 'list' to 'Deaths']
+[18:56:32] [Server thread/INFO]: Cenozo issued server command: /scoreboard objectives setdisplay belowName Health
+[18:56:32] [Server thread/INFO]: [Cenozo: Set the display objective in slot 'belowName' to 'Health']
+[18:58:14] [Server thread/INFO]: KITKAT issued server command: /back
+[18:58:28] [Server thread/INFO]: §1KITKAT§r has just earned the achievement [Getting Wood]
+[18:58:54] [Thread-29/INFO]: UUID of player Spoke is 1a9872c0-26b3-39a5-a197-09924c98e9d1
+[18:58:54] [Server thread/INFO]: Spoke[/[0:0:0:0:0:0:0:1]:33846] logged in with entity id 10630 at ([world]293.69999998807907, 64.0, 341.69999998807907)
+[18:59:02] [Server thread/INFO]: Spoke issued server command: /ogin Jasper123
+[19:00:12] [Server thread/INFO]: Cenozo issued server command: /heal
+[19:00:44] [Server thread/INFO]: Cenozo issued server command: /scoreboard teams join Spokes&kenbob kenman6k
+[19:00:44] [Server thread/INFO]: [Cenozo: Added 1 player(s) to team Spokes&kenbob: kenman6k]
+[19:02:12] [Async Chat Thread - #4/INFO]: <KITKAT> i just murdered some pigs[m
+
+[19:02:41] [Server thread/INFO]: KITKAT issued server command: /back
+[19:02:56] [Server thread/INFO]: KITKAT issued server command: /tpa tim
+[19:03:00] [Server thread/INFO]: tim issued server command: /accept
+[19:03:51] [Server thread/INFO]: KITKAT issued server command: /buy
+[19:03:54] [Server thread/INFO]: KITKAT issued server command: /shop
+[19:04:13] [Async Chat Thread - #5/INFO]: <KITKAT> W[m
+
+[19:04:43] [Server thread/INFO]: Spoke lost connection: Disconnected
+[19:04:43] [Server thread/INFO]: Spoke left the game.
+[19:05:10] [Server thread/INFO]: Cenozo issued server command: /heal
+[19:05:58] [Server thread/INFO]: KITKAT issued server command: /back
+[19:07:32] [Server thread/INFO]: KITKAT lost connection: Disconnected
+[19:07:32] [Server thread/INFO]: KITKAT left the game.
+[19:08:05] [Server thread/INFO]: Cenozo issued server command: /surface
+[19:08:12] [Server thread/INFO]: Cenozo issued server command: /god
+[19:08:18] [Server thread/INFO]: Cenozo issued server command: /tp @s ~ ~9999 ~
+[19:08:22] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~9999 ~
+[19:08:27] [Server thread/INFO]: tim lost connection: Disconnected
+[19:08:27] [Server thread/INFO]: tim left the game.
+[19:08:28] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~-10 ~
+[19:08:30] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~-100000 ~
+[19:08:34] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~999 ~
+[19:08:37] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~99999 ~
+[19:08:44] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~-1000 ~
+[19:08:50] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~-8000 ~
+[19:08:55] [Server thread/INFO]: Cenozo issued server command: /tp Cenozo ~ ~-500 ~
+[19:09:00] [Server thread/INFO]: Cenozo lost connection: Disconnected
+[19:09:00] [Server thread/INFO]: Cenozo left the game.

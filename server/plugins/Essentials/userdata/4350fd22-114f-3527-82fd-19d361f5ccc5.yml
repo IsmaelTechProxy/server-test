@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.10.213
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733715787400
+  login: 1733715745287
+money: '0'
+last-account-name: Cenozo3
+logoutlocation:
+  world: 2ac5005f-4c68-42bd-b3c5-7a0057b6b23e
+  world-name: world
+  x: 78.05105599213897
+  y: 67.0
+  z: 226.69999998807907
+  yaw: 34.80000305175781
+  pitch: 3.1500003337860107

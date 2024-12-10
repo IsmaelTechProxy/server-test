@@ -1,0 +1,13 @@
+# [CustomCommand] Create own commands
+
+prefix: "[&6CustomCommands&r] "
+
+# All custom commands
+# Create your own commands here
+CustomCommands: # Don't touch this!
+  example: # Command trigger (/example)
+    command: 'tps' # The command to be executed
+    message: 'Example'  # A message
+
+
+Version: 3 # Don't touch this!

@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733857740887
+  login: 1733854755365
+  kits:
+    tools: 1733847676293
+money: '0'
+last-account-name: Cenozo
+logoutlocation:
+  world: 0747e10b-6698-4b55-b2c9-039d910c891c
+  world-name: world
+  x: 839.2764418413367
+  y: 69.0
+  z: 981.4524855254606
+  yaw: -177.56982421875
+  pitch: 15.899992942810059
+lastlocation:
+  world: 0747e10b-6698-4b55-b2c9-039d910c891c
+  world-name: world
+  x: 839.5
+  y: 597.8435897039237
+  z: 981.5
+  yaw: -175.31982421875
+  pitch: 90.0

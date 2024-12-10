@@ -1,7 +1,8 @@
 server_name: 'EaglercraftXBungee Server'
-server_uuid: 85284b1b-0fcc-48f6-af75-d02360f59775
+server_uuid: 940683b8-5003-4e4b-b4fc-c9ecb335b43d
 websocket_connection_timeout: 15000
 websocket_handshake_timeout: 5000
+builtin_http_server_timeout: 10000
 http_websocket_compression_level: 6
 download_vanilla_skins_to_clients: true
 valid_skin_download_urls:
@@ -18,4 +19,10 @@ skin_cache_max_profiles: 32768
 skin_cache_antagonists_ratelimit: 15
 sql_driver_class: 'internal'
 sql_driver_path: 'internal'
-eagler_players_vanilla_skin: 'lax1dude'
+eagler_players_vanilla_skin: ''
+enable_is_eagler_player_property: true
+disable_voice_chat_on_servers: []
+disable_fnaw_skins_everywhere: false
+disable_fnaw_skins_on_servers: []
+enable_backend_rpc_api: false
+use_modernized_channel_names: false
