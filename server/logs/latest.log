@@ -1,0 +1,18 @@
+[23:13:55] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[23:13:55] [Server thread/INFO]: Loading properties
+[23:13:56] [Server thread/INFO]: Default game type: SURVIVAL
+[23:13:56] [Server thread/ERROR]: Encountered an unexpected exception
+java.net.UnknownHostException: play.breadsmp.net: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[23:13:56] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server-test/server/./crash-reports/crash-2025-01-02_23.13.56-server.txt
+[23:13:56] [Server thread/INFO]: Stopping server
