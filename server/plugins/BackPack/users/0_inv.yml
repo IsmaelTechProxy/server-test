@@ -1,0 +1,22 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIRT
+    damage: 67
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: TNT
+    amount: 8
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+    amount: 2
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3

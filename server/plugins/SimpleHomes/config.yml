@@ -25,11 +25,11 @@ do-teleport-wait: true
 teleport-wait: 5
 
 # Should those with homes.admin teleport instantly
-admin-bypass-wait: true
+admin-bypass-wait: false
 
 # Maximum amount of homes
 # Users can bypass this with homes.bypasscap
-max-home-count: 5
+max-home-count: 13
 
 # Should setting a new home with the same name as an existing home overwrite the old home?
 # If set to false - you will have to delete the old home before setting the new home

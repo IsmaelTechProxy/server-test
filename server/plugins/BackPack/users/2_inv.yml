@@ -1,0 +1,37 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+    amount: 12
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BLOCK
+    amount: 6
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+    amount: 10
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+    amount: 4
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE_BLOCK
+    amount: 24
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: LAPIS_BLOCK
+    amount: 29
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 5
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    amount: 5
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 16

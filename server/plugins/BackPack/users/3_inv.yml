@@ -1,0 +1,72 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        DAMAGE_UNDEAD: 4
+        KNOCKBACK: 2
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        DAMAGE_UNDEAD: 4
+        KNOCKBACK: 2
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        DAMAGE_UNDEAD: 4
+        KNOCKBACK: 2
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        DAMAGE_UNDEAD: 4
+        KNOCKBACK: 2
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 4
+        DAMAGE_ALL: 3
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 4
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: SADDLE
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BARDING

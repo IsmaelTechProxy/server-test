@@ -1,0 +1,45 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    damage: 1
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: NAME_TAG
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: GREEN_RECORD
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BARDING
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: EYE_OF_ENDER
+    amount: 2
