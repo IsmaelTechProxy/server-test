@@ -5,8 +5,13 @@ Slot:
     damage: 67
   '1':
     ==: org.bukkit.inventory.ItemStack
-    type: TNT
-    amount: 8
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 3
+        PROTECTION_PROJECTILE: 4
   '2':
     ==: org.bukkit.inventory.ItemStack
     type: OBSIDIAN
@@ -20,3 +25,31 @@ Slot:
       enchants:
         DIG_SPEED: 4
         DURABILITY: 3
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        KNOCKBACK: 1
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        FIRE_ASPECT: 1
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 54
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 61
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STALK
+    amount: 48

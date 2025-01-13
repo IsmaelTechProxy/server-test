@@ -8,6 +8,7 @@
 # IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
 
 config-version: 9
+data-value-allowed-items: []
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
@@ -19,7 +20,6 @@ stackable-buckets:
   water: false
   milk: false
 warnWhenSettingExcessiveVelocity: true
-data-value-allowed-items: []
 world-settings:
   default:
     verbose: true
@@ -35,6 +35,15 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
+    mob-spawner-tick-rate: 1
+    cache-chunk-maps: false
+    tnt-explosion-volume: 4.0
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -45,15 +54,6 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    remove-invalid-mob-spawner-tile-entities: true
-    player-blocking-damage-multiplier: 0.5
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    disable-teleportation-suffocation-check: false
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -63,33 +63,33 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
+    remove-invalid-mob-spawner-tile-entities: true
+    player-blocking-damage-multiplier: 0.5
     nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
+    disable-teleportation-suffocation-check: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     optimize-explosions: false
-    mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
-    tnt-explosion-volume: 4.0
-    squid-spawn-height:
-      minimum: 45.0
-      maximum: 63.0
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    all-chunks-are-slime-chunks: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
+    all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
-    container-update-tick-rate: 1
-    keep-spawn-loaded: true
-    falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
+    keep-spawn-loaded: true
+    falling-blocks-collide-with-signs: false
+    container-update-tick-rate: 1
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
