@@ -1,0 +1,8 @@
+# Default Configuration File
+
+TagTime: 300
+Block-EnderPearl: false
+Victim-InCombat-Message: false
+Hitter-InCombat-Message: false
+Victim-NotInCombat-Message: false
+Hitter-NotInCombat-Message: false

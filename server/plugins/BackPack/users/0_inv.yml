@@ -1,0 +1,51 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIRT
+    damage: 67
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 3
+        PROTECTION_PROJECTILE: 4
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: OBSIDIAN
+    amount: 2
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        KNOCKBACK: 1
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        FIRE_ASPECT: 1
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    type: MONSTER_EGG
+    damage: 61
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STALK
+    amount: 48
