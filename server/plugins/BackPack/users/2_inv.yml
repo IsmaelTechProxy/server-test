@@ -5,8 +5,8 @@ Slot:
     amount: 8
   '1':
     ==: org.bukkit.inventory.ItemStack
-    type: IRON_INGOT
-    amount: 5
+    type: BOOKSHELF
+    amount: 64
   '2':
     ==: org.bukkit.inventory.ItemStack
     type: LAPIS_BLOCK
@@ -14,7 +14,7 @@ Slot:
   '3':
     ==: org.bukkit.inventory.ItemStack
     type: LAPIS_BLOCK
-    amount: 16
+    amount: 64
   '4':
     ==: org.bukkit.inventory.ItemStack
     type: REDSTONE_BLOCK
@@ -29,4 +29,9 @@ Slot:
     amount: 6
   '7':
     ==: org.bukkit.inventory.ItemStack
-    type: EMERALD
+    type: BOOKSHELF
+    amount: 43
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    type: LAPIS_BLOCK
+    amount: 6

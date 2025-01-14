@@ -41,10 +41,6 @@ Slot:
       meta-type: ENCHANTED
       stored-enchants:
         FIRE_ASPECT: 1
-  '6':
-    ==: org.bukkit.inventory.ItemStack
-    type: MONSTER_EGG
-    damage: 54
   '7':
     ==: org.bukkit.inventory.ItemStack
     type: MONSTER_EGG

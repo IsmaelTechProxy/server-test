@@ -109,7 +109,7 @@ disabled-worlds:
 disable-back-command: false
 
 # If you want to disable the death coords message, then set this to true
-disable-coords-message: false
+disable-coords-message: true
 
 # If you want to disable saving the death location, then set this to true
 disable-back-on-death: false
@@ -141,7 +141,7 @@ invincibility-seconds: 5
 #This will keep the teleport request alive for X seconds
 keep-alive: 60
 #This will delay the teleportation for X seconds
-delay-back-command: 5
+delay-back-command: 10
 delay-teleportation: 5
 #Cooldowns
 back-cooldown: 10
