@@ -1,0 +1,5 @@
+Slot:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 6

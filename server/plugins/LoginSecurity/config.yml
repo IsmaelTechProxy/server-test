@@ -19,7 +19,7 @@ join:
   blindness: true
   # Temporarily login location until player has logged in.
   # Available options: DEFAULT, SPAWN
-  location: DEFAULT
+  location: SPAWN
   # Safely hides the player's inventory until the player is logged in
   # This required ProtocolLib to be installed
   hide-inventory-safe: false
