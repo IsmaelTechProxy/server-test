@@ -1,0 +1,468 @@
+[11:05:19] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:05:19] [Server thread/INFO]: Loading properties
+[11:05:19] [Server thread/INFO]: Default game type: SURVIVAL
+[11:05:19] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:05:20] [Server thread/INFO]: Debug logging is disabled
+[11:05:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[11:05:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[11:05:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:05:20] [Server thread/INFO]: Data value allowed items: 
+[11:05:20] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[11:05:20] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[11:05:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[11:05:20] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[11:05:20] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[11:05:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[11:05:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[11:05:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[11:05:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[11:05:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11:05:20] [Server thread/INFO]: Generating keypair
+[11:05:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[11:05:20] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[11:05:20] [Server thread/INFO]: Using default channel type
+[11:05:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:05:20] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[11:05:20] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[11:05:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[11:05:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[11:05:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:05:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:05:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:05:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[11:05:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:05:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:05:20] [Server thread/INFO]: Preparing level "world"
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:05:20] [Server thread/INFO]: Mob Spawn Range: 4
+[11:05:20] [Server thread/INFO]: Anti X-Ray: true
+[11:05:20] [Server thread/INFO]: 	Engine Mode: 1
+[11:05:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:05:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:05:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:05:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:05:20] [Server thread/INFO]: Random Lighting Updates: false
+[11:05:20] [Server thread/INFO]: Structure Info Saving: true
+[11:05:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:05:20] [Server thread/INFO]: Max Entity Collisions: 8
+[11:05:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:05:20] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:05:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:20] [Server thread/INFO]: View Distance: 4
+[11:05:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:05:20] [Server thread/INFO]: Clear tick list: false
+[11:05:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:05:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:05:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:05:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:05:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:05:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:05:20] [Server thread/INFO]: Water over lava flow speed: 5
+[11:05:20] [Server thread/INFO]: Fix TNT cannons: false
+[11:05:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:05:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:05:20] [Server thread/INFO]: World async lighting: false
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:05:20] [Server thread/INFO]: Mob Spawn Range: 4
+[11:05:20] [Server thread/INFO]: Anti X-Ray: true
+[11:05:20] [Server thread/INFO]: 	Engine Mode: 1
+[11:05:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:05:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:05:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:05:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:05:20] [Server thread/INFO]: Random Lighting Updates: false
+[11:05:20] [Server thread/INFO]: Structure Info Saving: true
+[11:05:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:05:20] [Server thread/INFO]: Max Entity Collisions: 8
+[11:05:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:05:20] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:05:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:20] [Server thread/INFO]: View Distance: 4
+[11:05:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:05:20] [Server thread/INFO]: Clear tick list: false
+[11:05:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:05:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:05:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:05:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:05:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:05:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:05:20] [Server thread/INFO]: Water over lava flow speed: 5
+[11:05:20] [Server thread/INFO]: Fix TNT cannons: false
+[11:05:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:05:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:05:20] [Server thread/INFO]: World async lighting: false
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:05:20] [Server thread/INFO]: Mob Spawn Range: 4
+[11:05:20] [Server thread/INFO]: Anti X-Ray: true
+[11:05:20] [Server thread/INFO]: 	Engine Mode: 1
+[11:05:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:05:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:05:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:05:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:05:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:05:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:05:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:05:20] [Server thread/INFO]: Random Lighting Updates: false
+[11:05:20] [Server thread/INFO]: Structure Info Saving: true
+[11:05:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:05:20] [Server thread/INFO]: Max Entity Collisions: 8
+[11:05:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:05:20] [Server thread/INFO]: Max TNT Explosions: 100
+[11:05:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:05:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:05:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:05:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:05:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:05:20] [Server thread/INFO]: View Distance: 4
+[11:05:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:05:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:05:20] [Server thread/INFO]: Clear tick list: false
+[11:05:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:05:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:05:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:05:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:05:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:05:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:05:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:05:20] [Server thread/INFO]: Water over lava flow speed: 5
+[11:05:20] [Server thread/INFO]: Fix TNT cannons: false
+[11:05:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:05:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:05:20] [Server thread/INFO]: World async lighting: false
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:05:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:05:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3035959690225137426)
+[11:05:21] [Server thread/INFO]: Preparing spawn area: 40%
+[11:05:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3035959690225137426)
+[11:05:23] [Server thread/INFO]: Preparing spawn area: 92%
+[11:05:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3035959690225137426)
+[11:05:24] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[11:05:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[11:05:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[11:05:24] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:05:24] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[11:05:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[11:05:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:05:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[11:05:24] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[11:05:24] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[11:05:24] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[11:05:24] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[11:05:24] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[11:05:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:05:24] [Server thread/INFO]: Done (4.229s)! For help, type "help" or "?"
+[11:05:24] [Server thread/INFO]: Timings Reset
+[11:05:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[11:05:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[11:05:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[11:05:54] [Thread-7/INFO]: UUID of player Sajx is d4da0967-d59a-304a-a085-741dba7b3401
+[11:05:55] [Server thread/INFO]: Sajx[/[0:0:0:0:0:0:0:1]:60074] logged in with entity id 858 at ([world]-265.97309091827566, 55.20000004768372, -80.30000001192093)
+[11:06:01] [Thread-8/INFO]: UUID of player abu_Sigma is a5a41a5b-d15d-3d98-bb45-59655176470e
+[11:06:01] [Server thread/INFO]: abu_Sigma[/[0:0:0:0:0:0:0:1]:60538] logged in with entity id 859 at ([world]-202.842636971444, 63.0, -101.84301333875082)
+[11:06:11] [Async Chat Thread - #0/INFO]: <Sajx> HOLA[m
+
+[11:06:15] [Thread-9/INFO]: UUID of player Muqbil__________ is 3c92537b-6d7f-3ef9-8a78-03b7843240f2
+[11:06:16] [Server thread/INFO]: Muqbil__________[/[0:0:0:0:0:0:0:1]:45746] logged in with entity id 869 at ([world]-206.87661408397818, 64.5, -71.8776632768794)
+[11:06:38] [Thread-10/INFO]: UUID of player XuneX is ec1d277f-ca02-383c-a649-b643cdb7cdcd
+[11:06:38] [Server thread/INFO]: XuneX[/[0:0:0:0:0:0:0:1]:35794] logged in with entity id 896 at ([world]-214.69192424366202, 64.0, -115.54903872414388)
+[11:06:40] [Server thread/WARN]: abu_Sigma moved wrongly!
+[11:06:40] [Thread-11/INFO]: UUID of player br1cks is f6533bcf-fb75-35a9-8cc0-55a4db69fba7
+[11:06:40] [Server thread/INFO]: br1cks[/[0:0:0:0:0:0:0:1]:35806] logged in with entity id 919 at ([world_nether]-24.69999998807907, 79.0, 3.3000000119209285)
+[11:06:46] [Thread-12/INFO]: UUID of player hugoruter is 20fd22a6-4d03-3e1c-8af3-e09893079a50
+[11:06:46] [Server thread/INFO]: hugoruter[/[0:0:0:0:0:0:0:1]:43306] logged in with entity id 1017 at ([world]-175.7687631504115, 59.0, -400.04668036317594)
+[11:07:08] [Async Chat Thread - #0/INFO]: <XuneX> alguien me da una vara de blaze ppls para hacer el enderchest[m
+
+[11:07:10] [Server thread/INFO]: br1cks lost connection: Login timed out!
+[11:07:10] [Server thread/INFO]: br1cks left the game.
+[11:07:10] [Server thread/WARN]: handleDisconnection() called twice
+[11:07:15] [Thread-13/INFO]: UUID of player br1cks is f6533bcf-fb75-35a9-8cc0-55a4db69fba7
+[11:07:15] [Server thread/INFO]: br1cks[/[0:0:0:0:0:0:0:1]:51870] logged in with entity id 1228 at ([world_nether]-24.609589773101018, 79.0, 3.26219343219369)
+[11:07:42] [Server thread/INFO]: XuneX issued server command: /home s
+[11:07:42] [Thread-14/INFO]: UUID of player Dani_03iq is 08fadeff-4ffb-3f9b-8c54-8bdefbb8d8b6
+[11:07:42] [Server thread/INFO]: Dani_03iq[/[0:0:0:0:0:0:0:1]:54364] logged in with entity id 1365 at ([world]-205.52472100290066, 63.875, -108.18406599780198)
+[11:07:45] [Server thread/INFO]: br1cks lost connection: Login timed out!
+[11:07:45] [Server thread/INFO]: br1cks left the game.
+[11:07:45] [Server thread/WARN]: handleDisconnection() called twice
+[11:07:58] [Server thread/INFO]: Dani_03iq issued server command: /tp br1cks
+[11:07:58] [Server thread/INFO]: [Dani_03iq: The entity UUID provided is in an invalid format]
+[11:08:01] [Thread-15/INFO]: UUID of player br1cks is f6533bcf-fb75-35a9-8cc0-55a4db69fba7
+[11:08:01] [Server thread/INFO]: br1cks[/[0:0:0:0:0:0:0:1]:55498] logged in with entity id 1517 at ([world_nether]-24.18416062188553, 79.0, 3.2909446284984485)
+[11:08:03] [Thread-16/INFO]: UUID of player 13javii is 720cb306-aa35-3cdf-9356-fd574d56e3bc
+[11:08:03] [Server thread/INFO]: 13javii[/[0:0:0:0:0:0:0:1]:55510] logged in with entity id 1523 at ([world]-208.7178046961853, 64.0, -83.84582188129404)
+[11:08:05] [Server thread/INFO]: Dani_03iq issued server command: /tp br1cks
+[11:08:05] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to br1cks]
+[11:08:18] [Server thread/INFO]: 13javii issued server command: /tp Muqbil___
+[11:08:18] [Server thread/INFO]: [13javii: The entity UUID provided is in an invalid format]
+[11:08:19] [Server thread/INFO]: Dani_03iq issued server command: /gamemode 1
+[11:08:19] [Server thread/INFO]: [Dani_03iq: Set own game mode to Creative Mode]
+[11:08:31] [Server thread/INFO]: br1cks lost connection: Login timed out!
+[11:08:31] [Server thread/INFO]: br1cks left the game.
+[11:08:31] [Server thread/WARN]: handleDisconnection() called twice
+[11:08:33] [Server thread/INFO]: 13javii issued server command: /tp abu_Sigma
+[11:08:33] [Server thread/INFO]: [13javii: Teleported 13javii to abu_Sigma]
+[11:08:37] [Thread-17/INFO]: UUID of player br1cks is f6533bcf-fb75-35a9-8cc0-55a4db69fba7
+[11:08:37] [Server thread/INFO]: br1cks[/[0:0:0:0:0:0:0:1]:38960] logged in with entity id 1917 at ([world_nether]-24.08716421079823, 79.0, 3.3049337537551384)
+[11:08:43] [Async Chat Thread - #1/INFO]: <br1cks> grax[m
+
+[11:08:44] [Server thread/WARN]: 13javii moved wrongly!
+[11:08:46] [Server thread/INFO]: br1cks issued server command: /home casa
+[11:09:20] [Server thread/INFO]: 13javii issued server command: /home blazes
+[11:09:35] [Server thread/INFO]: 13javii issued server command: /home casa
+[11:09:43] [Server thread/INFO]: Dani_03iq issued server command: /tp br1cks
+[11:09:43] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to br1cks]
+[11:10:00] [Server thread/INFO]: Dani_03iq issued server command: /tp abu_Sigma
+[11:10:00] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to abu_Sigma]
+[11:10:04] [Server thread/INFO]: 13javii issued server command: /tp Muqbil
+[11:10:04] [Server thread/INFO]: [13javii: The entity UUID provided is in an invalid format]
+[11:10:08] [Server thread/INFO]: 13javii issued server command: /tp Muqbil
+[11:10:08] [Server thread/INFO]: [13javii: The entity UUID provided is in an invalid format]
+[11:10:10] [Server thread/INFO]: Dani_03iq issued server command: /home casa
+[11:10:30] [Server thread/INFO]: 13javii issued server command: /tp Muqbil__________
+[11:10:30] [Server thread/INFO]: [13javii: Teleported 13javii to Muqbil__________]
+[11:10:39] [Server thread/INFO]: 13javii issued server command: /home casa
+[11:10:58] [Server thread/INFO]: Dani_03iq issued server command: /tp abu_Sigma
+[11:10:58] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to abu_Sigma]
+[11:11:06] [Server thread/INFO]: 13javii issued server command: /tp abu_Sigma
+[11:11:06] [Server thread/INFO]: [13javii: Teleported 13javii to abu_Sigma]
+[11:11:17] [Server thread/INFO]: 13javii lost connection: Disconnected
+[11:11:17] [Server thread/INFO]: 13javii left the game.
+[11:11:29] [Server thread/INFO]: Dani_03iq lost connection: Disconnected
+[11:11:29] [Server thread/INFO]: Dani_03iq left the game.
+[11:12:27] [Thread-19/INFO]: UUID of player Dani_03iq is 08fadeff-4ffb-3f9b-8c54-8bdefbb8d8b6
+[11:12:27] [Server thread/INFO]: Dani_03iq[/[0:0:0:0:0:0:0:1]:54900] logged in with entity id 3135 at ([world_nether]14.300000011920929, 5.0, 36.69999998807907)
+[11:12:29] [Thread-20/INFO]: UUID of player 13javii is 720cb306-aa35-3cdf-9356-fd574d56e3bc
+[11:12:29] [Server thread/INFO]: 13javii[/[0:0:0:0:0:0:0:1]:54912] logged in with entity id 3140 at ([world_nether]14.699999988079071, 5.0, 36.30000001192093)
+[11:12:46] [Async Chat Thread - #2/INFO]: <Sajx> Javi tp[m
+
+[11:12:50] [Server thread/INFO]: br1cks issued server command: /home casa
+[11:12:53] [Server thread/INFO]: 13javii issued server command: /tp Sajx
+[11:12:53] [Server thread/INFO]: [13javii: Teleported 13javii to Sajx]
+[11:13:10] [Server thread/INFO]: abu_Sigma was burnt to a crisp whilst fighting Dani_03iq
+[11:13:13] [Server thread/INFO]: br1cks issued server command: /tpa dani_03iq
+[11:13:21] [Server thread/INFO]: abu_Sigma issued server command: /back
+[11:13:28] [Async Chat Thread - #2/INFO]: <br1cks> acepta[m
+
+[11:13:28] [Async Chat Thread - #2/INFO]: <Sajx> Sube javi[m
+
+[11:13:34] [Server thread/INFO]: XuneX lost connection: Timed out
+[11:13:34] [Server thread/INFO]: XuneX left the game.
+[11:13:42] [Thread-21/INFO]: UUID of player XuneX is ec1d277f-ca02-383c-a649-b643cdb7cdcd
+[11:13:42] [Server thread/INFO]: XuneX[/[0:0:0:0:0:0:0:1]:59756] logged in with entity id 3570 at ([world]-172.24783694251622, 63.0, -398.33964057028817)
+[11:13:52] [Server thread/INFO]: Dani_03iq issued server command: /tp Sajx
+[11:13:52] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to Sajx]
+[11:14:16] [Server thread/INFO]: 13javii lost connection: Timed out
+[11:14:16] [Server thread/INFO]: 13javii left the game.
+[11:14:17] [Server thread/INFO]: abu_Sigma was slain by Blaze
+[11:14:25] [Server thread/INFO]: abu_Sigma issued server command: /back
+[11:14:28] [Async Chat Thread - #3/INFO]: <br1cks> oye baye te has cambiado de cuenta?[m
+
+[11:14:35] [Server thread/INFO]: XuneX issued server command: /home casa
+[11:14:37] [Server thread/INFO]: Dani_03iq issued server command: /tp br1cks
+[11:14:37] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to br1cks]
+[11:14:56] [Server thread/INFO]: XuneX issued server command: /tpahere hugoruter
+[11:14:59] [Server thread/INFO]: hugoruter issued server command: /tpaccept
+[11:15:35] [Server thread/INFO]: abu_Sigma issued server command: /tpa 13javii
+[11:15:36] [Server thread/INFO]: hugoruter issued server command: /sethome casa 1
+[11:15:59] [Server thread/INFO]: abu_Sigma issued server command: /tpa Sajx
+[11:16:01] [Async Chat Thread - #4/INFO]: <br1cks> para con el creativo[m
+
+[11:16:22] [Async Chat Thread - #4/INFO]: <br1cks> se q estais espawneando zombies[m
+
+[11:16:33] [Server thread/INFO]: abu_Sigma issued server command: /tpa XuneX
+[11:16:37] [Thread-22/INFO]: UUID of player Bl4Ze is 858b5188-d493-3809-8d03-c2ec6b280110
+[11:16:37] [Server thread/INFO]: Bl4Ze[/[0:0:0:0:0:0:0:1]:43638] logged in with entity id 4825 at ([world]-150.20113037496014, 64.78502770378924, -38.21347288646554)
+[11:16:45] [Server thread/INFO]: Bl4Ze issued server command: /tpa sajx
+[11:16:52] [Async Chat Thread - #4/INFO]: <br1cks> oye q haceis[m
+
+[11:16:56] [Async Chat Thread - #4/INFO]: <Sajx> Baye tp[m
+
+[11:17:00] [Server thread/INFO]: abu_Sigma issued server command: /tpa br1cs
+[11:17:02] [Server thread/INFO]: Bl4Ze issued server command: /tpa sajx
+[11:17:02] [Server thread/INFO]: XuneX lost connection: Disconnected
+[11:17:02] [Server thread/INFO]: XuneX left the game.
+[11:17:05] [Server thread/INFO]: hugoruter lost connection: Disconnected
+[11:17:05] [Server thread/INFO]: hugoruter left the game.
+[11:17:07] [Server thread/INFO]: Sajx issued server command: /tpaccept
+[11:17:17] [Server thread/INFO]: abu_Sigma issued server command: /tpa hugorouter
+[11:17:22] [Async Chat Thread - #4/INFO]: <Sajx> Dur[m
+
+[11:17:23] [Server thread/INFO]: Dani_03iq issued server command: /tp hugoruter
+[11:17:23] [Server thread/INFO]: [Dani_03iq: The entity UUID provided is in an invalid format]
+[11:17:28] [Server thread/INFO]: Dani_03iq issued server command: /tp hugoruter
+[11:17:28] [Server thread/INFO]: [Dani_03iq: The entity UUID provided is in an invalid format]
+[11:17:32] [Server thread/INFO]: abu_Sigma issued server command: /tpa Sajx
+[11:17:33] [Async Chat Thread - #4/INFO]: <Sajx> Ota deckh[m
+
+[11:17:43] [Thread-23/INFO]: UUID of player hugoruter is 20fd22a6-4d03-3e1c-8af3-e09893079a50
+[11:17:43] [Server thread/INFO]: hugoruter[/[0:0:0:0:0:0:0:1]:34156] logged in with entity id 5283 at ([world]-136.96951305041136, 72.36075, -188.663352555612)
+[11:17:50] [Server thread/INFO]: abu_Sigma issued server command: /home
+[11:17:56] [Thread-24/INFO]: UUID of player XuneX is ec1d277f-ca02-383c-a649-b643cdb7cdcd
+[11:17:57] [Server thread/INFO]: XuneX[/[0:0:0:0:0:0:0:1]:34136] logged in with entity id 5400 at ([world]-187.9133830258549, 65.0, -212.95884542278614)
+[11:18:13] [Server thread/INFO]: hugoruter was slain by br1cks using [la corta huevos 3000]
+[11:18:14] [Async Chat Thread - #4/INFO]: <Sajx> Dur be dur[m
+
+[11:18:24] [Async Chat Thread - #4/INFO]: <Sajx> Habia un zombi[m
+
+[11:18:25] [Async Chat Thread - #4/INFO]: <XuneX> bro le estaba diciendo al hugo q pare[m
+
+[11:18:27] [Async Chat Thread - #4/INFO]: <Bl4Ze> yaya[m
+
+[11:18:39] [Server thread/INFO]: abu_Sigma issued server command: /tpa Sajx
+[11:18:40] [Async Chat Thread - #4/INFO]: <Muqbil__________> .[m
+
+[11:18:40] [Async Chat Thread - #4/INFO]: <XuneX> solo te estabamos llendo a visitar[m
+
+[11:18:40] [Async Chat Thread - #4/INFO]: <br1cks> pesadosw[m
+
+[11:18:46] [Server thread/INFO]: XuneX lost connection: Disconnected
+[11:18:46] [Server thread/INFO]: XuneX left the game.
+[11:19:00] [Server thread/INFO]: abu_Sigma issued server command: /tpa Sajx
+[11:19:04] [Async Chat Thread - #4/INFO]: <Bl4Ze> porq tan callados[m
+
+[11:19:05] [Async Chat Thread - #4/INFO]: <abu_Sigma> saje accepta[m
+
+[11:19:07] [Server thread/INFO]: Dani_03iq issued server command: /gamemode 0
+[11:19:07] [Server thread/INFO]: [Dani_03iq: Set own game mode to Survival Mode]
+[11:19:10] [Async Chat Thread - #4/INFO]: <Sajx> para[m
+
+[11:19:13] [Server thread/INFO]: Bl4Ze issued server command: /tpa sajx
+[11:19:13] [Server thread/INFO]: hugoruter was slain by br1cks using [la corta huevos 3000]
+[11:19:14] [Async Chat Thread - #4/INFO]: <abu_Sigma> tpa[m
+
+[11:19:19] [Server thread/INFO]: Sajx issued server command: /tpaccept
+[11:19:20] [Server thread/WARN]: Dani_03iq moved wrongly!
+[11:19:22] [Server thread/INFO]: Dani_03iq was slain by br1cks using [la corta huevos 3000]
+[11:19:24] [Server thread/INFO]: abu_Sigma issued server command: /tpa Sajx
+[11:19:29] [Async Chat Thread - #4/INFO]: <Dani_03iq> noo[m
+
+[11:19:31] [Server thread/INFO]: Dani_03iq issued server command: /back
+[11:19:31] [Async Chat Thread - #4/INFO]: <br1cks> coge tus cosas[m
+
+[11:19:38] [Server thread/INFO]: hugoruter issued server command: /home casa 1
+[11:19:42] [Thread-25/INFO]: UUID of player XuneX is ec1d277f-ca02-383c-a649-b643cdb7cdcd
+[11:19:42] [Server thread/INFO]: XuneX[/[0:0:0:0:0:0:0:1]:52626] logged in with entity id 5930 at ([world]-178.0952189827776, 64.0, -200.56486898926386)
+[11:19:44] [Async Chat Thread - #4/INFO]: <Sajx> sube[m
+
+[11:19:45] [Server thread/INFO]: hugoruter issued server command: /home casa
+[11:19:51] [Server thread/INFO]: Dani_03iq issued server command: /gamemode 1
+[11:19:51] [Server thread/INFO]: [Dani_03iq: Set own game mode to Creative Mode]
+[11:19:51] [Async Chat Thread - #4/INFO]: <br1cks> pensaba q eras el baye[m
+
+[11:19:54] [Server thread/INFO]: Bl4Ze issued server command: /tpa sajx
+[11:19:59] [Server thread/INFO]: Sajx issued server command: /tpaccept
+[11:20:13] [Async Chat Thread - #4/INFO]: <Bl4Ze> oye[m
+
+[11:20:18] [Async Chat Thread - #4/INFO]: <Sajx> dime[m
+
+[11:20:28] [Async Chat Thread - #4/INFO]: <Bl4Ze> le acabo de enviar un email a la mireia pidiendole disculpas[m
+
+[11:20:28] [Server thread/INFO]: hugoruter lost connection: Disconnected
+[11:20:28] [Server thread/INFO]: hugoruter left the game.
+[11:20:36] [Async Chat Thread - #4/INFO]: <Sajx> Dur dur[m
+
+[11:20:36] [Thread-26/INFO]: UUID of player hugoruter is 20fd22a6-4d03-3e1c-8af3-e09893079a50
+[11:20:36] [Server thread/INFO]: hugoruter[/[0:0:0:0:0:0:0:1]:37848] logged in with entity id 6105 at ([world]-134.30000001192093, 72.58230961125521, -189.30000001192093)
+[11:20:45] [Async Chat Thread - #4/INFO]: <Bl4Ze> cres q me meten aviso[m
+
+[11:20:51] [Async Chat Thread - #4/INFO]: <Sajx> Q no herman o[m
+
+[11:20:56] [Async Chat Thread - #4/INFO]: <Bl4Ze> q siii[m
+
+[11:21:09] [Server thread/INFO]: hugoruter lost connection: Disconnected
+[11:21:09] [Server thread/INFO]: hugoruter left the game.
+[11:21:11] [Thread-27/INFO]: UUID of player hugoruter is 20fd22a6-4d03-3e1c-8af3-e09893079a50
+[11:21:11] [Server thread/INFO]: hugoruter[/[0:0:0:0:0:0:0:1]:54290] logged in with entity id 6255 at ([world]-134.4250536210475, 71.9943095998111, -189.42438554677207)
+[11:21:14] [Server thread/INFO]: hugoruter lost connection: Disconnected
+[11:21:14] [Server thread/INFO]: hugoruter left the game.
+[11:21:28] [Thread-28/INFO]: UUID of player hugoruter is 20fd22a6-4d03-3e1c-8af3-e09893079a50
+[11:21:28] [Server thread/INFO]: hugoruter[/[0:0:0:0:0:0:0:1]:54996] logged in with entity id 6499 at ([world]-134.4250536210475, 71.9943095998111, -189.42438554677207)
+[11:21:29] [Async Chat Thread - #4/INFO]: <Bl4Ze> q la clarqa ha dicho que el anterior curso paso casi lo mismo y l emetieron[m
+
+[11:21:48] [Server thread/INFO]: Dani_03iq issued server command: /gamemode 0
+[11:21:48] [Server thread/INFO]: [Dani_03iq: Set own game mode to Survival Mode]
+[11:21:56] [Server thread/INFO]: hugoruter issued server command: /home casa
+[11:22:01] [Server thread/INFO]: hugoruter was slain by Zombie
+[11:22:09] [Thread-29/INFO]: UUID of player 13javii is 720cb306-aa35-3cdf-9356-fd574d56e3bc
+[11:22:09] [Server thread/INFO]: 13javii[/[0:0:0:0:0:0:0:1]:58190] logged in with entity id 6842 at ([world]-272.57499998807907, 54.0, -84.30000001192093)
+[11:22:10] [Server thread/INFO]: hugoruter issued server command: /home casa
+[11:22:36] [Server thread/INFO]: XuneX lost connection: Disconnected
+[11:22:36] [Server thread/INFO]: XuneX left the game.
+[11:22:38] [Async Chat Thread - #5/INFO]: <Dani_03iq> shh[m
+
+[11:22:39] [Async Chat Thread - #5/INFO]: <Bl4Ze> 9/10 sajx[m
+
+[11:22:43] [Async Chat Thread - #5/INFO]: <Dani_03iq> aqui no ha pasado nada[m
+
+[11:22:55] [Async Chat Thread - #5/INFO]: <Sajx> dime[m
+
+[11:22:59] [Async Chat Thread - #5/INFO]: <13javii> perdon[m
+
+[11:23:23] [Server thread/INFO]: Dani_03iq issued server command: /tp Sajx
+[11:23:23] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to Sajx]
+[11:23:42] [Async Chat Thread - #5/INFO]: <Dani_03iq> sigmas[m
+
+[11:23:58] [Thread-30/INFO]: UUID of player XuneX is ec1d277f-ca02-383c-a649-b643cdb7cdcd
+[11:23:58] [Server thread/INFO]: XuneX[/[0:0:0:0:0:0:0:1]:38526] logged in with entity id 7968 at ([world]-145.9167722233096, 63.0, 12.764553473254281)
+[11:24:06] [Server thread/INFO]: 13javii lost connection: Timed out
+[11:24:06] [Server thread/INFO]: 13javii left the game.
+[11:24:08] [Server thread/INFO]: Dani_03iq issued server command: /tp br1cks
+[11:24:08] [Server thread/INFO]: [Dani_03iq: Teleported Dani_03iq to br1cks]
