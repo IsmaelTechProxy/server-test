@@ -10,15 +10,15 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&6Solo pueden entrar sigmas'
   allow_motd: true
   allow_query: true
   request_motd_cache:
-    cache_ttl: 7200
-    online_server_list_animation: false
+    cache_ttl: 7200op 
+    online_server_list_animation: true
     online_server_list_results: true
     online_server_list_trending: true
-    online_server_list_portfolios: false
+    online_server_list_portfolios: true
   http_server:
     enabled: true
     root: '../../../web'
